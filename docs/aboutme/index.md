@@ -56,4 +56,4 @@ Presenting a robotic vehicle prototype that my engineering team designed and bui
 
 Thanks for taking the time to learn a little more about me! Feel free to explore my portfolio to see the projects I'm working on throughout MEGR 2157 and learn more about my experience through my resume.
 
-**[View My Resume](../Kaileigh-Hill-Resume.pdf)**
+**[View My Resume](../Kaileigh-Hill_Resume.pdf)**
