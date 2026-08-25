@@ -17,3 +17,7 @@
 >Warping can happen during FDM printing when the plastic cools unevenly and causes the edges of the part to lift off the build plate. Designers can help prevent this by avoiding large flat areas when possible, using rounded corners, and making sure the part has good contact with the build plate.
 >
 >**Source:** Prusa Research, *Warping*.
+
+## Small Group Share Out
+**_In groups of 3 to 4, explain your DfAM finding and your FDM finding to your group. Use your own words rather than reading your notes directly. Listen to your teammates' findings as well._**
+>One of my teammates also researched warping and taught me that keeping the build plate clean can help with adhesion. Better adhesion helps keep the part from lifting off the build plate during printing, which can reduce warping.
