@@ -1,13 +1,7 @@
-# A2 – Truss Stress Analysis
+# L2 – Individual Research: DfAM
 
-## Objective
+**Design Rule – 45° Overhang Rule**
 
+When designing a part for additive manufacturing, overhangs should generally be kept at 45° or greater from the build plate when possible. This helps the part support itself while printing and reduces the need for extra support material, which saves material and makes post-processing easier.
 
-## Analyze
-
-
-## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
-
-## Communicate
-
+**Source:** Autodesk, *Additive FFF and SLA Technologies – Design Considerations for Additive Manufacturing*.
