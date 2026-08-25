@@ -1,10 +1,13 @@
-# MEGR 2156 — Design Projects I Laboratory
+# Hi, I'm Kaileigh! ♡
 
-> **Engineering is the art of making decisions you can defend.**
+### Mechanical Engineering Student | Precision Engineering & Metrology | UNC Charlotte
 
-**Welcome to your design portfolio.**
+**Welcome to my design portfolio!**
 
-This site is the working record of your design decisions across MEGR 2156. Every entry documents your process — what you designed, how you designed it for the specific technology you were using, and what you learned from building it. Engineering documentation is a skill developed through deliberate practice. Each lab is an opportunity to improve the precision, clarity, and professional quality of how you record your work. As you progress through the semester your design capability will grow alongside your documentation — this portfolio is the record of that journey.
+I'm a mechanical engineering student who enjoys hands-on projects, problem solving, and learning how ideas turn into real designs. This portfolio follows my work throughout MEGR 2157 Lab and shows my design process, projects, and growth along the way.
+
+
+<img width="350" alt="Kaileigh Hill" src="https://github.com/user-attachments/assets/118187bb-8c45-4c3a-8e0f-0c6ba5a5ce70" />
 
 ---
 
