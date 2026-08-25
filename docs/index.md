@@ -1,24 +1,25 @@
 # MEGR 2156 — Design Projects I Laboratory
+
 <table>
 <tr>
+
 <td width="35%">
-
 <img width="300" alt="Kaileigh Hill" src="https://github.com/user-attachments/assets/118187bb-8c45-4c3a-8e0f-0c6ba5a5ce70" />
-
 </td>
+
 <td width="65%">
+<h2>Hi, I'm Kaileigh! ♡</h2>
 
-## Hi, I'm Kaileigh! ♡
+<h3>Mechanical Engineering Student | Precision Engineering & Metrology | UNC Charlotte</h3>
 
-### Mechanical Engineering Student | Precision Engineering & Metrology | UNC Charlotte
+<p><strong>Welcome to my design portfolio!</strong></p>
 
-**Welcome to my design portfolio!**
-
-I'm a mechanical engineering student who enjoys hands-on projects, problem solving, and learning how ideas turn into real designs. This portfolio follows my work throughout MEGR 2157 Lab and shows my design process, projects, and growth along the way.
-
+<p>I'm a mechanical engineering student who enjoys hands-on projects, problem solving, and learning how ideas turn into real designs. This portfolio follows my work throughout MEGR 2157 Lab and shows my design process, projects, and growth along the way.</p>
 </td>
+
 </tr>
 </table>
+
 ---
 
 ## The Arc of This Course
