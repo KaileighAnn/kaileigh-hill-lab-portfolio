@@ -140,7 +140,7 @@ I continued checking the print as it progressed to make sure both models remaine
 
 I also recorded approximately 15 seconds of the printing process.
 
-[Watch the Printing Process](videos/cherry-printing.mp4) ADD VIDEO 
+[Watch the Printing Process](https://github.com/KaileighAnn/kaileigh-hill-lab-portfolio/blob/main/docs/Lab2.mp4) 
 
 #### Finished Product
 
