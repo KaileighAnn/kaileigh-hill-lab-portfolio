@@ -21,6 +21,8 @@
 ## Small Group Share Out
 **_In groups of 3 to 4, explain your DfAM finding and your FDM finding to your group. Use your own words rather than reading your notes directly. Listen to your teammates' findings as well._**
 >One of my teammates also researched warping and taught me that keeping the build plate clean can help with adhesion. Better adhesion helps keep the part from lifting off the build plate during printing, which can reduce warping.
+>
+>Another thing I learned from my group was that the orientation of a model can help reduce the amount of support material needed. Positioning a model with a large flat surface against the build plate can make the print more stable and reduce unnecessary supports.
 
 
 ## Make Something Small – 3D Printing
@@ -118,8 +120,13 @@ Since there were a limited number of printers available, I shared a build plate 
 
 After both models were added and sliced, PrusaSlicer estimated a total print time of approximately **13 minutes** and a combined filament use of **4.62 g**.
 
-#### Adjustments and Mistakes
+#### G-Code Export
 
+After slicing both models, I exported the G-code and opened it in the **PrusaSlicer G-code Viewer** to make sure everything looked correct before printing. The G-code showed both models on the build plate and an estimated print time of approximately **13 minutes**.
+
+<img width="956" height="563" alt="image" src="https://github.com/user-attachments/assets/bcc45763-c383-4a2a-becf-9fc5c6d2922a" />
+
+#### Adjustments and Mistakes
 The biggest adjustment I made during this process was scaling the cherry down to fit within the assignment requirements. At the time, I was mainly paying attention to the overall X, Y, and Z dimensions. After seeing the finished print, I realized that scaling a model down also makes all of its smaller details much smaller.
 
 This became important with the key-ring loop at the top of my cherry. Even though the overall model fit within the required dimensions, the loop became very thin after scaling.
