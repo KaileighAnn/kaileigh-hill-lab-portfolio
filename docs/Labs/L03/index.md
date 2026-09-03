@@ -164,3 +164,21 @@ I placed the dog tag flat on the build plate with the largest surface facing dow
 ### Scaling and Final Dimensions
 
 I did not need to scale my part because I originally designed it using inches in Creo. When I imported the part into PrusaSlicer, the dimensions were shown in millimeters, but they were the correct conversions of the dimensions I used in Creo. The final size was **37.97 × 25.27 × 6.35 mm**, or about **1.50 × 1.00 × 0.25 in**, which meets the size requirements for the assignment.
+
+### Infill Settings
+
+I changed the infill from the default **15% to 25%** and changed the pattern to **Rectilinear**. I chose 25% because I wanted the dog tag to be a little stronger since it will actually be used on my dog's collar, but I also did not want to use more material than needed. I chose Rectilinear because it is a simple pattern that gives the inside of the part support while still keeping the print time low.
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/2daa9790-53c2-48a0-9553-71b7837fc806" />
+
+### Wall Thickness
+
+I changed the wall thickness from the default **2 perimeters to 3 perimeters**. I chose to make the walls a little thicker because the dog tag will actually be used on my dog's collar, so I wanted it to be stronger and less likely to break.
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a08b4e15-1476-40e4-a19d-7d9de1137a39" />
+
+### Sliced Preview and Print Time
+
+After changing my settings, I sliced the final design to make sure everything was ready to print. I used **Generic PLA** on the **Prusa CORE One with a 0.4 mm nozzle**. PrusaSlicer estimated the print time to be about **10 minutes** and the part would use about **3.69 g of filament**. This is well under the required print time of 1.5 hours.
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/af80d6ab-79c0-4453-b109-09e5f3335353" />
