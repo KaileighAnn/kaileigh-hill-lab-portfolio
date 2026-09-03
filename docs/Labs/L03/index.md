@@ -33,6 +33,10 @@ Increasing the infill percentage generally makes a part **stronger and stiffer**
 
 Different infill patterns change how the material is arranged inside the part and how forces are distributed. Because of this, two parts with the same infill percentage can still have different strengths depending on the pattern being used.
 
+### Why Use Different Wall Thicknesses?
+
+Different wall thicknesses can be used depending on how strong or lightweight a part needs to be. Thicker walls can make the outside of the print stronger and more durable, while thinner walls use less material and can help reduce print time.
+
 ## Research Sources
 
 - **Prusa Research – Infill Patterns:**  
