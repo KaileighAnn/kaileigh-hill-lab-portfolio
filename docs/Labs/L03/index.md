@@ -232,3 +232,13 @@ This lab helped me understand more about how the settings in PrusaSlicer actuall
 
 I was also curious about how to make a video automatically play and loop on my portfolio, and after Dr. Fagan challenged me to get it working, I got a little competitive and wanted to figure it out. I ended up learning how to convert the video to an MP4 and use HTML code with the correct file path to make it autoplay and loop continuously.
 
+### Mistakes / Problems
+
+One mistake I made was not cleaning the build plate before I started my print. It did not affect how my print came out, but I noticed the plate was dirty from the start. Next time, I would clean the build plate before printing because it is good printing practice and can help with bed adhesion.
+
+## Resources Used
+
+- **PrusaSlicer** – Used to slice the CAD model, change the infill settings and wall thickness, and prepare the G-code for printing.
+- **Prusa Research** – Used for information about PrusaSlicer and FDM printing settings.
+- **Class Lecture / Live Demo** – Used for information about infill percentage, infill patterns, wall thickness, and their effects on a print.
+- **ChatGPT** – Used to help troubleshoot the looping video on my portfolio and help explain some of the printing concepts in simpler terms.
