@@ -33,9 +33,6 @@ Increasing the infill percentage generally makes a part **stronger and stiffer**
 
 Different infill patterns change how the material is arranged inside the part and how forces are distributed. Because of this, two parts with the same infill percentage can still have different strengths depending on the pattern being used.
 
-### Why Use Different Wall Thicknesses?
-
-Different wall thicknesses can be used depending on how strong or lightweight a part needs to be. Thicker walls can make the outside of the print stronger and more durable, while thinner walls use less material and can help reduce print time.
 
 ## Research Sources
 
@@ -180,6 +177,10 @@ I changed the infill from the default **15% to 25%** and changed the pattern to 
 I changed the wall thickness from the default **2 perimeters to 3 perimeters**. I chose to make the walls a little thicker because the dog tag will actually be used on my dog's collar, so I wanted it to be stronger and less likely to break.
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a08b4e15-1476-40e4-a19d-7d9de1137a39" />
+
+### Why Use Different Wall Thicknesses?
+
+Different wall thicknesses can be used depending on how strong or lightweight a part needs to be. Thicker walls can make the outside of the print stronger and more durable, while thinner walls use less material and can help reduce print time.
 
 ### Sliced Preview and Print Time
 
