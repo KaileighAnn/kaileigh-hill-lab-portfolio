@@ -1,9 +1,5 @@
 # L3 - Design Something Small
 
-<video autoplay muted loop playsinline width="500">
-  <source src="/kaileigh-hill-lab-portfolio/Labs/L03/3d-printing.mp4" type="video/mp4">
-</video>
-
 ## Research
 
 For this lab, I researched three infill patterns that we did not go over in class: **Adaptive Cubic, Rectilinear, and Hilbert Curve**. Each pattern has a different shape and can be useful depending on what the part is being used for.
@@ -201,7 +197,9 @@ After finishing all of my settings in PrusaSlicer, I exported the G-code and too
 
 The print started successfully and I watched the first few layers to make sure the parts were sticking to the build plate correctly.
 
-[Beginning of Print video]
+<video autoplay muted loop playsinline width="500">
+  <source src="/kaileigh-hill-lab-portfolio/Labs/L03/3d-printing.mp4" type="video/mp4">
+</video>
 
 ### During the Print
 
