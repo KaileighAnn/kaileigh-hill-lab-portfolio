@@ -150,3 +150,17 @@ I changed the extrude direction so the text would go into the part instead of st
 
 
 This is what my final dog tag design looked like before exporting it into PrusaSlicer.
+
+## Preprocessor and Printing
+
+After finishing my design in Creo, I exported the part as an STL file and opened it in PrusaSlicer. I then adjusted the print settings to meet the requirements for this lab.
+
+### Build Orientation
+
+I placed the dog tag flat on the build plate with the largest surface facing down and the words facing up. I had to rotate the part 90degrees in the x direction to get it to this point. I chose this orientation because it gives the part a stable surface on the build plate and allows it to print without needing supports.
+
+<img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/e107d4ae-92cd-47e1-99b4-4601f5962b16" />
+
+### Scaling and Final Dimensions
+
+I did not need to scale my part because I originally designed it using inches in Creo. When I imported the part into PrusaSlicer, the dimensions were shown in millimeters, but they were the correct conversions of the dimensions I used in Creo. The final size was **37.97 × 25.27 × 6.35 mm**, or about **1.50 × 1.00 × 0.25 in**, which meets the size requirements for the assignment.
