@@ -1,10 +1,8 @@
 # L3 - Design Something Small
 
-<div align="center">
-  <video autoplay loop muted playsinline width="500">
-    <source src="3d-printing.mp4" type="video/mp4">
-  </video>
-</div>
+<video autoplay muted loop playsinline width="500">
+  <source src="/kaileigh-hill-lab-portfolio/Labs/L03/3d-printing.mp4" type="video/mp4">
+</video>
 
 ## Research
 
