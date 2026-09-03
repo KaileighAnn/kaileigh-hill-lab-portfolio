@@ -187,3 +187,39 @@ After changing my settings, I sliced the final design to make sure everything wa
 Here is a closer look at the slice.
 <img width="644" height="476" alt="image" src="https://github.com/user-attachments/assets/22130f9d-9dfc-4d3b-b822-30a41a67f620" />
 
+## Print
+
+### Printing Process
+
+After finishing all of my settings in PrusaSlicer, I exported the G-code and took it to the printer. My part was printed on the same build plate as Candy Vasquez.
+
+<img width="959" height="599" alt="part3" src="https://github.com/user-attachments/assets/b9b36d04-7e7b-4f27-9180-8d3751c9bee8" />
+
+The print started successfully and I watched the first few layers to make sure the parts were sticking to the build plate correctly.
+
+[Beginning of Print video]
+
+### During the Print
+
+I checked on the print throughout the process to make sure there were no problems. The parts continued printing correctly and stayed attached to the build plate.
+
+<img width="428" height="571" alt="IMG_0496" src="https://github.com/user-attachments/assets/844249a3-dbd1-4b1e-8044-c3b3320e2a76" />
+
+### Final Print
+
+The dog tag printed successfully and the final part came out close to how I designed it in Creo. The engraved **DIXIE** text and the loop for attaching it to a collar both printed correctly.
+
+<img width="302" height="403" alt="IMG_0506 (1)" src="https://github.com/user-attachments/assets/a0ffabd8-8bf0-470d-8318-220235486de3" />
+
+### 3D Operation Video
+
+The video below shows the final dog tag and how it can be attached and used on a dog collar.
+
+[3D operation video]
+
+## Lessons Learned
+
+### What I Learned
+
+This lab helped me understand more about how the settings in PrusaSlicer actually affect the final part. I learned that infill percentage, infill pattern, and wall thickness can all change how strong a part is and how much material it uses. I also got more practice designing something in Creo and then taking that design all the way through the 3D printing process. I also learned that these little detail can affect the time by a lot. 
+
