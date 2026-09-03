@@ -182,3 +182,8 @@ I changed the wall thickness from the default **2 perimeters to 3 perimeters**. 
 After changing my settings, I sliced the final design to make sure everything was ready to print. I used **Generic PLA** on the **Prusa CORE One with a 0.4 mm nozzle**. PrusaSlicer estimated the print time to be about **10 minutes** and the part would use about **3.69 g of filament**. This is well under the required print time of 1.5 hours.
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/af80d6ab-79c0-4453-b109-09e5f3335353" />
+
+
+Here is a closer look at the slice.
+<img width="644" height="476" alt="image" src="https://github.com/user-attachments/assets/22130f9d-9dfc-4d3b-b822-30a41a67f620" />
+
