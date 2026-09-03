@@ -223,9 +223,9 @@ The dog tag printed successfully and the final part came out close to how I desi
 
 ### 3D Operation Video
 
-The video below shows the final dog tag and how it can be attached and used on a dog collar.
+The video below shows the final dog tag and how i connected it on a dog collar.
 
-[3D operation video]
+[Add video]
 
 ## Lessons Learned
 
