@@ -218,6 +218,9 @@ The dog tag printed successfully and the final part came out close to how I desi
 
 <img width="302" height="403" alt="IMG_0506 (1)" src="https://github.com/user-attachments/assets/a0ffabd8-8bf0-470d-8318-220235486de3" />
 
+
+**Total Print Time:** The total time it took to print my design was approximately **24 minutes**.
+
 ### 3D Operation Video
 
 The video below shows the final dog tag and how it can be attached and used on a dog collar.
