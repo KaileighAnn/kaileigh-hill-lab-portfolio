@@ -225,3 +225,5 @@ The video below shows the final dog tag and how it can be attached and used on a
 
 This lab helped me understand more about how the settings in PrusaSlicer actually affect the final part. I learned that infill percentage, infill pattern, and wall thickness can all change how strong a part is and how much material it uses. I also got more practice designing something in Creo and then taking that design all the way through the 3D printing process. I also learned that these little detail can affect the time by a lot. 
 
+I was also curious about how to make a video automatically play and loop on my portfolio, and after Dr. Fagan challenged me to get it working, I got a little competitive and wanted to figure it out. I ended up learning how to convert the video to an MP4 and use HTML code with the correct file path to make it autoplay and loop continuously.
+
