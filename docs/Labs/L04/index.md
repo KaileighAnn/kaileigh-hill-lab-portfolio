@@ -118,6 +118,8 @@ Finally, I added a circular feature in the center to complete the flower appeara
 
 After completing the CAD model, I exported the model and opened it in **PrusaSlicer** to prepare it for the Prusa CORE One.
 
+I uniformly scaled the artifact to 162.68% so the individual overhang sections and angle labels would be large enough to print clearly while still keeping the artifact small and the print time below one hour. Uniform scaling preserved the angles being tested.
+
 ### Supports
 
 I turned **support material off** because the purpose of this experiment is to determine how well the printer can produce unsupported overhangs. Using supports would interfere with the parameter I am testing and would prevent me from accurately determining the printer's overhang limit.
