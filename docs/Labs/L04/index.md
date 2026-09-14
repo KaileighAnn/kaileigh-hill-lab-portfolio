@@ -169,3 +169,17 @@ The completed artifact is designed to show how print quality changes as the unsu
 ### Print Video
 
 ...
+
+## Resources
+
+### Class Design Rules for 3D Printing
+
+I used the **Design Rules for 3D Printing** provided in class as one reference for my experiment. The FDM design rules list **45° as the maximum recommended unsupported overhang angle**. I used this value as the general FDM design rule that I will compare my experimental results against.
+
+### Prusa Research - Modeling with 3D Printing in Mind
+
+I also used the official **Prusa Research** documentation for the Prusa CORE One. According to Prusa, FDM printers can generally print overhangs between 45° and 60° depending on the nozzle diameter and print settings. However, Prusa states that printers with the Nextruder and 360° cooling, including the Prusa CORE One, can print unsupported overhangs of **up to 75°**.
+
+This was important for my experiment because it gave me a manufacturer specification to compare against the 45° class design rule and my actual experimental results.
+
+[Prusa Research - Modeling with 3D Printing in Mind](https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135)
