@@ -8,7 +8,7 @@ My flower benchmark tests **20°, 30°, 40°, 45°, 50°, 60°, 70° and 80°** 
 
 ### Prediction
 
-Before printing, I predict that the artifact will print successfully through approximately **45° to 50°**. I expect the surface quality to begin noticeably decreasing at the larger angles, especially around **70° and 80°**.
+Before printing, I predict that the Prusa CORE One will successfully print unsupported overhangs through approximately **75°**. Prusa states that the CORE One's Nextruder and 360° cooling allow it to print unsupported overhangs up to 75°. Because of this, I expect the **80° overhang to show the most noticeable decrease in surface quality or begin to fail**.
 
 ## Design
 
@@ -114,6 +114,10 @@ After completing the CAD model, I exported the model and opened it in **PrusaSli
 
 I uniformly scaled the artifact to 162.68% so the individual overhang sections and angle labels would be large enough to print clearly while still keeping the artifact small and the print time below one hour. Uniform scaling preserved the angles being tested.
 
+### Build Orientation
+
+I kept the flower flat in its designed orientation on the build plate. This orientation allowed each petal to print at its intended overhang angle. Rotating the artifact would change how the angled surfaces were built and would affect the accuracy of the overhang test.
+
 ### Supports
 
 I turned **support material off** because the purpose of this experiment is to determine how well the printer can produce unsupported overhangs. Using supports would interfere with the parameter I am testing and would prevent me from accurately determining the printer's overhang limit.
@@ -134,6 +138,11 @@ The model was scaled uniformly to **162.68%**, giving it a final size of approxi
 
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/a70f27c1-8b40-4dda-8e93-9d7aa2f88602" />
 
+### Mistakes
+
+While checking the model, I noticed that I had incorrectly positioned the 20° label. I went back into the CAD model and corrected its location before exporting the final design. Checking the model before slicing helped me catch the mistake before printing.
+
+<img width="578" height="600" alt="yay" src="https://github.com/user-attachments/assets/e18439bd-8b69-46ae-99f2-4d0c7190f2f9" />
 
 
 ### Slicing
@@ -169,3 +178,20 @@ The completed artifact is designed to show how print quality changes as the unsu
 
 ## Resources
 
+### 1. Class Design Rules for 3D Printing
+
+I used the **Design Rules for 3D Printing** provided in class as a reference for my experiment. The FDM design rules list **45° as the recommended maximum unsupported overhang angle**. I used this as the general FDM design rule to compare to the results from the Prusa CORE One.
+
+### 2. Prusa Research - Modeling with 3D Printing in Mind
+
+I used Prusa Research's official documentation to research the expected overhang capabilities of the Prusa CORE One. Prusa states that its FDM printers with the Nextruder and 360° cooling, including the CORE One, can print unsupported overhangs of **up to 75°**.
+
+Based on this information, I predict that the Prusa CORE One will successfully print overhangs through 75° and that print quality will begin to fail or significantly decrease at angles greater than 75°.
+
+[Prusa Research - Modeling with 3D Printing in Mind](https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135?product=core-one-plus)
+
+### 3. Prusa Research - Failing Supports
+
+I also used Prusa Research's information about supports and overhangs. Prusa explains that support material is commonly used for large or highly sloped overhangs and that PrusaSlicer allows the overhang threshold to be adjusted. This helped support my decision to turn supports off so that I could test the actual unsupported overhang capability of the printer.
+
+[Prusa Research - Failing Supports](https://help.prusa3d.com/article/failing-supports_1807)
