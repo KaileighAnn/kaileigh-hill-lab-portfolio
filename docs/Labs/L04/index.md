@@ -174,7 +174,9 @@ The completed artifact is designed to show how print quality changes as the unsu
 
 ### Print Video
 
-...
+<video autoplay loop muted playsinline style="width: 100%; max-width: 500px;">
+  <source src="IMG_0997.mp4" type="video/mp4">
+</video>
 
 ## Resources
 
