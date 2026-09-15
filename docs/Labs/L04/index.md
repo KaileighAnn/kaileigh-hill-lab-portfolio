@@ -4,11 +4,11 @@
 
 For this lab, I chose to test the **unsupported overhang angle** of the Prusa CORE One. The class FDM design rules list **45°** as the recommended maximum angle that can be printed without supports. I designed one artifact containing several different angles so I could compare their print quality under the same printing conditions.
 
-My flower benchmark tests **0°, 20°, 30°, 40°, 45°, 50°, 60°, and 70°** overhangs.
+My flower benchmark tests **20°, 30°, 40°, 45°, 50°, 60°, 70° and 80°** overhangs.
 
 ### Prediction
 
-Before printing, I predict that the artifact will print successfully through approximately **45° to 50°**. I expect the surface quality to begin noticeably decreasing at the larger angles, especially around **60° and 70°**.
+Before printing, I predict that the artifact will print successfully through approximately **45° to 50°**. I expect the surface quality to begin noticeably decreasing at the larger angles, especially around **70° and 80°**.
 
 ## Design
 
@@ -99,19 +99,13 @@ After creating the different angles, I added the corresponding degree value to t
 I then used the **Round** tool on the outer edges of the sections. Rounding these edges changed the rectangular sections into shapes that looked more like flower petals while still preserving the overhang geometry underneath.
 
 
-<img width="960" height="600" alt="m" src="https://github.com/user-attachments/assets/dd3b5a4c-ec35-4fed-b1a3-69c0ad4b1214" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/d8725192-3858-47c1-9c15-ab8550c57d92" />
 
 
-While checking the finished labels, I noticed that the **20° label was not positioned correctly**. I went back into the model and corrected its placement so the printed artifact would clearly identify the correct angle.
+Finally, I added a circular feature in the center to complete the flower appearance. The finished artifact contains eight labeled petals testing **20°, 30°, 40°, 45°, 50°, 60°, 70° and 80°**.
 
 
-<img width="960" height="600" alt="n" src="https://github.com/user-attachments/assets/9cd3171a-51b4-4c88-92d4-9a97355e1573" />
-
-
-Finally, I added a circular feature in the center to complete the flower appearance. The finished artifact contains eight labeled petals testing **0°, 20°, 30°, 40°, 45°, 50°, 60°, and 70°**.
-
-
-<img width="960" height="600" alt="o" src="https://github.com/user-attachments/assets/a5d42dbe-071c-40d5-b83b-e5d3acabd3e2" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/8f21d6ea-401e-4b11-bbcd-0ec150668a05" />
 
 
 ## Preprocessor
@@ -125,7 +119,8 @@ I uniformly scaled the artifact to 162.68% so the individual overhang sections a
 I turned **support material off** because the purpose of this experiment is to determine how well the printer can produce unsupported overhangs. Using supports would interfere with the parameter I am testing and would prevent me from accurately determining the printer's overhang limit.
 
 
-<img width="960" height="600" alt="p" src="https://github.com/user-attachments/assets/e596388e-16a0-4dca-b4ea-eb95c3e63100" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/04228e87-9c5c-4912-b91c-65652fd49569" />
+
 
 
 ### Infill, Material, and Printer
@@ -137,23 +132,25 @@ I also used the **0.20 mm BALANCED** print setting.
 The model was scaled uniformly to **162.68%**, giving it a final size of approximately **50 mm × 50.07 mm × 24.4 mm**.
 
 
-<img width="960" height="600" alt="q" src="https://github.com/user-attachments/assets/585cf313-a7ec-4566-81d1-5f012536d0e1" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/a70f27c1-8b40-4dda-8e93-9d7aa2f88602" />
+
 
 
 ### Slicing
 
-After confirming the settings, I sliced the model and reviewed the layer preview. The estimated printing time was approximately **37 minutes**, which is below the one-hour maximum allowed for this assignment.
+After confirming the settings, I sliced the model and reviewed the layer preview. The estimated printing time was approximately **36 minutes**, which is below the one-hour maximum allowed for this assignment.
 
 The sliced model required approximately:
 
-- **13.74 g of filament**
-- **4.61 m of filament**
-- **37 minutes of estimated print time**
+- **12.66 g of filament**
+- **4.25 m of filament**
+- **36 minutes of estimated print time**
 
 The final preview also allowed me to check that the individual overhang sections and labels were being generated correctly before printing.
 
 
-<img width="960" height="600" alt="r" src="https://github.com/user-attachments/assets/98a325df-8c6c-4e49-a97c-04f03fd13a76" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/3a7629aa-2b2c-4b74-8fbb-6a7243040c05" />
+
 
 
 ## Print Artifact
@@ -172,14 +169,3 @@ The completed artifact is designed to show how print quality changes as the unsu
 
 ## Resources
 
-### Class Design Rules for 3D Printing
-
-I used the **Design Rules for 3D Printing** provided in class as one reference for my experiment. The FDM design rules list **45° as the maximum recommended unsupported overhang angle**. I used this value as the general FDM design rule that I will compare my experimental results against.
-
-### Prusa Research - Modeling with 3D Printing in Mind
-
-I also used the official **Prusa Research** documentation for the Prusa CORE One. According to Prusa, FDM printers can generally print overhangs between 45° and 60° depending on the nozzle diameter and print settings. However, Prusa states that printers with the Nextruder and 360° cooling, including the Prusa CORE One, can print unsupported overhangs of **up to 75°**.
-
-This was important for my experiment because it gave me a manufacturer specification to compare against the 45° class design rule and my actual experimental results.
-
-[Prusa Research - Modeling with 3D Printing in Mind](https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135)
