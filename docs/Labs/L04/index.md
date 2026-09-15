@@ -170,7 +170,73 @@ I printed the artifact by itself because I completed the design close to the dea
 
 The completed artifact is designed to show how print quality changes as the unsupported overhang angle increases. Since all eight angles are located on the same artifact, they are printed using the same material, printer, layer settings, orientation, and environmental conditions. This makes it easier to directly compare the effect of overhang angle.
 
-...
+## Final Print Review
+
+My final print kept its flower shape, and all eight petals remained intact. The angle labels are visible on the top, making it easier to identify each test section.
+
+The underside shows differences in print quality. Some sections look smooth, while others have noticeable ridges, sagging, and loose filament. This shows why inspecting the underside is important when evaluating unsupported overhangs. A completed petal does not necessarily mean it printed with acceptable surface quality.
+
+### Final Design Photos
+
+<p align="center">
+  <img width="32%" alt="Final print top view" src="https://github.com/user-attachments/assets/8ccf4256-f3ba-4dd0-9073-036c0b8d48ed" />
+  <img width="32%" alt="Final print underside view" src="https://github.com/user-attachments/assets/391955a8-ea79-4d5b-adae-235b70cecb02" />
+  <img width="32%" alt="Final print side view" src="https://github.com/user-attachments/assets/433d37dd-a6c5-4051-9fbb-dfb4c6eadd93" />
+</p>
+
+- **Top view:** Shows the completed flower and angle labels.
+- **Underside view:** Shows differences in surface quality between the overhangs.
+- **Side view:** Shows the angled surfaces and visible drooping.
+
+## Results
+
+I considered an overhang acceptable if its underside maintained its intended shape without obvious sagging, gaps, or loose strands.
+
+- **First angle with noticeable surface defects:** 60°
+- **Largest angle with acceptable surface quality:** between 60° and 70°
+- **Angle with the poorest surface quality:** 80°
+
+## Comparison to My Prediction
+
+Before printing, I predicted acceptable results through approximately 45°–50°, with more noticeable defects around 70°–80°.
+
+The largest acceptable angle in my test was 60°, which was higher than my predicted limit of 45°–50°. The printer handled a larger unsupported overhang than I expected while maintaining acceptable surface quality.
+
+## Lessons Learned
+
+### 1. Predicted vs. Actual Performance
+
+I predicted acceptable unsupported overhangs through approximately 75°, but 60° was the largest tested angle that met my surface-quality criteria. All eight petals finished printing, but completing the print did not mean every overhang had acceptable quality.
+
+### 2. Comparison to the Class Design Rule
+
+My largest acceptable tested angle of 60° exceeded the class FDM guideline of 45° by 15°. This shows that the 45° guideline was conservative for this artifact and these printing conditions. The printer's cooling may have helped the overhangs maintain their shape, but this test did not isolate cooling as a variable.
+
+### 3. Inspecting the Underside
+
+The top surfaces looked more consistent than the undersides. Inspecting only the top would have hidden sagging and loose filament beneath the petals. In a future test, I would photograph each underside with its angle label visible and use the same surface-quality criteria for every section.
+
+### 4. Improving the Test Resolution
+
+The gap between 60° and 70° prevented me from identifying the exact point where quality became unacceptable. I would add 62°, 64°, 66°, and 68° sections in a future design to narrow down the acceptable overhang limit. I would also focuse less on the little angle like 20-40 because they are kind of irrelevant. 
+
+### 5. Checking Labels Before Printing
+
+I initially positioned the 20° label incorrectly and corrected it before exporting the model. This reinforced the importance of checking that every label matches its test surface. In the future, I would inspect all labels in CAD and in the sliced preview before starting the print because they are all visible but not as aesthetically pleasing as I would have liked them to be. 
+
+## Conclusion
+
+The flower benchmark allowed me to compare eight unsupported overhang angles in one print. Under my printing conditions, 60° was the largest angle that met my surface-quality criteria. For similar prints, I would use this result when deciding whether to change the orientation or add supports.
+
+## Time Spent
+
+| Task | Time |
+|---|---|
+| Design and CAD | Approximately 1 hour |
+| Slicing and printer setup | Approximately 15 minutes |
+| Printing | 42 minutes 42 seconds |
+| Inspection and documentation | Estimated 1 hour |
+| **Total** | **Approximately 2 hours 58 minutes** |
 
 ### Print Video
 
