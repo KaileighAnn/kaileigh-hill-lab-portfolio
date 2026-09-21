@@ -143,3 +143,36 @@ The final base contains the internal opening and retaining features for the snap
 The final keychain contains two flexible arms that bend inward during insertion and return to their original position once they pass through the retaining features in the base. The rounded ends of the slots reduce sharp stress concentrations, while the chamfered snap features make insertion and removal easier. A rounded loop at the bottom allows keys to be attached.
 
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/09d973ad-f3b5-4b17-ad65-7b48321e1d9e" />
+
+## Engineering Analysis
+
+The flexible arms of the keychain were analyzed as cantilever beams. When the keychain is inserted into the base, the snap features contact the sides of the base and cause the arms to bend inward. Once the snap features pass the retaining edge, the arms return toward their original position and lock the keychain into place.
+
+For the calculations, PLA was used as the material and a safety factor of **3.5** was applied.
+
+### Design Values
+
+- Material: PLA
+- Safety Factor: 3.5
+- Flexible arm length: 5.00 in
+- Flexible arm width: 0.50 in
+- Part thickness: 0.95 in
+- Snap protrusion: 0.60 in
+- Transverse load: 0.25 lbf
+- Axial load: 5 lbf
+
+### Cantilever Beam Deflection
+
+The snap-fit arms must flex inward during insertion. I modeled each flexible arm as a cantilever beam with a concentrated load applied near the free end.
+
+The cantilever beam deflection equation is:
+
+δ = FL³ / 3EI
+
+where:
+
+- δ = deflection
+- F = transverse force
+- L = flexible arm length
+- E = Young's modulus of PLA
+- I = area moment of inertia
