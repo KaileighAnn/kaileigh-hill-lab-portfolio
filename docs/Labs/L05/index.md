@@ -140,9 +140,13 @@ The final base contains the internal opening and retaining features for the snap
 
 ### Final Keychain
 
-The final keychain contains two flexible arms that bend inward during insertion and return to their original position once they pass through the retaining features in the base. The rounded ends of the slots reduce sharp stress concentrations, while the chamfered snap features make insertion and removal easier. A rounded loop at the bottom allows keys to be attached.
+After reviewing the completed design, I decided that the solid center section of the keychain was unnecessary. I removed this material to simplify the design and reduce the amount of filament required.
 
-<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/09d973ad-f3b5-4b17-ad65-7b48321e1d9e" />
+The final keychain uses two flexible cantilever arms connected at the bottom. Each arm contains a snap protrusion that engages with the base. The rounded ends of the opening reduce sharp stress concentrations and allow the arms to flex inward during insertion and removal.
+
+Removing the center section did not change the dimensions of the flexible arms used in my engineering calculations.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/3b1a7ec8-70bd-4da7-b581-3a4cd5c7903d" />
 
 ## Engineering Analysis
 
