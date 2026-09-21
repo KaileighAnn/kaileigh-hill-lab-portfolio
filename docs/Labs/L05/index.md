@@ -26,3 +26,104 @@ During insertion, the angled faces on the snap protrusions contact the base and 
 Once the protrusions pass the retaining features, the arms return toward their original positions and lock the keychain into the base.
 
 To remove the keychain, the two flexible arms are squeezed inward until the snap protrusions clear the retaining features. The keychain can then be pulled out of the base.
+
+## CAD Design Process
+
+I created both components parametrically in Creo. I designed the base first and then created the keychain insert to fit inside the base and use two flexible arms as the snap-fit mechanism.
+
+### Step 1 - Create the Base
+
+I started by sketching a rectangle and extruding it **2.00 in** to create the main body of the base.
+
+<img width="960" height="600" alt="l41" src="https://github.com/user-attachments/assets/b95bbc9d-e179-4e6c-bedd-097398c2a21d" />
+
+
+### Step 2 - Create the Inside Opening
+
+Next, I sketched the area that I wanted to remove from the base. I dimensioned the opening and used **Delete Segment** to make the sketch one continuous shape.
+
+<img width="960" height="600" alt="l42" src="https://github.com/user-attachments/assets/1038af79-adfc-4b07-889b-785819cb6ee8" />
+
+<img width="960" height="600" alt="l44" src="https://github.com/user-attachments/assets/e42dd664-e0c9-4666-b301-6c748a66398c" />
+
+I then used **Remove Material** to cut **1.50 in** into the base and create the cavity where the keychain will fit.
+
+<img width="960" height="600" alt="l43" src="https://github.com/user-attachments/assets/c165d967-c7b2-4b55-9167-f6ac9e56cf36" />
+
+### Step 3 - Finish the Base Shape
+
+I added another extrusion to close the part and finish the main shape of the base.
+
+<img width="960" height="600" alt="l45" src="https://github.com/user-attachments/assets/8490e170-6bb2-4eaf-979f-d217443487eb" />
+
+
+## Keychain Design
+
+### Step 4 - Create the Keychain Body
+
+I started the keychain with an extruded rectangle. I used a depth of **0.95 in**, making the keychain thinner than the inside depth of the base so that it can fit inside.
+
+<img width="960" height="600" alt="l46" src="https://github.com/user-attachments/assets/14dff1c0-e5c8-4fda-a7c7-7b092c5b0148" />
+
+### Step 5 - Create the Flexible Arms
+
+I sketched and removed material from both sides of the keychain to separate the outside sections from the center body. These sections become the flexible arms used for the snap-fit.
+
+<img width="960" height="600" alt="l47" src="https://github.com/user-attachments/assets/40a1d210-502f-4793-adf9-5e1a975205af" />
+
+I dimensioned the flexible sections so that the arms would be the same size on both sides.
+
+<img width="960" height="600" alt="l48" src="https://github.com/user-attachments/assets/1cef699d-88e1-48fa-a6c2-c7913676d95b" />
+
+### Step 6 - Add the Snap-Fit Features
+
+I added an extrusion to the end of each flexible arm to create the snap-fit features. I made these features extend past the outside of the base so they can be pushed inward by hand when the keychain needs to be removed.
+
+<img width="960" height="600" alt="l49" src="https://github.com/user-attachments/assets/9411e9b0-1393-4ae1-b60f-48e75b27eba9" />
+
+<img width="960" height="600" alt="l410" src="https://github.com/user-attachments/assets/c475e01d-9061-44d8-aa1d-3064d16a3f4d" />
+
+### Step 7 - Add Chamfers
+
+I added **0.50 in chamfers** to the snap features. The angled surfaces help guide the arms inward as the keychain is inserted into the base.
+
+<img width="960" height="600" alt="l411" src="https://github.com/user-attachments/assets/ac6866c7-4dd7-4da1-9eb1-aa58aa28de9b" />
+
+After reviewing the design, I made adjustments so that the flexible arms had enough room to move inward.
+
+<img width="960" height="600" alt="l413" src="https://github.com/user-attachments/assets/6459b932-d634-48e9-b2c0-911f282f5a2b" />
+
+I then added smaller **0.11 in chamfers** to the other edges to remove sharp edges and make the snap-fit smoother.
+
+<img width="960" height="600" alt="l414" src="https://github.com/user-attachments/assets/829cd8e4-8c76-45aa-a0d8-eda289de36cf" />
+
+### Step 8 - Reduce Stress Concentrations
+
+I added circular ends to the flexure slots instead of leaving sharp inside corners. This creates a smoother transition at the end of each slot and helps reduce stress concentration when the arms bend.
+
+<img width="960" height="600" alt="l415" src="https://github.com/user-attachments/assets/b2030d59-0110-498f-a0d2-c2e89a5fc739" />
+
+### Step 9 - Add the Keychain Loop
+
+I added a loop to the bottom of the keychain so that a set of keys can be attached to the part.
+
+<img width="960" height="600" alt="l416" src="https://github.com/user-attachments/assets/1e2f46a3-8ffc-4090-866b-7742df7647ee" />
+
+I then rounded the loop with a **0.50 in radius** to remove the sharp edges and create a smoother final shape.
+
+<img width="960" height="600" alt="l417" src="https://github.com/user-attachments/assets/14a0789f-179b-43b5-b687-e980b280b795" />
+
+
+## Final Base Features
+
+### Step 10 - Personalize the Base
+
+I went back to the base and added an extruded **K** for my name.
+
+<img width="960" height="600" alt="l418" src="https://github.com/user-attachments/assets/e26e7e35-1ea2-4086-9f31-564f2a679a48" />
+
+### Step 11 - Add Wall Mounts
+
+Finally, I added two loops to the top of the base so that it can be mounted to a wall. The holes provide locations for nails or screws to hold the base in place.
+
+<img width="960" height="600" alt="l419" src="https://github.com/user-attachments/assets/6e6820e0-658c-4418-9b32-926208f7ed5b" />
