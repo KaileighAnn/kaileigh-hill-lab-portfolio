@@ -127,3 +127,19 @@ I went back to the base and added an extruded **K** for my name.
 Finally, I added two loops to the top of the base so that it can be mounted to a wall. The holes provide locations for nails or screws to hold the base in place.
 
 <img width="960" height="600" alt="l419" src="https://github.com/user-attachments/assets/6e6820e0-658c-4418-9b32-926208f7ed5b" />
+
+## Final CAD Designs
+
+After completing the design process and making the necessary adjustments, I finalized both components of the snap-fit keychain system. The final design consists of a wall-mounted base and a removable keychain insert.
+
+### Final Base
+
+The final base contains the internal opening and retaining features for the snap-fit mechanism. I added a **K** to personalize the design and two mounting loops at the top so the base can be attached to a wall.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/ff76e60e-5f8b-4a03-afa7-ca69881ee880" />
+
+### Final Keychain
+
+The final keychain contains two flexible arms that bend inward during insertion and return to their original position once they pass through the retaining features in the base. The rounded ends of the slots reduce sharp stress concentrations, while the chamfered snap features make insertion and removal easier. A rounded loop at the bottom allows keys to be attached.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/09d973ad-f3b5-4b17-ad65-7b48321e1d9e" />
