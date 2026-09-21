@@ -176,3 +176,145 @@ where:
 - L = flexible arm length
 - E = Young's modulus of PLA
 - I = area moment of inertia
+
+### Area Moment of Inertia
+
+For the rectangular cross-section of one flexible arm:
+
+I = bh³ / 12
+
+Using:
+
+b = 0.95 in  
+h = 0.50 in
+
+I = (0.95)(0.50)³ / 12
+
+I = 0.00990 in⁴
+
+### Cantilever Beam Deflection
+
+The deflection of one flexible arm was calculated using:
+
+δ = FL³ / 3EI
+
+Using:
+
+F = 0.25 lbf  
+L = 5.00 in  
+E = 435,000 psi  
+I = 0.00990 in⁴
+
+δ = (0.25)(5.00)³ / [3(435,000)(0.00990)]
+
+δ = 0.00242 in
+
+Therefore, the calculated deflection of one snap-fit arm is:
+
+**δ = 0.00242 in**
+
+### Bending Stress
+
+The maximum bending stress in one flexible arm was calculated using:
+
+σ = Mc / I
+
+where:
+
+M = FL  
+c = h / 2
+
+Using:
+
+F = 0.25 lbf  
+L = 5.00 in  
+h = 0.50 in  
+I = 0.00990 in⁴
+
+M = (0.25)(5.00) = 1.25 lbf·in
+
+c = 0.50 / 2 = 0.25 in
+
+σ = (1.25)(0.25) / 0.00990
+
+σ = 31.6 psi
+
+### Allowable Stress
+
+Using a PLA yield strength of **7,615 psi** and the required safety factor of **3.5**:
+
+σ_allow = σ_y / SF
+
+σ_allow = 7,615 / 3.5
+
+σ_allow = 2,176 psi
+
+The calculated bending stress was:
+
+σ_b = 31.6 psi
+
+Since:
+
+31.6 psi < 2,176 psi
+
+the calculated bending stress is below the allowable stress for PLA.
+
+**Result: PASS**
+
+### Axial Stress
+
+The snap-fit must support an axial load of **5 lbf**. Since the design has two flexible arms, I assumed the load is divided equally between them.
+
+F_arm = 5 / 2
+
+F_arm = 2.5 lbf
+
+The cross-sectional area of one arm is:
+
+A = bh
+
+A = (0.95)(0.50)
+
+A = 0.475 in²
+
+The axial stress is:
+
+σ_axial = F / A
+
+σ_axial = 2.5 / 0.475
+
+σ_axial = 5.26 psi
+
+Since:
+
+5.26 psi < 2,176 psi
+
+the calculated axial stress is below the allowable stress for PLA.
+
+**Result: PASS**
+
+### Average Shear Stress
+
+The snap protrusions hold the keychain inside the base. Since there are two snap features, I assumed the 5 lbf axial load is divided equally between them.
+
+F_hook = 5 / 2
+
+F_hook = 2.5 lbf
+
+Using the snap protrusion dimensions:
+
+A_shear = (0.95)(0.99)
+
+A_shear = 0.9405 in²
+
+The average shear stress is:
+
+τ_avg = F / A
+
+τ_avg = 2.5 / 0.9405
+
+τ_avg = 2.66 psi
+
+The calculated average shear stress in each snap protrusion is:
+
+**τ_avg = 2.66 psi**
