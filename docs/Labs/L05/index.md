@@ -360,16 +360,36 @@ Because the snap-fit arms need to repeatedly bend, I printed the keychain flat. 
 
 ## Printing and Testing
 
-After completing the CAD models and preprocessing, I printed both components together using PLA on the Prusa CORE One.
+Both components were printed together using PLA on **Printer #10**. After printing, I removed the support material from the base and added a metal key ring to the keychain.
+
+### Final Print Information
+
+- **Material:** PLA
+- **Layer Height:** 0.20 mm
+- **Infill:** 20%
+- **Actual Print Time:** 44 min 35 sec
+- **Material Used:** 19 g PLA
+- **Supports:** Paint-on support enforcers on the base
+
+<p align="center">
+  <img width="400" alt="Final Print Information" src="https://github.com/user-attachments/assets/6e04b9f0-8292-40cb-9ee6-2bec3234e64d" />
+</p>
 
 ### Print Results
 
-The completed parts were inspected for print quality, support removal, and dimensional accuracy.
+Both components printed successfully. The flexible arms and snap features printed without breaking, and the support material was successfully removed from the base.
 
-![Completed Print](ADD-IMAGE-AFTER-PRINTING)
+<p align="center">
+  <img width="400" alt="Snap-Fit Test" src="https://github.com/user-attachments/assets/cc84e60a-90d2-4296-be7f-1118d5114466" />
+</p>
 
 ### Snap-Fit Test
 
-After printing, I tested the keychain by inserting it into the wall-mounted base. I checked whether the flexible arms deflected enough for the snap features to pass the retaining edges and whether they returned to their original position after insertion.
+I tested the assembly by pushing the keychain into the base. The two flexible arms bend inward as the snap features pass through the opening. Once inserted, the arms return outward and hold the keychain inside the base.
 
-**Result:** To be completed after testing.
+The final design successfully snaps into the base and stays in place. The keychain can also be removed by squeezing the flexible arms inward to release the snap features.
+
+<p align="center">
+  <img width="350" alt="Printed Components" src="https://github.com/user-attachments/assets/e852a734-d989-4911-824e-d40c37ca99c1" />
+  <img width="350" alt="Final Assembly" src="https://github.com/user-attachments/assets/39824390-c788-42e6-90f9-5c692d889cd5" />
+</p>
