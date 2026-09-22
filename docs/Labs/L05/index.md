@@ -331,13 +331,45 @@ I used paint-on support enforcers on the base so that support material was only 
 
 The keychain was oriented flat on the build plate and did not require supports. The base required a small amount of support for its overhanging features.
 
-<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/c5ab00b1-bb2b-44a6-aac9-e561822b7a50" />
+## Build Orientation and Preprocessing
 
+I positioned both parts flat on the build plate. The keychain was printed flat so that the flexible snap-fit arms are formed within the print layers. This helps the arms resist separating between layers when they bend.
 
-- Material: PLA
-- Infill: 20%
-- Layer height: 0.20 mm
+The base was also positioned flat for stability. I used paint-on support enforcers only where necessary on the base to reduce material waste and cleanup. The keychain did not require supports.
+
+### Print Settings
+
 - Printer: Prusa CORE One
 - Nozzle: 0.4 mm
+- Material: PLA
+- Layer Height: 0.20 mm
+- Infill: 20%
 - Supports: Paint-on support enforcers only
-- Estimated total print time: 37 minutes
+- Estimated Print Time: 37 minutes
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/c5ab00b1-bb2b-44a6-aac9-e561822b7a50" />
+
+### Build Orientation Research
+
+FDM parts do not have the same strength in every direction because they are manufactured one layer at a time. Research on FDM-printed PLA found that build orientation affects mechanical properties, with flat and on-edge specimens generally showing higher strength and stiffness than upright specimens. :contentReference[oaicite:0]{index=0}
+
+Because the snap-fit arms need to repeatedly bend, I printed the keychain flat. This keeps the bending primarily within the printed layers instead of depending on the weaker bonds between layers.
+
+**Source:**  
+[:contentReference[oaicite:1]{index=1}](https://www.sciencedirect.com/science/article/pii/S0264127517303143?utm_source=chatgpt.com)
+
+## Printing and Testing
+
+After completing the CAD models and preprocessing, I printed both components together using PLA on the Prusa CORE One.
+
+### Print Results
+
+The completed parts were inspected for print quality, support removal, and dimensional accuracy.
+
+![Completed Print](ADD-IMAGE-AFTER-PRINTING)
+
+### Snap-Fit Test
+
+After printing, I tested the keychain by inserting it into the wall-mounted base. I checked whether the flexible arms deflected enough for the snap features to pass the retaining edges and whether they returned to their original position after insertion.
+
+**Result:** To be completed after testing.
