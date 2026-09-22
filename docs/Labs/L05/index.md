@@ -322,3 +322,22 @@ The average shear stress is:
 The calculated average shear stress in each snap protrusion is:
 
 **τ_avg = 2.66 psi**
+
+### Supports
+
+I used paint-on support enforcers on the base so that support material was only added where it was necessary. I wanted to minimize the amount of support material to reduce waste, print time, and cleanup.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/02810fac-f780-4ec9-9c78-d3122153f6cb" />
+
+The keychain was oriented flat on the build plate and did not require supports. The base required a small amount of support for its overhanging features.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/c5ab00b1-bb2b-44a6-aac9-e561822b7a50" />
+
+
+- Material: PLA
+- Infill: 20%
+- Layer height: 0.20 mm
+- Printer: Prusa CORE One
+- Nozzle: 0.4 mm
+- Supports: Paint-on support enforcers only
+- Estimated total print time: 37 minutes
