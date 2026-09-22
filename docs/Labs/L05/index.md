@@ -28,11 +28,11 @@ Once the protrusions pass the retaining features, the arms return toward their o
 To remove the keychain, the two flexible arms are squeezed inward until the snap protrusions clear the retaining features. The keychain can then be pulled out of the base.
 
 
-# Modeling
+## Modeling
 
-## Research
+### Research
 
-### PLA Material Properties
+#### PLA Material Properties
 
 I chose PLA because it is commonly used for FDM printing and was available for this project. I researched the mechanical properties of PLA before completing the flexure calculations.
 
@@ -54,7 +54,7 @@ Source:
 
 [UltiMaker PLA Technical Data Sheet](https://um-support-files.ultimaker.com/materials/2.85mm/tds/PLA/Ultimaker-PLA-TDS-v5.00.pdf)
 
-### Design Loads
+#### Design Loads
 
 I selected loads within the ranges required for the assignment.
 
@@ -64,11 +64,11 @@ I selected loads within the ranges required for the assignment.
 I selected the minimum required loads because the final part is a small keychain holder and is not intended to support a large structural load.
 
 
-## Engineering Analysis
+#### Engineering Analysis
 
 The flexible arms of the keychain were modeled as cantilever beams. During insertion, the snap features contact the base and cause the arms to bend inward. Once the snap features pass the retaining edge, the arms return toward their original position and lock the keychain into place.
 
-### Design Values
+#### Design Values
 
 - Material: PLA
 - Safety Factor: 3.5
@@ -82,7 +82,7 @@ The flexible arms of the keychain were modeled as cantilever beams. During inser
 - Transverse Load: 0.25 lbf
 - Axial Load: 5 lbf
 
-### Area Moment of Inertia
+#### Area Moment of Inertia
 
 For the rectangular cross-section of one flexible arm:
 
@@ -97,7 +97,7 @@ I = (0.95)(0.50)³ / 12
 
 **I = 0.00990 in⁴**
 
-### Cantilever Beam Deflection
+#### Cantilever Beam Deflection
 
 The cantilever beam equation for a concentrated load at the free end is:
 
@@ -124,7 +124,7 @@ I = 0.00990 in⁴
 
 The calculated elastic deflection of one arm under the selected transverse load is approximately **0.00224 in**.
 
-### Flexure Length Equation
+#### Flexure Length Equation
 
 The cantilever beam equation can also be rearranged to solve for the required flexure length:
 
@@ -132,7 +132,7 @@ L = ∛(3EIδ / F)
 
 The final design uses a **5.00 in flexure length**. The length, width, and thickness were kept as design parameters so the flexure geometry could be adjusted while maintaining the same beam relationship.
 
-### Bending Stress
+#### Bending Stress
 
 The maximum bending stress in one flexible arm was calculated using:
 
@@ -174,7 +174,7 @@ Since:
 
 the calculated bending stress is below the allowable stress for PLA under the assumed loading.
 
-### Axial Stress
+#### Axial Stress
 
 The snap-fit must support an axial load of **5 lbf**. Since the design has two flexible arms, I assumed the load is divided equally between them.
 
@@ -204,7 +204,7 @@ Since:
 
 the calculated axial stress is below the allowable stress for PLA under the assumed loading.
 
-### Average Shear Stress
+#### Average Shear Stress
 
 The snap protrusions hold the keychain inside the base. Since there are two snap features, I assumed the 5 lbf axial load is divided equally between them.
 
@@ -229,9 +229,9 @@ The average shear stress is:
 The calculated average shear stress in each snap protrusion is **2.66 psi**.
 
 
-## Free Body Diagrams
+### Free Body Diagrams
 
-### Flexure Component FBD
+#### Flexure Component FBD
 
 For the flexure FBD, one flexible arm is modeled as a cantilever beam fixed at the bottom. A transverse load of **0.25 lbf** acts at the free end of the arm. The flexure length is **5.00 in**.
 
@@ -241,7 +241,7 @@ For the flexure FBD, one flexible arm is modeled as a cantilever beam fixed at t
 
 *Note: AI-generated FBD based on my design and calculations.*
 
-### Axial / Snap-Fit FBD
+#### Axial / Snap-Fit FBD
 
 For the axial FBD, the total axial load is **5 lbf**. Because the design contains two snap features, the load is assumed to divide equally between them, giving **2.5 lbf per snap feature**.
 
@@ -251,9 +251,9 @@ For the axial FBD, the total axial load is **5 lbf**. Because the design contain
 
 *Note: AI-generated FBD based on my design and calculations.*
 
-# Parametric Design
+## Parametric Design
 
-## Parameters
+### Parameters
 
 I designed the components parametrically in Creo using dimensions and constraints so that important dimensions could be changed without completely rebuilding the models.
 
@@ -274,30 +274,30 @@ The main design parameters were:
 | Base Depth | 2.00 in | Controls overall base thickness |
 | Base Cavity Depth | 1.50 in | Provides space for the keychain |
 
-### Why I Chose These Parameters
+#### Why I Chose These Parameters
 
 I chose the flexure length, width, and thickness because these dimensions directly affect how much the arms bend and the stress produced during bending.
 
 The snap protrusion and chamfer dimensions control how the keychain engages with the base. The cavity and slot dimensions control the fit and provide enough space for the flexible arms to move.
 
-### Parameter Changes
+#### Parameter Changes
 
 The values changed throughout the CAD process as I reviewed how the two components would interact. I adjusted the snap-fit geometry to provide more room for the arms to flex inward, added chamfers to make insertion smoother, and added rounded ends to the slots to reduce sharp stress concentrations.
 
 I also removed the unnecessary center section of the final keychain. The dimensions of the two flexible arms remained unchanged, so the arm dimensions used in the engineering calculations remained the same.
 
 
-## CAD Design Process
+### CAD Design Process
 
 I created both components parametrically in Creo. I designed the base first and then created the keychain insert to fit inside the base and use two flexible arms as the snap-fit mechanism.
 
-### Step 1 - Create the Base
+#### Step 1 - Create the Base
 
 I started by sketching a rectangle and extruding it **2.00 in** to create the main body of the base.
 
 <img width="960" height="600" alt="Base Extrusion" src="https://github.com/user-attachments/assets/b95bbc9d-e179-4e6c-bedd-097398c2a21d" />
 
-### Step 2 - Create the Inside Opening
+#### Step 2 - Create the Inside Opening
 
 Next, I sketched the area that I wanted to remove from the base. I dimensioned the opening and used **Delete Segment** to make the sketch one continuous shape.
 
@@ -309,22 +309,22 @@ I then used **Remove Material** to cut **1.50 in** into the base and create the 
 
 <img width="960" height="600" alt="Base Cavity" src="https://github.com/user-attachments/assets/c165d967-c7b2-4b55-9167-f6ac9e56cf36" />
 
-### Step 3 - Finish the Base Shape
+#### Step 3 - Finish the Base Shape
 
 I added another extrusion to close the part and finish the main shape of the base.
 
 <img width="960" height="600" alt="Finished Base Shape" src="https://github.com/user-attachments/assets/8490e170-6bb2-4eaf-979f-d217443487eb" />
 
 
-## Keychain Design
+### Keychain Design
 
-### Step 4 - Create the Keychain Body
+#### Step 4 - Create the Keychain Body
 
 I started the keychain with an extruded rectangle. I used a depth of **0.95 in**, making the keychain thinner than the inside depth of the base so that it can fit inside.
 
 <img width="960" height="600" alt="Keychain Body" src="https://github.com/user-attachments/assets/14dff1c0-e5c8-4fda-a7c7-7b092c5b0148" />
 
-### Step 5 - Create the Flexible Arms
+#### Step 5 - Create the Flexible Arms
 
 I sketched and removed material to create the flexible sections of the keychain. These outside sections became the two flexible arms used for the snap-fit.
 
@@ -334,7 +334,7 @@ I dimensioned and constrained the flexible sections so that the two arms would r
 
 <img width="960" height="600" alt="Flexible Arm Dimensions" src="https://github.com/user-attachments/assets/1cef699d-88e1-48fa-a6c2-c7913676d95b" />
 
-### Step 6 - Add the Snap-Fit Features
+#### Step 6 - Add the Snap-Fit Features
 
 I added an extrusion to the end of each flexible arm to create the snap-fit features. I made these features extend past the outside of the base so they can be pushed inward by hand when the keychain needs to be removed.
 
@@ -342,7 +342,7 @@ I added an extrusion to the end of each flexible arm to create the snap-fit feat
 
 <img width="960" height="600" alt="Snap Feature Dimensions" src="https://github.com/user-attachments/assets/c475e01d-9061-44d8-aa1d-3064d16a3f4d" />
 
-### Step 7 - Add Chamfers
+#### Step 7 - Add Chamfers
 
 I added **0.50 in chamfers** to the snap features. The angled surfaces help guide the arms inward as the keychain is inserted into the base.
 
@@ -356,13 +356,13 @@ I then added smaller **0.11 in chamfers** to the other edges to remove sharp edg
 
 <img width="960" height="600" alt="Small Chamfers" src="https://github.com/user-attachments/assets/829cd8e4-8c76-45aa-a0d8-eda289de36cf" />
 
-### Step 8 - Reduce Stress Concentrations
+#### Step 8 - Reduce Stress Concentrations
 
 I added circular ends to the flexure slots instead of leaving sharp inside corners. This creates a smoother transition at the end of each slot and helps reduce stress concentration when the arms bend.
 
 <img width="960" height="600" alt="Rounded Flexure Ends" src="https://github.com/user-attachments/assets/b2030d59-0110-498f-a0d2-c2e89a5fc739" />
 
-### Step 9 - Add the Keychain Loop
+#### Step 9 - Add the Keychain Loop
 
 I added a loop to the bottom of the keychain so that a set of keys can be attached to the part.
 
@@ -373,32 +373,32 @@ I then rounded the loop with a **0.50 in radius** to remove the sharp edges and 
 <img width="960" height="600" alt="Rounded Keychain Loop" src="https://github.com/user-attachments/assets/14a0789f-179b-43b5-b687-e980b280b795" />
 
 
-## Final Base Features
+### Final Base Features
 
-### Step 10 - Personalize the Base
+#### Step 10 - Personalize the Base
 
 I went back to the base and added an extruded **K** for my name.
 
 <img width="960" height="600" alt="Personalized Base" src="https://github.com/user-attachments/assets/e26e7e35-1ea2-4086-9f31-564f2a679a48" />
 
-### Step 11 - Add Wall Mounts
+#### Step 11 - Add Wall Mounts
 
 Finally, I added two loops to the top of the base so that it can be mounted to a wall. The holes provide locations for nails or screws to hold the base in place.
 
 <img width="960" height="600" alt="Wall Mounts" src="https://github.com/user-attachments/assets/6e6820e0-658c-4418-9b32-926208f7ed5b" />
 
 
-## Final CAD Designs
+### Final CAD Designs
 
 After completing the design process and making the necessary adjustments, I finalized both components of the snap-fit keychain system. The final design consists of a wall-mounted base and a removable keychain insert.
 
-### Final Base
+#### Final Base
 
 The final base contains the internal opening and retaining features for the snap-fit mechanism. I added a **K** to personalize the design and two mounting loops at the top so the base can be attached to a wall.
 
 <img width="960" height="600" alt="Final Base" src="https://github.com/user-attachments/assets/ff76e60e-5f8b-4a03-afa7-ca69881ee880" />
 
-### Final Keychain
+#### Final Keychain
 
 After reviewing the completed design, I decided that the solid center section of the keychain was unnecessary. I removed this material to simplify the design and reduce the amount of filament required.
 
@@ -409,9 +409,9 @@ Removing the center section did not change the dimensions of the flexible arms u
 <img width="960" height="600" alt="Final Keychain" src="https://github.com/user-attachments/assets/3b1a7ec8-70bd-4da7-b581-3a4cd5c7903d" />
 
 
-# 3D Printing and Testing
+## 3D Printing and Testing
 
-## Build Orientation Research
+### Build Orientation Research
 
 FDM parts do not have the same strength in every direction because they are manufactured one layer at a time. Research on FDM-printed PLA found that build orientation affects the mechanical properties of the finished part, with flat and on-edge specimens generally performing better than upright specimens for strength and stiffness.
 
@@ -421,13 +421,13 @@ Because the snap-fit arms need to bend during insertion and removal, I printed t
 [Chacón et al. - Additive Manufacturing of PLA Structures Using Fused Deposition Modelling](https://www.sciencedirect.com/science/article/pii/S0264127517303143)
 
 
-## Build Orientation and Preprocessing
+### Build Orientation and Preprocessing
 
 I positioned both components flat on the build plate. The keychain was printed flat so that the flexible snap-fit arms were formed within the print layers. The base was also positioned flat to provide a stable surface on the build plate.
 
 I arranged both components on the same build plate so they could be produced during the same print.
 
-### Supports
+#### Supports
 
 The assignment required one component to use support material. The base contains overhanging features, so I used **paint-on support enforcers** only in the areas where support was necessary.
 
@@ -437,7 +437,7 @@ The keychain did not require supports.
 
 <img width="960" height="600" alt="Paint-On Supports" src="https://github.com/user-attachments/assets/02810fac-f780-4ec9-9c78-d3122153f6cb" />
 
-### Print Settings
+#### Print Settings
 
 - **Printer:** Prusa CORE One
 - **Nozzle:** 0.4 mm
@@ -452,11 +452,11 @@ I selected a 0.20 mm layer height as a balance between print quality and print t
 <img width="960" height="600" alt="PrusaSlicer Setup" src="https://github.com/user-attachments/assets/c5ab00b1-bb2b-44a6-aac9-e561822b7a50" />
 
 
-## Printing and Testing
+### Printing and Testing
 
 Both components were printed together using PLA on **Printer #10**. After printing, I removed the support material from the base and added a metal key ring to the keychain.
 
-### Final Print Information
+#### Final Print Information
 
 - **Printer:** Printer #10
 - **Material:** PLA
@@ -470,7 +470,7 @@ Both components were printed together using PLA on **Printer #10**. After printi
   <img width="400" alt="Final Print Information" src="https://github.com/user-attachments/assets/6e04b9f0-8292-40cb-9ee6-2bec3234e64d" />
 </p>
 
-### Print Results
+#### Print Results
 
 Both components printed successfully. The flexible arms and snap features printed without breaking, and the support material was successfully removed from the base.
 
@@ -478,7 +478,7 @@ Both components printed successfully. The flexible arms and snap features printe
   <img width="400" alt="Printed Snap-Fit" src="https://github.com/user-attachments/assets/cc84e60a-90d2-4296-be7f-1118d5114466" />
 </p>
 
-### Printing Process
+#### Printing Process
 
 The video below shows both components being printed together on Printer #10.
 
@@ -486,7 +486,7 @@ The video below shows both components being printed together on Printer #10.
   <source src="https://github.com/KaileighAnn/kaileigh-hill-lab-portfolio/raw/refs/heads/main/docs/Labs/L05/IMG_1230.mp4" type="video/mp4">
 </video>
 
-### Snap-Fit Test
+#### Snap-Fit Test
 
 I tested the assembly by pushing the keychain into the base. The two flexible arms bend inward as the snap features pass through the opening. Once inserted, the arms return outward and hold the keychain inside the base.
 
@@ -498,7 +498,7 @@ The final design successfully snaps into the base and stays in place. The keycha
 </p>
 
 
-## Design Changes and Iteration
+### Design Changes and Iteration
 
 Several changes were made during the design process before printing the final parts.
 
@@ -512,7 +512,7 @@ Several changes were made during the design process before printing the final pa
 The first physical print successfully snapped together, so another print iteration was not necessary. The CAD changes made before printing were enough for the two components to function together.
 
 
-## Lessons Learned
+### Lessons Learned
 
 This project helped me better understand how snap-fit designs use elastic deformation to connect two parts. I learned that the dimensions of the flexible arms, chamfers, rounded corners, and print orientation all affect how well a snap-fit mechanism works.
 
@@ -523,7 +523,7 @@ Another thing I learned was the importance of reducing sharp corners around a fl
 Overall, this project helped me better understand how engineering calculations, parametric CAD, material properties, and 3D printing settings work together to create a functional design.
 
 
-## Resources
+### Resources
 
 1. **UltiMaker - PLA Technical Data Sheet**  
    Used to research the mechanical properties of PLA, including Young's modulus and yield strength.  
@@ -539,7 +539,7 @@ Overall, this project helped me better understand how engineering calculations, 
 4. **OpenAI - ChatGPT**  
    Used to help generate the free-body diagram images based on my design dimensions, loads, and engineering calculations.
 
-## Time Spent
+### Time Spent
 
 - Research and planning: **30 minutes**
 - Engineering calculations: **1 hour**
