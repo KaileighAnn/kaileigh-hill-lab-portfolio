@@ -511,6 +511,7 @@ Several changes were made during the design process before printing the final pa
 
 The first physical print successfully snapped together, so another print iteration was not necessary. The CAD changes made before printing were enough for the two components to function together.
 
+If I could redesign this project, I would make the small bottom section of the keychain thicker or stronger. It works well right now, but over time it could potentially break because that area supports a lot of the weight.
 
 ### Lessons Learned
 
