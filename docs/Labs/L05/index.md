@@ -235,14 +235,21 @@ The calculated average shear stress in each snap protrusion is **2.66 psi**.
 
 For the flexure FBD, one flexible arm is modeled as a cantilever beam fixed at the bottom. A transverse load of **0.25 lbf** acts at the free end of the arm. The flexure length is **5.00 in**.
 
-**ADD FLEXURE FBD IMAGE HERE**
+<p align="center">
+  <img width="450" alt="FBD" src="https://github.com/user-attachments/assets/410de95c-5780-4048-a6dc-ec4d2f686798" />
+</p>
+
+*Note: AI-generated FBD based on my design and calculations.*
 
 ### Axial / Snap-Fit FBD
 
 For the axial FBD, the total axial load is **5 lbf**. Because the design contains two snap features, the load is assumed to divide equally between them, giving **2.5 lbf per snap feature**.
 
-**ADD AXIAL FBD IMAGE HERE**
+<p align="center">
+  <img width="450" alt="FBD" src="https://github.com/user-attachments/assets/0cd99530-98c9-4ded-920a-d21fc40453cf" />
+</p>
 
+*Note: AI-generated FBD based on my design and calculations.*
 
 # Parametric Design
 
@@ -520,7 +527,9 @@ Overall, this project helped me better understand how engineering calculations, 
 
 3. **PrusaSlicer**  
    Used to prepare the models for printing, select the build orientation, apply paint-on supports, and determine the print settings.
-
+   
+4. **OpenAI - ChatGPT**  
+   Used to help generate the free-body diagram images based on my design dimensions, loads, and engineering calculations.
 
 ## Time Spent
 
