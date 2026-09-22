@@ -478,6 +478,14 @@ Both components printed successfully. The flexible arms and snap features printe
   <img width="400" alt="Printed Snap-Fit" src="https://github.com/user-attachments/assets/cc84e60a-90d2-4296-be7f-1118d5114466" />
 </p>
 
+### Printing Process
+
+The video below shows both components being printed together on Printer #10.
+
+<video width="500" controls muted loop>
+  <source src="YOUR-VIDEO-LINK-HERE" type="video/mp4">
+</video>
+
 ### Snap-Fit Test
 
 I tested the assembly by pushing the keychain into the base. The two flexible arms bend inward as the snap features pass through the opening. Once inserted, the arms return outward and hold the keychain inside the base.
