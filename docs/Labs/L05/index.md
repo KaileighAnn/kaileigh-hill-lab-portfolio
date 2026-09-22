@@ -482,8 +482,8 @@ Both components printed successfully. The flexible arms and snap features printe
 
 The video below shows both components being printed together on Printer #10.
 
-<video width="500" controls muted loop>
-  <source src="https://github.com/KaileighAnn/kaileigh-hill-lab-portfolio/raw/refs/heads/main/docs/Labs/L05/IMG_1230.mp4" type="video/mp4">
+<video autoplay muted loop playsinline width="500">
+  <source src="/kaileigh-hill-lab-portfolio/Labs/L05/IMG_1230.mp4" type="video/mp4">
 </video>
 
 #### Snap-Fit Test
