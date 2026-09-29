@@ -169,3 +169,49 @@ After printing, I removed the part from the build plate and inspected the three 
   <img src="https://github.com/user-attachments/assets/9ce925b9-efca-4ea2-9d5e-b375dade5d01" width="32%" />
   <img src="https://github.com/user-attachments/assets/3a7f7fb8-bef2-4843-8246-9219182d9961" width="32%" />
 </p>
+
+## Show and Tell
+
+The final printed component successfully snap fits onto the joystick. The three flexible sections move outward as the cap is pushed over the **20 mm joystick top** and then catch underneath the edge of the joystick.
+
+The **20.6 mm inside diameter** and **0.30 mm clearance per side** provided enough room for the cap to be installed while still creating a secure fit. The cap stayed attached to the joystick and did not easily pull off.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1993eb87-6d83-4333-b64d-e7a0852f7437" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0a8f306f-970d-40c6-bb00-24ebc2a03c2e" width="45%" />
+</p>
+
+The final snap fit will also be demonstrated in class.
+
+## Lessons Learned
+
+This lab taught me how important accurate measurements and clearances are when designing a part that must fit onto an existing object. I measured the joystick before starting the CAD model and used those measurements to determine the size of the cap. I added **0.30 mm of clearance on each side** instead of making the opening exactly the same size as the **20 mm joystick top**.
+
+One challenge was determining how the cap could snap over the joystick while still staying attached. My original idea was a simple cap, but I added **three separate snap-fit sections spaced 120° apart** so the bottom could flex. I also rounded the edges of the snap sections to make it easier for them to slide over the joystick.
+
+The first printed version successfully fit onto the joystick, so I did not have to change the dimensions or reprint the part. This showed me that considering the printing tolerance before creating the CAD model can reduce the amount of trial and error needed.
+
+Overall, I learned how measurements, parameters, constraints, tolerances, and 3D printing all work together when designing mating parts. I also learned that even a small change in dimensions can affect whether a snap fit is too tight, too loose, or fits correctly.
+
+## Resources
+
+- MEGR 2156/2157 Lab 6 assignment instructions
+- Creo Parametric – CAD modeling
+- PrusaSlicer – slicing and G-code preparation
+- Prusa CORE One – Printer #14
+- Digital calipers – artifact measurements
+- Analog joystick module – artifact
+- ChatGPT – assistance with portfolio documentation format
+
+## Time Spent
+
+| Task | Time |
+|---|---:|
+| Measuring and hand sketch | 20 min |
+| Planning and calculations | 20 min |
+| CAD modeling | 1 hr |
+| Slicing and print setup | 15 min |
+| 3D printing | 15 min |
+| Fit testing | 10 min |
+| Portfolio documentation | 1 hr |
+| **Total Time** | **3 hr 20 min** |
