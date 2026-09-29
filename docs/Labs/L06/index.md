@@ -114,6 +114,10 @@ The finished design has three flexible snap sections around the bottom and a rou
 
 After completing the model, I exported the part as an **STL file** to prepare it for 3D printing.
 
+### CAD Constraints
+
+I used dimensional and geometric constraints in Creo to fully define the important features of the design. Diameter, length, and angular dimensions controlled the size of the cap and snap-fit features. The three snap sections were positioned evenly around the cap using the **60° section angle** and **120° spacing**.
+
 ## 3D Printing Process
 
 After completing the CAD model, I exported the design as an STL file and imported it into PrusaSlicer to prepare it for printing.
@@ -148,9 +152,13 @@ I oriented the part with the rounded top on the build plate and the snap-fit sec
 
 ### Sliced Model
 
-After slicing, PrusaSlicer generated **40 layers** at a layer height of **0.20 mm**. The estimated print time was approximately **8 minutes**, and the print required approximately **1.95 g of PLA**.
+After slicing, PrusaSlicer generated **40 layers** at a layer height of **0.20 mm**. The estimated print time was approximately **8 minutes**, and the print required approximately **1.93 g of PLA**.
 
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/e22d144c-b63f-4799-8c17-e218932a9274" />
+
+### Supports
+
+No supports were required for the final print because the selected build orientation allowed the geometry to print successfully without them. Therefore, no support-removal tools were needed.
 
 ## Printing
 
@@ -182,6 +190,10 @@ The **20.6 mm inside diameter** and **0.30 mm clearance per side** provided enou
 </p>
 
 The final snap fit will also be demonstrated in class.
+
+### Parameter Changes
+
+The original parameter values did not need to be changed. The first printed version successfully snap fit onto the joystick, so no redesign or reprint was necessary.
 
 ## Lessons Learned
 
