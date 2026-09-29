@@ -156,7 +156,9 @@ After slicing, PrusaSlicer generated **40 layers** at a layer height of **0.20 m
 
 The final STL file was printed using a **Prusa CORE One** with PLA. The slicer estimated approximately 8 minutes, but the actual printing time was **14 minutes 47 seconds**. The printer reported approximately **2 g of PLA** used.
 
-![Completed Print video](YOUR-PRINTER-SCREEN-IMAGE)
+<video autoplay muted loop playsinline width="500">
+  <source src="/kaileigh-hill-lab-portfolio/Labs/L06/IMG_1460_converted.mp4" type="video/mp4">
+</video>
 
 ### Finished Part
 
