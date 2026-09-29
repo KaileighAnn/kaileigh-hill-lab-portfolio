@@ -162,7 +162,7 @@ No supports were required for the final print because the selected build orienta
 
 ## Printing
 
-The final STL file was printed using a **Prusa CORE One** with PLA. The slicer estimated approximately 8 minutes, but the actual printing time was **14 minutes 47 seconds**. The printer reported approximately **2 g of PLA** used.
+The final STL file was printed using **Prusa CORE One, Printer #14** with PLA. The slicer estimated approximately 8 minutes, but the actual printing time was **14 minutes 47 seconds**. The printer reported approximately **2 g of PLA** used.
 
 <video autoplay muted loop playsinline width="500">
   <source src="/kaileigh-hill-lab-portfolio/Labs/L06/IMG_1460_converted.mp4" type="video/mp4">
