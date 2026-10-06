@@ -187,6 +187,12 @@ The two claw halves were printed separately. The torsion spring and pivot pin we
 
 The parts were oriented to reduce unnecessary support material while maintaining the strength of the teeth and hinge features.
 
+<p align="center">
+  <video autoplay muted loop playsinline width="500">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L03/claw-clip-demo.mp4" type="video/mp4">
+  </video>
+</p>
+
 **Completed printed components.**
 
 *Insert print photo.*
