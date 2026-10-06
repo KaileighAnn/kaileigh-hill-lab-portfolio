@@ -228,5 +228,3 @@ The most important tolerance in this design was around the hinge and pivot pin b
 ### Tolerances
 
 The initial pivot clearance [worked/did not work] as intended. The joint __________ when assembled, showing that the clearance was [sufficient/too small/too large]. If I printed the mechanism again, I would change the clearance by approximately ___ mm to improve the fit.
-
-
