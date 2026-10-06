@@ -58,7 +58,11 @@ The clip was designed around this spring so that the existing hardware could be 
 
 **Figure 1. Original claw clip used as a reference.**
 
-*Insert original claw clip image.*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9bd6e99e-8525-426f-b5cf-10eda9728a2b" width="300">
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/553b4024-be3b-49d8-a345-51b6e6d732c1" width="300">
+</p>
 
 ### Components
 
@@ -141,7 +145,7 @@ The second claw half was modeled separately so its hinge features could interloc
 
 **Figure 14. Sliced Components**
 
-The two claw halves and pivot pin were exported as STL files and imported into PrusaSlicer. Supports were generated underneath the required overhanging regions. The complete print was estimated to take approximately **2 hours and 8 minutes** and use approximately **46.89 g of filament**.
+The two claw halves and pivot pin were exported as STL files and imported into PrusaSlicer. Supports were generated underneath the required overhanging regions. I also used **elephant foot compensation** to reduce the expansion of the first layer and improve the fit and dimensional accuracy of the printed parts. The complete print was estimated to take approximately **2 hours and 8 minutes** and use approximately **46.89 g of filament**.
 
 <img width="960" height="600" alt="l714" src="https://github.com/user-attachments/assets/a877d634-523b-40e6-b1a1-c7d2998eda33" />
 
@@ -218,3 +222,5 @@ The most important tolerance in this design was around the hinge and pivot pin b
 ### Tolerances
 
 The initial pivot clearance [worked/did not work] as intended. The joint __________ when assembled, showing that the clearance was [sufficient/too small/too large]. If I printed the mechanism again, I would change the clearance by approximately ___ mm to improve the fit.
+
+
