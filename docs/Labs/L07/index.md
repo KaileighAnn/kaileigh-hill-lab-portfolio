@@ -143,7 +143,7 @@ The second claw half was modeled separately so its hinge features could interloc
 
 <img width="960" height="600" alt="l713" src="https://github.com/user-attachments/assets/d16a5711-a640-482b-8261-82ab86ca286e" />
 
-**Figure 14. Sliced Components**
+**Figure 12. Sliced Components**
 
 The two claw halves and pivot pin were exported as STL files and imported into PrusaSlicer. Supports were generated underneath the required overhanging regions. I also used **elephant foot compensation** to reduce the expansion of the first layer and improve the fit and dimensional accuracy of the printed parts. The complete print was estimated to take approximately **2 hours and 8 minutes** and use approximately **46.89 g of filament**.
 
