@@ -189,7 +189,7 @@ The parts were oriented to reduce unnecessary support material while maintaining
 
 <p align="center">
   <video autoplay muted loop playsinline width="500">
-    <source src="https://github.com/KaileighAnn/kaileigh-hill-lab-portfolio/blob/main/docs/Labs/L07/claw-clip-demo.mp4" type="video/mp4">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L07/claw-clip-demo.mp4" type="video/mp4">
   </video>
 </p>
 
