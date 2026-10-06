@@ -224,7 +224,3 @@ My biggest mistake was not watching the printer closely when I first started the
 ### Tolerances
 
 The most important tolerance in this design was around the hinge and pivot pin because the two claw halves needed to rotate freely without being too loose. I included clearance between the moving components to account for the accuracy of FDM printing. The project showed me that even small changes in clearance can make a large difference in how well a printed mechanism fits and moves.
-
-### Tolerances
-
-The initial pivot clearance [worked/did not work] as intended. The joint __________ when assembled, showing that the clearance was [sufficient/too small/too large]. If I printed the mechanism again, I would change the clearance by approximately ___ mm to improve the fit.
