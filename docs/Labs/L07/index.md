@@ -193,19 +193,28 @@ The parts were oriented to reduce unnecessary support material while maintaining
   </video>
 </p>
 
-**Completed printed components.**
-
-*Insert print photo.*
+**Final Print Results**
 
 After printing, the parts were removed from the build plate and any support material was removed. The pivot holes and mating surfaces were checked before assembly.
+
+The printed claw halves were assembled using the reused torsion spring and metal pivot pin. The teeth interlocked when closed, but the clip was too thick and the spacing between the claws was too small to properly hold my hair. Visible layer lines and rough areas were present around the openings and tooth ends.
+
+<p align="center">
+  <img width="250" alt="Final print view 1" src="https://github.com/user-attachments/assets/dca2e74f-17ec-43bb-aad2-8784730b3491" />
+  &nbsp;&nbsp;
+  <img width="250" alt="Final print view 2" src="https://github.com/user-attachments/assets/5bd1358f-7355-430e-93e2-0a3733151512" />
+  <br><br>
+  <img width="250" alt="Final print view 3" src="https://github.com/user-attachments/assets/d3466e3b-f74a-46b7-b507-295ae63910a1" />
+  &nbsp;&nbsp;
+  <img width="250" alt="Final print view 4" src="https://github.com/user-attachments/assets/b2252f15-9ab2-43ab-8d44-bc349690d00f" />
+</p>
+
 
 ### Assembly
 
 The two printed claw halves were aligned at the hinge. The torsion spring was positioned between the halves and the metal pivot pin was inserted through the hinge and spring.
 
 **Figure 10. Final assembled claw clip.**
-
-*Insert final photo.*
 
 The handles were then squeezed to verify that the jaws opened freely and that the torsion spring returned the clip to its closed position.
 
@@ -224,3 +233,11 @@ My biggest mistake was not watching the printer closely when I first started the
 ### Tolerances
 
 The most important tolerance in this design was around the hinge and pivot pin because the two claw halves needed to rotate freely without being too loose. I included clearance between the moving components to account for the accuracy of FDM printing. The project showed me that even small changes in clearance can make a large difference in how well a printed mechanism fits and moves.
+
+**Design Improvements**
+
+I would make the entire clip much thinner and add more space between the claws so there would be enough room to hold my hair. I would also smooth the rough edges to help prevent snagging.
+
+**Conclusion**
+
+The final print demonstrated the assembled claw clip mechanism, but the design needs changes to function as a usable hair clip. This project taught me that fitting the moving parts together is only one part of making a functional product.
