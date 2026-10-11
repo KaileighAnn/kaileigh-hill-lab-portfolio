@@ -44,7 +44,7 @@ I chose a hair claw because it is a simple mechanism that performs a useful ever
 
 ### Initial Design
 
-I used an existing hair claw clip as a reference to understand how the pivot, spring, handles, and teeth work together. Instead of copying the original design, I created my own geometry and incorporated a daisy theme to make the final product unique.
+I used an existing hair claw clip as a reference to understand how the pivot, spring, handles, and teeth work together.
 
 I reused the torsion spring from an existing claw clip. Initial measurements of the spring were:
 
@@ -166,10 +166,6 @@ I considered creating a flexible printed spring or reusing the torsion spring fr
 **2. Thin teeth vs. thicker teeth**
 
 I considered using many thin teeth similar to the original clip or fewer, thicker teeth. I chose thicker teeth because they are easier to print and less likely to break while still providing enough gripping points for the clip.
-
-**3. Standard body vs. decorative body**
-
-A plain rectangular claw would have been the simplest option, but it would not make the design very unique. I chose to incorporate a daisy theme while keeping the basic mechanical geometry simple. This allowed the final design to be more personalized without significantly increasing print difficulty.
 
 ---
 
