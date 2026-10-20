@@ -95,22 +95,18 @@ I imported my completed model into PrusaSlicer and prepared it for printing usin
 
 <img width="960" height="600" alt="Screenshot 2026-10-19 200550" src="https://github.com/user-attachments/assets/604afb2d-b5bd-46ed-b9ff-bc8c142bb36e" />
 
+
 ### Printing Settings
 
 | Setting | Value |
 |---|---|
 | Printer | #7 |
 | Slicer | PrusaSlicer |
-| Material | To be confirmed |
-| Layer Height | 0.20 mm selected profile |
-| Wall Thickness | To be recorded |
-| Infill | To be recorded |
-| Raft | To be confirmed |
-| Supports | For support enforcers only (selected) |
-| Number of Layers | To be recorded |
-| Build Volume | To be recorded |
-| Estimated Print Time | To be recorded |
-| Filament Used | To be recorded |
+| Layer Height | 0.20 mm |
+| Supports | Support enforcers only |
+| Build Orientation | Flat on build plate |
+| Print Time | 4 minutes |
+
 
 ### Build Orientation and Layout
 
