@@ -131,8 +131,9 @@ I used PrusaSlicer to position the model and review the printing configuration b
 The following video documents the 3D printing process.
 
 <video autoplay muted loop playsinline width="500">
-  <source src="/kaileigh-hill-lab-portfolio/Labs/L05/IMG_1908.mp4" type="video/mp4">
+  <source src="/kaileigh-hill-lab-portfolio/Labs/L08/IMG_1908.mp4" type="video/mp4">
 </video>
+
 ### Final Printed Part
 
 After printing, I will inspect the finished keychain and determine whether the dimensions, keyring hole, and overall shape function as intended.
