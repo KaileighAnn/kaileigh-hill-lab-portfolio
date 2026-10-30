@@ -113,9 +113,11 @@ This testing helped us select a connection that would keep the flower stable wit
 |---|---|---|---|---|
 | Material Thickness | 2.690 | mm | Measured | Material and tab thickness |
 | Kerf | 1.055 (pending verification) | mm | Calculated from measurements | Laser cutting allowance |
-| Clearance | TBD | mm | Fit testing | Joint fit |
-| Slot Width | TBD | mm | Calculated | Slot dimensions |
-| Additional Parameters | TBD | TBD | Chosen | Final design dimensions |
+| Clearance | -0.090 (nominal) | mm | Calculated | Interference between tab and slot |
+| Slot Width | 2.60 | mm | Selected from fit testing | Press-fit connections |
+| Additional Parameters | TBD | TBD | SolidWorks model | Final flower dimensions |
+
+Our team selected a 2.60 mm slot width based on the fit testing results. Compared to the measured material thickness of 2.690 mm, this creates a nominal interference of 0.090 mm. We chose a tighter press fit to reduce movement and keep the flower securely assembled without glue or tape.
 
 ### Parametric CAD Design
 
