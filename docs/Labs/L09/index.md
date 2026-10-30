@@ -1,4 +1,3 @@
-
 # Laser Cutting Lab: Parametric Construction Kit
 
 ## Objective
@@ -15,9 +14,20 @@ The objective of this lab is to design, manufacture, and assemble a parametric c
 
 ### Design Concept
 
-Our team is exploring different design concepts for a laser-cut construction kit. Our goal is to create something functional, visually impressive, and assembled using interlocking connections without glue or tape.
+Our team explored different design concepts for a laser-cut construction kit before deciding to design and manufacture a three-dimensional flower using laser-cut plywood. Our goal was to create something functional and visually appealing that demonstrated how flat, two-dimensional pieces could be assembled into a three-dimensional structure using interlocking connections without glue or tape.
 
-We will select our final design after considering the assembly process, material thickness, and laser-cutting limitations.
+The flower consists of 16 total pieces and 6 unique part types:
+
+- 2 different circular base pieces
+- 2 different stem pieces
+- 2 identical leaves
+- 1 petal base hub
+- 1 petal hub cap
+- 8 identical petals
+
+The design uses press-fit connections to assemble the flower without glue, tape, or additional fasteners. The individual components were designed in SolidWorks and arranged for laser cutting.
+
+Our main design considerations were material thickness, laser kerf, connection clearances, and ensuring that the assembled flower would remain stable. The goal was to create a functional assembly while demonstrating the importance of accurate measurements and parametric design.
 
 ### Material Thickness
 
@@ -65,66 +75,37 @@ The measured kerf values were very similar in both directions, with a difference
 
 The square coupon was cut from our plywood sheet to determine how much material was removed during laser cutting.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Insert square coupon photo here -->
+<img width="242" height="263" alt="image" src="https://github.com/user-attachments/assets/87213f0e-26d6-4598-8a2a-721210c0b275" />
 
 *Figure 2: Laser-cut square coupon and the remaining plywood sheet.*
 
+
 ### Fit Testing and Clearance Selection
 
-After measuring the laser kerf, our team laser cut a test coupon to evaluate different slot clearances. The coupon contains five slots and a separate test piece to help determine which connection provides the best fit.
+After measuring the laser kerf, our team laser cut a test coupon with five different slot widths to determine which connection would provide the best fit. Each slot was tested using a separate plywood piece to compare how tightly the parts connected.
 
-The purpose of this test is to compare the connections and select a clearance that holds securely without requiring excessive force during assembly.
+<img width="350" alt="Fit Test Coupon" src="https://github.com/user-attachments/assets/082d86ae-ffd5-49b5-9a84-cf8f0a93f904" />
 
-<img width="1152" height="1536" alt="Fit Test Coupon" src="https://github.com/user-attachments/assets/082d86ae-ffd5-49b5-9a84-cf8f0a93f904" />
+*Figure 3: Laser-cut clearance test coupon with five different slot widths.*
 
-*Figure 3: Laser-cut clearance test coupon with five slots and a separate test piece.*
-
-| Slot | Clearance (mm) | Fit Result |
+| Slot | Slot Width (mm) | Fit Result |
 |---|---|---|
-| 1 | TBD | TBD |
-| 2 | TBD | TBD |
-| 3 | TBD | TBD |
-| 4 | TBD | TBD |
-| 5 | TBD | TBD |
+| 1 | 2.45 | Too tight in both directions |
+| 2 | 2.60 | Too tight in both directions |
+| 3 | 2.75 | Too loose |
+| 4 | 2.90 | Too loose |
+| 5 | 3.05 | Too loose |
 
 #### Fit Test Results
 
-Our team tested the laser-cut tab and slot connections to evaluate the fit between the pieces. The test coupon allowed us to compare different slot widths before selecting the final clearance.
+Our team found that the smaller slot widths created tighter connections, while the larger slots allowed too much movement between the pieces. We decided to use a tighter press fit for our final flower design to prevent the parts from moving or coming apart during assembly.
 
-<!-- Insert assembled fit test photo here -->
+<img width="242" alt="Fit Test Results" src="https://github.com/user-attachments/assets/e1cf76bb-5f1d-4269-85c6-354b0923ed00" />
 
-*Figure 4: Testing the tab and slot connection using the laser-cut coupon.*
+*Figure 4: Testing the tab and slot connections using the laser-cut coupon.*
 
-The final clearance will be selected based on the fit test results and used as a parameter in our final CAD model.
+This testing helped us select a connection that would keep the flower stable without requiring glue, tape, or additional fasteners.
+
 
 ### Parameter Table
 
