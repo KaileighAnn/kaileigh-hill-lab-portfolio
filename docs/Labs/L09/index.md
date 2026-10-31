@@ -1,25 +1,3 @@
-
-### Laser Cutting Process
-
-<div style="display: flex; gap: 10px; justify-content: center; align-items: center; width: 100%;">
-
-  <video style="width: 32%;" autoplay muted loop playsinline>
-    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2106.mp4" type="video/mp4">
-  </video>
-
-  <video style="width: 32%;" autoplay muted loop playsinline>
-    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2107.mp4" type="video/mp4">
-  </video>
-
-  <video style="width: 32%;" autoplay muted loop playsinline>
-    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2111.mp4" type="video/mp4">
-  </video>
-
-</div>
-
-*Figure: Laser cutting process showing the manufacturing of the flower components.*
-
-
 # Laser Cutting Lab: Parametric Construction Kit
 
 ## Objective
@@ -91,7 +69,7 @@ The kerf was calculated by subtracting the measured dimensions from the original
 - Kerf Y = 20.00 - 18.95 = 1.05 mm
 - Average Kerf = (1.06 + 1.05) / 2 = 1.055 mm
 
-The measured kerf values were very similar in both directions, with a difference of only 0.01 mm. We will verify the original square dimensions and cutting scale before using this value in our final CAD model.
+The measured kerf values were very similar in both directions, with a difference of only 0.01 mm. 
 
 #### Kerf Test Coupon
 
@@ -100,7 +78,6 @@ The square coupon was cut from our plywood sheet to determine how much material 
 <img width="242" height="263" alt="image" src="https://github.com/user-attachments/assets/87213f0e-26d6-4598-8a2a-721210c0b275" />
 
 *Figure 2: Laser-cut square coupon and the remaining plywood sheet.*
-
 
 ### Fit Testing and Clearance Selection
 
@@ -128,7 +105,6 @@ Our team found that the smaller slot widths created tighter connections, while t
 
 This testing helped us select a connection that would keep the flower stable without requiring glue, tape, or additional fasteners.
 
-
 ### Parameter Table
 
 | Variable Name | Value | Units | Source | What It Controls |
@@ -140,7 +116,6 @@ This testing helped us select a connection that would keep the flower stable wit
 | Additional Parameters | TBD | TBD | SolidWorks model | Final flower dimensions |
 
 Our team selected a 2.60 mm slot width based on the fit testing results. Compared to the measured material thickness of 2.690 mm, this creates a nominal interference of 0.090 mm. We chose a tighter press fit to reduce movement and keep the flower securely assembled without glue or tape.
-
 
 ### Parametric CAD Design
 
@@ -210,7 +185,7 @@ The final flower consists of 16 individual laser-cut plywood pieces assembled us
 
 This design demonstrates how multiple flat components can be combined to create a three-dimensional structure without glue or additional fasteners.
 
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/3e7af856-2eb7-4276-a34f-5d626a3cd839" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/3e7af856-2eb7-4276-a34f-5d626a3cd839" />
 
 *Figure 13: Final assembled laser-cut plywood flower.*
 
@@ -220,24 +195,22 @@ This design demonstrates how multiple flat components can be combined to create 
 
 Laser cutting is a manufacturing process that uses a focused laser beam to cut through material along a programmed path. It is useful for producing accurate two-dimensional shapes, including tabs, slots, and other interlocking features.
 
-Compared with FDM 3D printing, laser cutting can be faster for producing flat parts because it does not require building the object layer by layer. However, laser cutting is limited mainly to sheet materials, while FDM printing can produce more complex three-dimensional shapes. Laser cutting is a good manufacturing method for our construction kit because the individual parts can be cut from a flat sheet and assembled afterward.
+Compared with FDM 3D printing, laser cutting can be faster for producing flat parts because it does not require building the object layer by layer. However, laser cutting is limited mainly to sheet materials, while FDM printing can produce more complex three-dimensional shapes. Laser cutting was a good manufacturing method for our flower because the individual parts could be cut from a flat sheet and assembled afterward.
 
 ### Laser Cutting Setup
 
-Our team used an Epilog laser cutter to cut the test coupons from a 12 × 12 inch plywood sheet. We positioned the material on the laser bed and arranged the test pieces near the edge of the sheet to conserve material for the final construction kit.
+Our team used an Epilog laser cutter to manufacture our three-dimensional flower from plywood. We started by cutting a kerf test coupon and a five-slot fit test coupon to determine the appropriate dimensions for our press-fit connections. After testing the pieces, we selected a tighter fit to prevent movement in the final assembly.
 
-<!-- Insert laser cutter setup photo here -->
-
-*Figure 5: Plywood sheet positioned inside the Epilog laser cutter before cutting.*
+The plywood was positioned on the laser bed, and the cutting layouts were arranged to reduce material waste.
 
 ### Laser Process Record
 
 | Setting | Kerf Coupon | Fit Coupon | Final Cut |
 |---|---|---|---|
-| Laser Cutter | Epilog | Epilog | TBD |
-| Material Type | Plywood | Plywood | TBD |
+| Laser Cutter | Epilog | Epilog | Epilog |
+| Material Type | Plywood | Plywood | Plywood |
 | Nominal Thickness | TBD | TBD | TBD |
-| Measured Thickness (Mean) | 2.690 mm | 2.690 mm | TBD |
+| Measured Thickness (Mean) | 2.690 mm | 2.690 mm | 2.690 mm |
 | Speed | TBD | TBD | TBD |
 | Power | TBD | TBD | TBD |
 | Frequency/PPI | TBD | TBD | TBD |
@@ -248,17 +221,37 @@ Our team used an Epilog laser cutter to cut the test coupons from a 12 × 12 inc
 
 ### Laser Cutting and Assembly
 
-Our team completed the initial kerf and clearance test cuts. These tests will help us determine the correct dimensions before manufacturing the final construction kit.
+After completing the kerf and clearance tests, our team laser cut the individual components for our three-dimensional flower. The final design consisted of 16 pieces, including two circular bases, two interlocking stem pieces, two leaves, eight petals, a petal hub, and a hub cover.
 
-The final cutting process, assembly, and results will be documented after the design is completed.
+The pieces were assembled using press-fit connections without glue or tape. We selected tighter connections to help keep the flower stable and prevent movement between the parts.
 
-<!-- Insert continuous laser cutting video here -->
+### Laser Cutting Process
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; width: 100%;">
+
+  <video style="width: 32%;" autoplay muted loop playsinline>
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2106.mp4" type="video/mp4">
+  </video>
+
+  <video style="width: 32%;" autoplay muted loop playsinline>
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2107.mp4" type="video/mp4">
+  </video>
+
+  <video style="width: 32%;" autoplay muted loop playsinline>
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2111.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+*Figure: Laser cutting process showing the manufacturing of the flower components.*
 
 ### Layout and Nesting
 
-The initial test coupons were placed near the edge of the plywood sheet to reduce material waste and preserve space for the remaining parts.
+Our team arranged the individual components on the plywood sheet before laser cutting. The initial test coupons were positioned near the edge of the material to conserve space for the final design.
 
-The final nesting layout will be documented after the construction kit is designed.
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/94ff28bf-102f-4f4d-ab06-c19d3fcee0eb" />
+
+*Figure: Layout of the flower components after removed from laser cutting.*
 
 ### Edge Quality and Cutting Observations
 
