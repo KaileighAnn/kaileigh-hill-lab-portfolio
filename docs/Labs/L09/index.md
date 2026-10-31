@@ -117,6 +117,12 @@ This testing helped us select a connection that would keep the flower stable wit
 
 Our team selected a 2.60 mm slot width based on the fit testing results. Compared to the measured material thickness of 2.690 mm, this creates a nominal interference of 0.090 mm. We chose a tighter press fit to reduce movement and keep the flower securely assembled without glue or tape.
 
+### Parametric Design Explanation
+
+Our flower was designed in SolidWorks using dimensions based on the measured plywood thickness of 2.690 mm. We selected a 2.60 mm slot width based on our fit testing, creating a nominal interference of 0.090 mm. These dimensions were important because they controlled how tightly the individual pieces connected.
+
+If we needed to use a different material thickness, we could adjust the slot dimensions in SolidWorks to maintain the desired fit. For example, increasing the material thickness to 2.790 mm would require a slot width of approximately 2.70 mm to maintain the same nominal interference. This demonstrates how the dimensions of our design could be adjusted for different materials.
+
 ### Parametric CAD Design
 
 Our team designed eight unique parts in SolidWorks, resulting in a total of 16 individual pieces used to assemble the three-dimensional flower. Each component was designed separately with interlocking connections to allow the flower to be assembled without glue, tape, or additional fasteners.
@@ -189,6 +195,12 @@ This design demonstrates how multiple flat components can be combined to create 
 
 *Figure 13: Final assembled laser-cut plywood flower.*
 
+After assembling the flower, we also decided to use highlighters to add some color to the wooden pieces and make the final design more colorful and visually appealing.
+
+<img width="3024" height="4032" alt="IMG_2129" src="https://github.com/user-attachments/assets/7aa94ff7-a5b0-4c21-a22f-69f0124854d2" />
+
+*Figure 14: Final assembled laser-cut plywood flower with highlighter coloring added to the wooden pieces to improve its overall appearance.*
+
 ## Manufacturing
 
 ### Process Research
@@ -232,6 +244,11 @@ After completing the kerf and clearance tests, our team laser cut the individual
 
 The pieces were assembled using press-fit connections without glue or tape. We selected tighter connections to help keep the flower stable and prevent movement between the parts.
 
+<img width="771" height="131" alt="image (1)" src="https://github.com/user-attachments/assets/bc187124-143d-4a33-b815-160594b8a430" />
+
+*Figure 15: Epilog Laser Job Manager screenshot showing the speed, power, and frequency settings used to laser cut the plywood flower components.*
+
+
 ### Laser Cutting Process
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; width: 100%;">
@@ -258,7 +275,7 @@ Our team arranged the individual components on the plywood sheet before laser cu
 
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/94ff28bf-102f-4f4d-ab06-c19d3fcee0eb" />
 
-*Figure: Layout of the flower components after removed from laser cutting.*
+*Figure 15: Layout of the flower components after removed from laser cutting.*
 
 
 ### Edge Quality and Cutting Observations
@@ -266,7 +283,6 @@ Our team arranged the individual components on the plywood sheet before laser cu
 After laser cutting, we noticed darkened edges on the plywood where the laser had passed through the material. The pieces were cut into their individual shapes and assembled using press-fit connections. Our earlier clearance testing helped us choose tighter connections to keep the flower stable without glue or tape.
 
 ## Lessons Learned
-
 
 ### Process Log
 
