@@ -1,26 +1,23 @@
 
 ### Laser Cutting Process
 
-<div style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+<div style="display: flex; gap: 10px; justify-content: center; width: 100%;">
 
-  <video width="32%" autoplay muted loop playsinline>
+  <video width="30%" controls autoplay muted loop playsinline>
     <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2106.MOV" type="video/quicktime">
   </video>
 
-  <video width="32%" autoplay muted loop playsinline>
+  <video width="30%" controls autoplay muted loop playsinline>
     <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2107.MOV" type="video/quicktime">
   </video>
 
-  <video width="32%" autoplay muted loop playsinline>
+  <video width="30%" controls autoplay muted loop playsinline>
     <source src="/kaileigh-hill-lab-portfolio/Labs/L09/IMG_2111.MOV" type="video/quicktime">
   </video>
 
 </div>
 
 *Figure: Laser cutting process showing the manufacturing of the flower components.*
-
-
-
 
 
 
