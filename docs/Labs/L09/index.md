@@ -205,19 +205,26 @@ The plywood was positioned on the laser bed, and the cutting layouts were arrang
 
 ### Laser Process Record
 
-| Setting | Kerf Coupon | Fit Coupon | Final Cut |
-|---|---|---|---|
-| Laser Cutter | Epilog | Epilog | Epilog |
-| Material Type | Plywood | Plywood | Plywood |
-| Nominal Thickness | TBD | TBD | TBD |
-| Measured Thickness (Mean) | 2.690 mm | 2.690 mm | 2.690 mm |
-| Speed | TBD | TBD | TBD |
-| Power | TBD | TBD | TBD |
-| Frequency/PPI | TBD | TBD | TBD |
-| Number of Passes | TBD | TBD | TBD |
-| Focus Method and Confirmation | TBD | TBD | TBD |
-| Air Assist On? Exhaust On? | TBD | TBD | TBD |
-| Origin and Alignment | TBD | TBD | TBD |
+Our team used an Epilog CO₂ laser cutter to manufacture our plywood flower. The cutting settings were obtained from the laser cutter's Job Manager print history on October 27, 2026.
+
+| Setting | Value |
+|---|---|
+| Laser Cutter | Epilog CO₂ Laser |
+| Material | Plywood |
+| Material Preset | 3 mm |
+| Measured Material Thickness | 2.690 mm |
+| Vector Cutting Speed | 20% |
+| Vector Cutting Power | 100% |
+| Vector Frequency Setting | 20% |
+| Engraving Speed | 50% |
+| Engraving Power | 100% |
+| Cutting Method | CO₂ Vector Cutting |
+| Cutting Date | October 27, 2026 |
+| Cutting Time | 12:34 PM |
+
+The laser cutter was programmed using a 3 mm material preset, although our measured plywood thickness was 2.690 mm. The vector cutting settings were 20% speed, 100% power, and a 20% frequency setting. The engraving settings were 50% speed and 100% power.
+
+These settings were used to manufacture the individual components that were later assembled into our three-dimensional flower.
 
 ### Laser Cutting and Assembly
 
@@ -253,29 +260,36 @@ Our team arranged the individual components on the plywood sheet before laser cu
 
 *Figure: Layout of the flower components after removed from laser cutting.*
 
+
 ### Edge Quality and Cutting Observations
 
-The test pieces show darkened edges from the laser cutting process. We will document any soot, charring, or other cutting issues and describe any adjustments made to improve the final parts.
-
-Air assist and exhaust observations will be added after confirming the machine settings.
+After laser cutting, we noticed darkened edges on the plywood where the laser had passed through the material. The pieces were cut into their individual shapes and assembled using press-fit connections. Our earlier clearance testing helped us choose tighter connections to keep the flower stable without glue or tape.
 
 ## Lessons Learned
 
+
 ### Process Log
 
-| Date and Time | Time Spent | Step | What Happened | Decision or Change Made |
-|---|---|---|---|---|
-| TBD | TBD | Material Measurement | Measured plywood thickness at three locations | Used 2.690 mm as the average thickness |
-| TBD | TBD | Kerf Testing | Cut and measured a 20 mm square coupon | Calculated 1.055 mm average kerf; verification pending |
-| TBD | TBD | Fit Testing | Cut a five-slot test coupon and tested a separate piece | Final clearance selection pending |
-| TBD | TBD | Design | TBD | TBD |
-| TBD | TBD | Final Manufacturing | TBD | TBD |
+| Step | What Happened | Decision or Change Made |
+|---|---|---|
+| Material Measurement | Measured plywood thickness at three locations | Used the 2.690 mm average thickness |
+| Kerf Testing | Cut and measured a 20 mm square coupon | Calculated a 1.055 mm average dimensional difference |
+| Fit Testing | Tested five different slot widths | Selected 2.60 mm for a tighter press fit |
+| Design | Designed eight unique parts in SolidWorks | Created 16 total pieces for the flower |
+| Laser Cutting | Cut the flower components using the Epilog laser cutter | Corrected overlapping petal designs that caused multiple laser passes |
+| Troubleshooting | The leaves were too loose during assembly | Recut the leaves multiple times and adjusted the connections |
+| Final Assembly | Assembled the flower using the laser-cut plywood pieces | Completed the flower without glue, tape, or additional fasteners |
 
-**Total Time Spent:** TBD
 
 ### Mistakes and Troubleshooting
 
-To be completed as the project progresses.
+One challenge was determining the correct clearance for the press-fit connections. During testing, we found that the smaller slots were too tight, while the larger slots allowed too much movement. We decided to use a 2.60 mm slot width to create tighter connections and keep the flower stable.
+
+While laser cutting the petals, we accidentally had the designs copied directly on top of each other in the cutting file. This caused the laser to make multiple passes over the same pieces instead of cutting them once. We corrected the overlapping designs to prevent unnecessary cutting.
+
+We also had to recut the leaves multiple times because the original connections were too loose. We adjusted the connection dimensions to create a tighter fit so the leaves would stay securely attached to the stem.
+
+Overall, these mistakes showed us how important it is to check the cutting layout and test the connections before manufacturing the final pieces.
 
 ### Resources Used
 
@@ -284,27 +298,43 @@ To be completed as the project progresses.
 | Material | Plywood |
 | Sheet Size | 12 × 12 in |
 | Average Material Thickness | 2.690 mm |
-| Number of Sheets | TBD |
-| Laser Cutter | Epilog |
-| Measurement Tool | Calipers |
-| CAD Software | TBD |
-| Assembly Tools | TBD |
-| Consumables and Cleanup Tools | TBD |
+| Laser Cutter | Epilog CO₂ Laser |
+| Measurement Tool | Digital Calipers |
+| CAD Software | SolidWorks |
+| Assembly Method | Press-fit tabs and slots |
+| Additional Fasteners | None |
+| Adhesives | None |
 
 ### Reflection
 
 **1. Where did your measured values differ from what you assumed?**
 
-To be completed after verifying the kerf measurements and final dimensions.
+The plywood measured an average thickness of 2.690 mm, which was slightly smaller than the 3 mm material preset. We also found that different slot widths created very different fits, showing why testing the actual material was important.
 
 **2. How does Taguchi's quality loss function relate to a joint that works but is not on target?**
 
-To be completed after testing the final connections.
+Taguchi's quality loss function shows that even if a joint works, it can still lose quality when it differs from the intended dimensions. A connection that is too tight or too loose may still assemble, but it can affect the stability and overall quality of the flower.
 
 **3. What real product uses cut sheet parts joined by tabs and slots?**
 
-To be completed.
+Flat-pack furniture is a good example because individual panels are cut separately and assembled using interlocking connections. Our flower uses a similar idea by combining flat pieces into a three-dimensional structure.
 
 **4. If you had one more cut, what would you change and why?**
 
-To be completed after the final assembly.
+If we had one more cut, I would focus on improving the fit between the stem, base, and flower head. Small adjustments to the connection dimensions could make the flower easier to assemble while still keeping the parts securely connected.
+
+### Total Time Spent
+
+Our team spent approximately 4 hours completing the laser cutting lab, from 9:00 AM to 1:00 PM. This included measuring the material, testing clearances, designing the flower, laser cutting, troubleshooting, and assembling the final product.
+
+| Task | Time Spent |
+|---|---|
+| Material Measurement | 15 minutes |
+| Kerf and Fit Testing | 30 minutes |
+| SolidWorks Design | 1 hour 15 minutes |
+| Laser Cutting | 45 minutes |
+| Troubleshooting and Recutting | 45 minutes |
+| Final Assembly | 30 minutes |
+| **Total Time Spent** | **4 hours** |
+
+Overall, the most time-consuming parts were designing the individual components in SolidWorks and making adjustments during manufacturing. The additional cutting and troubleshooting helped us improve the fit and stability of the final flower.
