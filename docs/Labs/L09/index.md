@@ -275,7 +275,7 @@ Our team arranged the individual components on the plywood sheet before laser cu
 
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/94ff28bf-102f-4f4d-ab06-c19d3fcee0eb" />
 
-*Figure 15: Layout of the flower components after removed from laser cutting.*
+*Figure 16: Layout of the flower components after removed from laser cutting.*
 
 
 ### Edge Quality and Cutting Observations
