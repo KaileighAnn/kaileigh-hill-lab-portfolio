@@ -16,7 +16,7 @@ The objective of this lab is to design, manufacture, and assemble a parametric c
 
 Our team explored different design concepts for a laser-cut construction kit before deciding to design and manufacture a three-dimensional flower using laser-cut plywood. Our goal was to create something functional and visually appealing that demonstrated how flat, two-dimensional pieces could be assembled into a three-dimensional structure using interlocking connections without glue or tape.
 
-The flower consists of 16 total pieces and 6 unique part types:
+The flower consists of 16 total pieces and 8 unique part types:
 
 - 2 different circular base pieces
 - 2 different stem pieces
@@ -40,7 +40,7 @@ Before beginning the design, our team measured the material thickness using digi
 | Location 3 | 2.70 |
 | **Average Thickness** | **2.690** |
 
-The average material thickness was 2.690 mm. This value will be used as a parameter in our CAD model to help ensure accurate connections between parts.
+The average material thickness was 2.690 mm. This value was used as a reference when designing the connections.
 
 #### Material Thickness Measurement
 
