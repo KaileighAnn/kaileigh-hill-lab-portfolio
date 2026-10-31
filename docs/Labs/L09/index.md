@@ -282,6 +282,12 @@ Our team arranged the individual components on the plywood sheet before laser cu
 
 After laser cutting, we noticed darkened edges on the plywood where the laser had passed through the material. The pieces were cut into their individual shapes and assembled using press-fit connections. Our earlier clearance testing helped us choose tighter connections to keep the flower stable without glue or tape.
 
+### Air Assist and Exhaust Observations
+
+During laser cutting, the air assist was turned on and the exhaust was open to help remove smoke and debris from the cutting area. The air assist helped keep the cutting area clear, while the exhaust helped remove smoke produced when cutting the plywood.
+
+We noticed some darkening and burn marks along the edges of the wooden pieces, even with both systems operating. Overall, the air assist and exhaust helped maintain a cleaner cutting environment throughout the manufacturing process.
+
 ## Lessons Learned
 
 ### Process Log
