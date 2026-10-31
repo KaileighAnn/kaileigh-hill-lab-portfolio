@@ -1,3 +1,9 @@
+
+
+
+
+
+
 # Laser Cutting Lab: Parametric Construction Kit
 
 ## Objective
@@ -119,13 +125,78 @@ This testing helped us select a connection that would keep the flower stable wit
 
 Our team selected a 2.60 mm slot width based on the fit testing results. Compared to the measured material thickness of 2.690 mm, this creates a nominal interference of 0.090 mm. We chose a tighter press fit to reduce movement and keep the flower securely assembled without glue or tape.
 
+
 ### Parametric CAD Design
 
-To be completed after selecting the final design and clearance.
+Our team designed eight unique parts in SolidWorks, resulting in a total of 16 individual pieces used to assemble the three-dimensional flower. Each component was designed separately with interlocking connections to allow the flower to be assembled without glue, tape, or additional fasteners.
 
-We will use parameters to control the material thickness, kerf, clearance, and important dimensions. This will allow the model to update when a variable is changed.
+The main design considerations were material thickness, press-fit clearances, stability, and ensuring that all the pieces could be laser cut from a flat sheet of plywood.
 
-<!-- Insert CAD screenshots and before/after parameter changes here -->
+#### Leaf Design
+
+We designed two identical leaves to add detail to the flower. Each leaf has a decorative shape with vein details and a tab at the bottom for attaching it to the stem. The tab allows the leaves to connect using a press fit.
+
+<img width="1918" height="1128" alt="image" src="https://github.com/user-attachments/assets/c34dda93-7f1e-4d66-9587-feaed0db3505" />
+
+*Figure 5: SolidWorks model of the leaf showing the decorative shape and connection tab.*
+
+#### Petal Design
+
+We designed eight identical petals to create the flower head. Each petal has a rounded shape with two tabs at the bottom that connect to the center hub. The press-fit connections help keep the petals securely in place and evenly positioned around the flower.
+
+<img width="1917" height="1129" alt="image" src="https://github.com/user-attachments/assets/78cc5937-d178-4452-9bce-b635abc5c352" />
+
+*Figure 6: SolidWorks sketch of the flower petal showing its rounded profile and connection tabs.*
+
+#### Petal Hub Design
+
+The petal hub was designed as a circular piece with eight connection locations around the outside for attaching the petals. A cross-shaped opening in the center allows the hub to connect to the interlocking stem pieces. This design helps position the petals evenly around the flower head.
+
+<img width="1914" height="1131" alt="image" src="https://github.com/user-attachments/assets/0b212af7-ea1b-401b-8d41-e8dd5dba0763" />
+
+*Figure 7: SolidWorks model of the petal hub showing the petal slots and center opening.*
+
+#### Stem Design
+
+We designed two different stem pieces that interlock to create a cross-shaped vertical support for the flower. One stem has a slot extending from the bottom, while the other has a slot extending from the top, allowing them to slide together. Both pieces also have connection tabs for attaching the base and flower head.
+
+<img width="1918" height="1129" alt="image" src="https://github.com/user-attachments/assets/4c87c42a-ddf0-4135-9742-034f90d62bb2" />
+
+*Figure 8: SolidWorks model of Stem Part 1 showing the bottom slot and connection tabs.*
+
+<img width="1918" height="1123" alt="image" src="https://github.com/user-attachments/assets/2b26e2a2-35df-4ce0-9dfb-07f0d7df4f5c" />
+
+*Figure 9: SolidWorks model of Stem Part 2 showing the top slot and connection tabs.*
+
+#### Base Design
+
+We designed two different-sized circular bases to support the flower and keep it standing upright. Both bases have cross-shaped openings in the center that connect to the interlocking stem pieces. The larger base provides additional stability, while the smaller base helps support the stem. We also adjusted the openings to create tighter connections and reduce movement.
+
+<img width="1918" height="1123" alt="image" src="https://github.com/user-attachments/assets/f935e332-38d8-42df-a685-fc27850700e4" />
+
+*Figure 10: SolidWorks model of the smaller circular base.*
+
+<img width="1918" height="1110" alt="image" src="https://github.com/user-attachments/assets/de94c625-b0bf-456d-a52c-c192242398be" />
+
+*Figure 11: SolidWorks model of the larger circular base.*
+
+#### Hub Cover Design
+
+The final component was a circular hub cover designed to hold the petal hub securely in place on the stem. The cover has a square opening in the center that fits over the stem connection. This helps prevent the flower head from moving or sliding off during assembly.
+
+<img width="1918" height="1105" alt="image" src="https://github.com/user-attachments/assets/0e948226-84ec-482e-af12-1a60b5b3d9df" />
+
+*Figure 12: SolidWorks model of the hub cover showing the center opening.*
+
+#### Final Assembly
+
+The final flower consists of 16 individual laser-cut plywood pieces assembled using press-fit connections. The two stem pieces interlock to create the vertical support, while the circular bases help keep the flower standing upright. The leaves attach to the stem, and the eight petals connect to the circular petal hub. The hub cover helps secure the flower head in place.
+
+This design demonstrates how multiple flat components can be combined to create a three-dimensional structure without glue or additional fasteners.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/3e7af856-2eb7-4276-a34f-5d626a3cd839" />
+
+*Figure 13: Final assembled laser-cut plywood flower.*
 
 ## Manufacturing
 
