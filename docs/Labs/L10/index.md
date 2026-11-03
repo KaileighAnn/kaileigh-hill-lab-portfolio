@@ -293,7 +293,7 @@ After removing the build platform from the printer, I moved it to the scrape sta
 
 Next, I placed the printed components in the wash tank to remove any remaining uncured resin. This was especially important for cleaning the smaller features, including the spiral groove and guide pin.
 
-![Figure 29](PASTE_WASH_TANK_IMAGE_LINK_HERE)
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/613f7b9e-57ce-4694-bb2b-a09ce9c1c200" />
 
 *Figure 24: SLA printed components inside the wash tank to remove uncured resin.*
 
