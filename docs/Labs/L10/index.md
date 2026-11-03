@@ -1,4 +1,3 @@
-
 # L10 - SLA Printing Lab: Twist-Up Lipstick Container
 
 ## Objective
@@ -62,6 +61,314 @@ According to Formlabs, post-curing can cause additional resin shrinkage as the m
 This is important because my sliding interface has a very small clearance, and dimensional changes could cause the guide pin to bind inside the spiral slot.
 
 The amount of shrinkage depends on the resin, printer, and curing conditions. I will research the specific material properties once the resin used for this lab is confirmed.
+
+
+## CAD Design and Modeling
+
+The twist-up lipstick container was designed in SolidWorks as a three-part assembly consisting of the outer body, spiral sleeve, and lipstick holder. Each component was modeled separately and then combined into an assembly to create the twist-up mechanism. The design allows the lipstick holder to move vertically as the spiral sleeve rotates, while the outer body keeps the holder aligned.
+
+### Part 1: Outer Body
+
+The outer body was designed to hold the internal components and guide the vertical movement of the lipstick holder.
+
+I started by creating a cylinder using the Extruded Boss/Base feature with a diameter of 22.00 mm and a height of 50.00 mm.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e746f10a-6d67-4bf8-8133-fbe3495b27b1" />
+
+*Figure 2: Initial cylinder created using the Extruded Boss/Base feature.*
+
+Next, I used the Shell feature with a wall thickness of 2.00 mm to hollow out the cylinder and create space for the internal components.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9ec004ab-fc56-4e34-8eed-f0a82745da17" />
+
+*Figure 3: Shell feature used to hollow out the outer body.*
+
+I originally added a 6.40 mm diameter hole to the bottom of the body as part of my initial design. However, I later decided this feature was unnecessary and removed it.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5e08ade5-16d9-4240-987a-a7f48356cfff" />
+
+*Figure 4: Initial hole created at the bottom of the body.*
+
+Next, I created a vertical slot along the inside wall of the body. This slot allows the guide pin on the lipstick holder to move up and down while preventing the holder from rotating with the spiral sleeve.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a95b9a41-b75b-41b7-b285-d844a50f0475" />
+
+*Figure 5: Vertical guide slot created to control the movement of the lipstick holder.*
+
+I then modified the bottom of the body by removing the original bottom section to better accommodate the internal mechanism.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5baa5993-3133-4284-93c5-2d9d13632ca2" />
+
+*Figure 6: Bottom of the outer body modified to accommodate the internal components.*
+
+After testing my first prototype using PETG filament, I decided to add a small locking slot beside the vertical guide slot near the bottom. This modification allows the lipstick holder to lock into position when fully lowered, helping prevent unwanted movement.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2d4b13c7-5c37-4eaa-814f-0794b80816a6" />
+
+*Figure 7: Locking slot added near the bottom of the vertical guide slot after PETG prototype testing.*
+
+### Part 2: Spiral Sleeve
+
+The spiral sleeve was designed to convert rotational movement into vertical movement, allowing the lipstick to extend and retract when the base is turned.
+
+I started by creating a hollow cylinder using the Extruded Boss/Base feature. The cylinder had an outer diameter of 17.50 mm, an inner diameter of 14.00 mm, and a height of 40.00 mm.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2f7f2c5d-78dc-455a-9af5-7052c0e5a940" />
+
+*Figure 8: Initial hollow cylinder created for the spiral sleeve.*
+
+Next, I used the Helix/Spiral feature to create the path that the lipstick holder's guide pin would follow. The helix was designed to travel along the sleeve and control the vertical movement of the lipstick.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/eb90ec2a-7f2f-4f56-9f55-041e2e92c4f3" />
+
+*Figure 9: Helix/Spiral feature created to define the path of the twist-up mechanism.*
+
+I then created a reference plane at the top of the helix so that I could sketch the profile needed to create the spiral groove.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0511bb5c-9298-46b3-baae-e337e828365b" />
+
+*Figure 10: Reference plane created at the top of the helix for the sweep profile.*
+
+Using the Swept Cut feature, I removed material along the helix to create the spiral groove. This groove provides the path for the guide pin to follow as the sleeve rotates.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/084a465f-a4fe-46e6-8379-3b1eed374ab9" />
+
+*Figure 11: Swept Cut feature used to create the spiral groove along the sleeve.*
+
+Next, I modified the bottom of the sleeve to prepare it for the rotating base.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1c3f2801-26be-4d47-a5a6-f4a996488a93" />
+
+*Figure 12: Bottom of the spiral sleeve modified to prepare for the rotating base.*
+
+Finally, I added a circular base with a diameter of 25.00 mm and a height of 10.00 mm. This base provides a surface that can be turned by hand to rotate the spiral sleeve and operate the mechanism.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c54bf26b-8cc0-4658-af47-42e2c8bc9e28" />
+
+*Figure 13: Final spiral sleeve with the rotating base added to operate the twist-up mechanism.*
+
+### Part 3: Lipstick Holder
+
+The lipstick holder was designed to fit inside the spiral sleeve and move vertically as the base rotates. It also includes a modeled lipstick shape to demonstrate how the mechanism would work.
+
+I started by creating a cylinder with a diameter of 13.50 mm and a height of 15.00 mm using the Extruded Boss/Base feature.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/44f8c608-8a06-4d5c-94fe-af8bc79baea3" />
+
+*Figure 14: Initial cylinder created for the lipstick holder.*
+
+Next, I used the Shell feature with a wall thickness of 1.50 mm to hollow out the cylinder.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/563f427a-d634-4808-a168-ecae156bf707" />
+
+*Figure 15: Shell feature used to hollow out the lipstick holder.*
+
+I then created a guide pin on the side of the holder using the Extruded Boss/Base feature. To position the pin correctly, I referenced the angle of the spiral groove in the sleeve and created a rectangular sketch at the same angle. This helped ensure the pin would align with the spiral path.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ba727ab6-5511-4adf-b330-acdbd4eec417" />
+
+*Figure 16: Angled guide pin created to align with the spiral groove in the sleeve.*
+
+After creating the pin, I used the Fillet feature to round its edges. This was intended to help the pin slide more smoothly through the spiral groove and reduce interference from sharp corners.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d0c6483a-53a2-4053-9132-c5410568e2e8" />
+
+*Figure 17: Fillet feature applied to the guide pin to improve sliding movement.*
+
+Next, I extruded a longer cylinder from the inside of the holder to represent the lipstick itself. This allowed the design to demonstrate the extension and retraction of a lipstick.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5536c730-249a-4000-bad7-52b82a05248b" />
+
+*Figure 18: Additional cylinder extruded from the holder to represent the lipstick.*
+
+I then used the Extruded Cut feature to create an angled tip, similar to the shape of a traditional lipstick.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bf8a35f6-a7d8-4d77-ada1-274590807fb8" />
+
+*Figure 19: Extruded Cut feature used to create the angled lipstick tip.*
+
+Finally, I applied fillets around the top edges of the lipstick to create a smoother and more realistic appearance.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/09951bfc-defc-4532-a243-54d4c8e07877" />
+
+*Figure 20: Final lipstick holder with the angled tip and rounded edges.*
+
+### Final CAD Assembly
+
+After modeling all three components, I inserted them into a SolidWorks assembly to check how they fit together.
+
+The lipstick holder sits inside the spiral sleeve, with its guide pin passing through the spiral groove and into the vertical guide slot of the outer body. When the circular base is rotated, the spiral groove pushes the pin along its path while the vertical slot prevents the holder from rotating. This causes the lipstick holder to move up or down depending on the direction of rotation.
+
+The assembly was used to check component alignment and identify potential interference before moving on to physical prototyping.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/400c3017-1f9d-4404-b663-bf5e405a2ed2" />
+
+*Figure 21: Final SolidWorks assembly showing the outer body, spiral sleeve, and lipstick holder combined into the twist-up mechanism.*
+
+### Design Modifications
+
+Several modifications were made throughout the design and prototyping process.
+
+- **Bottom Opening:** The original hole and bottom section of the outer body were removed to better accommodate the internal mechanism.
+- **Guide Pin:** The pin was positioned to align with the spiral groove and filleted to improve sliding movement.
+- **Locking Feature:** A small locking slot was added to the outer body after testing the PETG prototype to help hold the lipstick in its fully lowered position.
+- **Print Scaling:** The final SLA assembly was scaled to 0.80 of the original CAD dimensions to meet the printing volume requirements, including supports.
+
+These modifications helped improve the design and prepare the assembly for SLA printing.
+
+
+## CAD Design and Modeling
+
+The twist-up lipstick container was designed in SolidWorks as a three-part assembly consisting of the outer body, spiral sleeve, and lipstick holder. Each component was modeled separately and then combined into an assembly to create the twist-up mechanism. The design allows the lipstick holder to move vertically as the spiral sleeve rotates, while the outer body keeps the holder aligned.
+
+### Part 1: Outer Body
+
+The outer body was designed to hold the internal components and guide the vertical movement of the lipstick holder.
+
+I started by creating a cylinder using the Extruded Boss/Base feature with a diameter of 22.00 mm and a height of 50.00 mm.
+
+![Figure 2](PASTE_IMAGE_LINK_HERE)
+
+*Figure 2: Initial cylinder created using the Extruded Boss/Base feature.*
+
+Next, I used the Shell feature with a wall thickness of 2.00 mm to hollow out the cylinder and create space for the internal components.
+
+![Figure 3](PASTE_IMAGE_LINK_HERE)
+
+*Figure 3: Shell feature used to hollow out the outer body.*
+
+I originally added a 6.40 mm diameter hole to the bottom of the body as part of my initial design. However, I later decided this feature was unnecessary and removed it.
+
+![Figure 4](PASTE_IMAGE_LINK_HERE)
+
+*Figure 4: Initial hole created at the bottom of the body.*
+
+Next, I created a vertical slot along the inside wall of the body. This slot allows the guide pin on the lipstick holder to move up and down while preventing the holder from rotating with the spiral sleeve.
+
+![Figure 5](PASTE_IMAGE_LINK_HERE)
+
+*Figure 5: Vertical guide slot created to control the movement of the lipstick holder.*
+
+I then modified the bottom of the body by removing the original bottom section to better accommodate the internal mechanism.
+
+![Figure 6](PASTE_IMAGE_LINK_HERE)
+
+*Figure 6: Bottom of the outer body modified to accommodate the internal components.*
+
+After testing my first prototype using PETG filament, I decided to add a small locking slot beside the vertical guide slot near the bottom. This modification allows the lipstick holder to lock into position when fully lowered, helping prevent unwanted movement.
+
+![Figure 7](PASTE_IMAGE_LINK_HERE)
+
+*Figure 7: Locking slot added near the bottom of the vertical guide slot after PETG prototype testing.*
+
+### Part 2: Spiral Sleeve
+
+The spiral sleeve was designed to convert rotational movement into vertical movement, allowing the lipstick to extend and retract when the base is turned.
+
+I started by creating a hollow cylinder using the Extruded Boss/Base feature. The cylinder had an outer diameter of 17.50 mm, an inner diameter of 14.00 mm, and a height of 40.00 mm.
+
+![Figure 8](PASTE_IMAGE_LINK_HERE)
+
+*Figure 8: Initial hollow cylinder created for the spiral sleeve.*
+
+Next, I used the Helix/Spiral feature to create the path that the lipstick holder's guide pin would follow. The helix was designed to travel along the sleeve and control the vertical movement of the lipstick.
+
+![Figure 9](PASTE_IMAGE_LINK_HERE)
+
+*Figure 9: Helix/Spiral feature created to define the path of the twist-up mechanism.*
+
+I then created a reference plane at the top of the helix so that I could sketch the profile needed to create the spiral groove.
+
+![Figure 10](PASTE_IMAGE_LINK_HERE)
+
+*Figure 10: Reference plane created at the top of the helix for the sweep profile.*
+
+Using the Swept Cut feature, I removed material along the helix to create the spiral groove. This groove provides the path for the guide pin to follow as the sleeve rotates.
+
+![Figure 11](PASTE_IMAGE_LINK_HERE)
+
+*Figure 11: Swept Cut feature used to create the spiral groove along the sleeve.*
+
+Next, I modified the bottom of the sleeve to prepare it for the rotating base.
+
+![Figure 12](PASTE_IMAGE_LINK_HERE)
+
+*Figure 12: Bottom of the spiral sleeve modified to prepare for the rotating base.*
+
+Finally, I added a circular base with a diameter of 25.00 mm and a height of 10.00 mm. This base provides a surface that can be turned by hand to rotate the spiral sleeve and operate the mechanism.
+
+![Figure 13](PASTE_IMAGE_LINK_HERE)
+
+*Figure 13: Final spiral sleeve with the rotating base added to operate the twist-up mechanism.*
+
+### Part 3: Lipstick Holder
+
+The lipstick holder was designed to fit inside the spiral sleeve and move vertically as the base rotates. It also includes a modeled lipstick shape to demonstrate how the mechanism would work.
+
+I started by creating a cylinder with a diameter of 13.50 mm and a height of 15.00 mm using the Extruded Boss/Base feature.
+
+![Figure 14](PASTE_IMAGE_LINK_HERE)
+
+*Figure 14: Initial cylinder created for the lipstick holder.*
+
+Next, I used the Shell feature with a wall thickness of 1.50 mm to hollow out the cylinder.
+
+![Figure 15](PASTE_IMAGE_LINK_HERE)
+
+*Figure 15: Shell feature used to hollow out the lipstick holder.*
+
+I then created a guide pin on the side of the holder using the Extruded Boss/Base feature. To position the pin correctly, I referenced the angle of the spiral groove in the sleeve and created a rectangular sketch at the same angle. This helped ensure the pin would align with the spiral path.
+
+![Figure 16](PASTE_IMAGE_LINK_HERE)
+
+*Figure 16: Angled guide pin created to align with the spiral groove in the sleeve.*
+
+After creating the pin, I used the Fillet feature to round its edges. This was intended to help the pin slide more smoothly through the spiral groove and reduce interference from sharp corners.
+
+![Figure 17](PASTE_IMAGE_LINK_HERE)
+
+*Figure 17: Fillet feature applied to the guide pin to improve sliding movement.*
+
+Next, I extruded a longer cylinder from the inside of the holder to represent the lipstick itself. This allowed the design to demonstrate the extension and retraction of a lipstick.
+
+![Figure 18](PASTE_IMAGE_LINK_HERE)
+
+*Figure 18: Additional cylinder extruded from the holder to represent the lipstick.*
+
+I then used the Extruded Cut feature to create an angled tip, similar to the shape of a traditional lipstick.
+
+![Figure 19](PASTE_IMAGE_LINK_HERE)
+
+*Figure 19: Extruded Cut feature used to create the angled lipstick tip.*
+
+Finally, I applied fillets around the top edges of the lipstick to create a smoother and more realistic appearance.
+
+![Figure 20](PASTE_IMAGE_LINK_HERE)
+
+*Figure 20: Final lipstick holder with the angled tip and rounded edges.*
+
+### Final CAD Assembly
+
+After modeling all three components, I inserted them into a SolidWorks assembly to check how they fit together.
+
+The lipstick holder sits inside the spiral sleeve, with its guide pin passing through the spiral groove and into the vertical guide slot of the outer body. When the circular base is rotated, the spiral groove pushes the pin along its path while the vertical slot prevents the holder from rotating. This causes the lipstick holder to move up or down depending on the direction of rotation.
+
+The assembly was used to check component alignment and identify potential interference before moving on to physical prototyping.
+
+![Figure 21](PASTE_FINAL_ASSEMBLY_IMAGE_LINK_HERE)
+
+*Figure 21: Final SolidWorks assembly showing the outer body, spiral sleeve, and lipstick holder combined into the twist-up mechanism.*
+
+### Design Modifications
+
+Several modifications were made throughout the design and prototyping process.
+
+- **Bottom Opening:** The original hole and bottom section of the outer body were removed to better accommodate the internal mechanism.
+- **Guide Pin:** The pin was positioned to align with the spiral groove and filleted to improve sliding movement.
+- **Locking Feature:** A small locking slot was added to the outer body after testing the PETG prototype to help hold the lipstick in its fully lowered position.
+- **Print Scaling:** The final SLA assembly was scaled to 0.80 of the original CAD dimensions to meet the printing volume requirements, including supports.
+
+These modifications helped improve the design and prepare the assembly for SLA printing.
 
 ### Measurement and Testing Plan
 
