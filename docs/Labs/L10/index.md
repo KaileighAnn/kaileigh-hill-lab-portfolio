@@ -266,6 +266,48 @@ Several modifications were made throughout the design and prototyping process.
 
 These modifications helped improve the design and prepare the assembly for SLA printing.
 
+## SLA Printing and Post-Processing
+
+After completing the CAD design and testing the PETG prototype, I moved on to printing the final components using gray SLA resin. I used a layer height of 0.050 mm and scaled the assembly to 80% of its original size to meet the 20 mL resin volume requirement, including supports.
+
+### Completed SLA Print
+
+Once the printing process was finished, I checked the completed parts while they were still attached to the build platform inside the SLA printer.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/f1e1a96b-66d5-420b-b52c-45305faaae22" />
+
+*Figure 27: Completed SLA print inside the printer before removing the parts from the build platform.*
+
+### Scrape Station
+
+After removing the build platform from the printer, I moved it to the scrape station to carefully remove the printed parts. I also removed the supports to prepare the components for washing.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/8606303c-3467-45ae-a09c-90fc8cc189d7" />
+
+*Figure 28: Removing the SLA printed components from the build platform at the scrape station.*
+
+### Washing
+
+Next, I placed the printed components in the wash tank to remove any remaining uncured resin. This was especially important for cleaning the smaller features, including the spiral groove and guide pin.
+
+![Figure 29](PASTE_WASH_TANK_IMAGE_LINK_HERE)
+
+*Figure 29: SLA printed components inside the wash tank to remove uncured resin.*
+
+### UV Curing
+
+After washing, I placed the components in the UV curing station to complete the curing process. This step helps the resin reach its final material properties before assembly and testing.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/8b2a9f7b-7fc7-4fa2-8569-f6a08da8ccc6" />
+
+*Figure 30: SLA printed components inside the UV curing station.*
+
+### Post-Processing Observations
+
+After completing the printing, washing, and curing steps, I inspected the finished components and tested their fit. The parts had a smooth surface finish, and the guide pin was able to slide through the spiral groove.
+
+However, although all three components fit together properly, the rotating base did not rotate as intended, preventing the complete twist-up mechanism from functioning correctly.
+
 ## Final Prints and Comparison
 
 ### Initial PETG Prototype
