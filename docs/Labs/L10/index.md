@@ -4,7 +4,7 @@
 
 The objective of this lab is to design and manufacture a functional assembly using stereolithography (SLA) 3D printing while demonstrating an RC2 sliding fit based on the *Machinery's Handbook*. The project also focuses on dimensional accuracy, resin shrinkage, and evaluating the fit of printed components.
 
-For my project, I chose to create a miniature twist-up lipstick container with a removable cap and fake lipstick.
+For my project, I chose to create a miniature twist-up lipstick container with a fake lipstick.
 
 ## Design Concept
 
