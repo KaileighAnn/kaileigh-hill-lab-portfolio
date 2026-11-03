@@ -8,11 +8,13 @@ For my project, I chose to create a miniature twist-up lipstick container with a
 
 ## Design Concept
 
-I wanted to create something that was both functional and visually appealing, so I decided to design a twist-up lipstick container.
+I wanted to create something that was both functional and cute, so I decided to design a twist-up lipstick container.
 
 The design uses a rotating base and spiral sleeve to raise and lower the lipstick holder. As the base rotates, a guide pin follows the spiral slot, converting rotational motion into vertical movement.
 
-The assembly consists of six components: an outer tube, rotating base, spiral sleeve, lipstick holder, fake lipstick, and removable cap. Each component was modeled separately in SolidWorks before being assembled.
+The assembly Originally consists of six components: an outer tube, rotating base, spiral sleeve, lipstick holder, fake lipstick, and removable cap. Each component was modeled separately in SolidWorks before being assembled.
+
+After considering print time and material usage, I decided to simplify my design to just three parts. I removed the cap since it was not necessary for this project, combined the lipstick holder with the modeled lipstick, and combined the rotating base with the spiral sleeve since they need to rotate together. These changes helped reduce material usage and print time while keeping the twist-up mechanism functional.
 
 ## RC2 Sliding Fit Research and SLA Shrinkage
 
@@ -34,34 +36,82 @@ The guide pin follows the spiral slot as the base rotates, allowing the lipstick
 
 Since RC2 specifications are intended for cylindrical hole-and-shaft fits, I am using the clearance principles as a reference for my pin-and-slot mechanism.
 
-### Initial Clearance Calculation
 
-The initial SolidWorks dimensions for the sliding interface are:
+### RC2 Sliding Fit Clearance Calculation
+
+Using the *Machinery's Handbook*, page 654, Table 8a, I researched the RC2 sliding fit requirements for my guide pin and spiral slot.
+
+For the selected nominal size range of 0–0.12 inches (0–3.048 mm), the RC2 clearance limits are:
+
+| Specification | Clearance |
+|---|---|
+| Minimum RC2 Clearance | 0.00254 mm |
+| Maximum RC2 Clearance | 0.01397 mm |
+
+Since my design uses a guide pin and spiral slot rather than a traditional hole and shaft, I used these limits as a reference for my sliding mechanism.
+
+### Initial CAD Clearance
+
+The original SolidWorks dimensions were:
 
 | Feature | Dimension |
 |---|---|
 | Spiral Slot Width | 2.060 mm |
 | Guide Pin Width | 2.040 mm |
-| Nominal Clearance | 0.020 mm |
+| Designed Clearance | 0.020 mm |
 
 **Clearance = Slot Width - Guide Pin Width**
 
 Clearance = 2.060 - 2.040
 
-**Clearance = 0.020 mm**
+**Original Clearance = 0.020 mm**
 
-This is an initial design clearance and has not yet been verified as meeting the RC2 tolerance limits.
+After scaling the model to 80% for SLA printing:
+
+| Feature | Scaled Dimension |
+|---|---|
+| Spiral Slot Width | 1.648 mm |
+| Guide Pin Width | 1.632 mm |
+| Designed Clearance | 0.016 mm |
+
+**Scaled Clearance = 1.648 - 1.632 = 0.016 mm**
+
+The scaled clearance was slightly larger than the maximum RC2 clearance of 0.01397 mm.
+
+### RC2 Design Evaluation
+
+To better match the RC2 specification, a theoretical target clearance of 0.010 mm could be used.
+
+With a guide pin width of 1.632 mm:
+
+**Target Slot Width = 1.632 + 0.010 = 1.642 mm**
+
+This would provide a nominal clearance within the RC2 range.
+
+However, my final printed design used the original scaled dimensions. The actual clearance was measured after printing and curing to evaluate how closely the manufactured parts matched the intended fit.
+
 
 ### SLA Resin Shrinkage
 
-SLA printing uses UV light to cure liquid resin into solid parts. After printing, the components are washed and post-cured using additional UV light.
+For my final print, I used Formlabs Grey Resin with a layer height of 0.050 mm. After printing, I removed the supports, cleaned and washed the parts, and then UV cured them.
 
-According to Formlabs, post-curing can cause additional resin shrinkage as the material continues to cure.
+According to Formlabs, additional shrinkage can occur during post-curing as the resin continues to harden. This is important for my design because the guide pin and spiral slot have very small clearances, meaning even slight dimensional changes could affect the fit.
 
-This is important because my sliding interface has a very small clearance, and dimensional changes could cause the guide pin to bind inside the spiral slot.
+To evaluate dimensional accuracy, I compared my final measurements to the theoretical CAD dimensions after scaling the model to 80%.
 
-The amount of shrinkage depends on the resin, printer, and curing conditions. I will research the specific material properties once the resin used for this lab is confirmed.
+| Feature | Scaled CAD | Measured | Difference |
+|---|---|---|---|
+| Spiral Slot Width | 1.648 mm | 1.71 mm | +0.062 mm |
+| Guide Pin Width | 1.632 mm | 1.68 mm | +0.048 mm |
+| Clearance | 0.016 mm | 0.030 mm | +0.014 mm |
 
+**Actual Clearance = 1.71 - 1.68 = 0.030 mm**
+
+Both measured features were slightly larger than their theoretical CAD dimensions, resulting in a greater clearance than originally intended.
+
+Although the measured clearance exceeded the RC2 reference range, the guide pin successfully slid through the spiral slot. However, the rotating base did not fit properly, preventing the complete twist-up mechanism from functioning as intended.
+
+These results showed the importance of accounting for dimensional variation when designing small moving parts for SLA printing. Since measurements were only taken after curing, I could not determine how much of the variation was caused specifically by resin shrinkage.
 
 ## CAD Design and Modeling
 
@@ -216,16 +266,69 @@ Several modifications were made throughout the design and prototyping process.
 
 These modifications helped improve the design and prepare the assembly for SLA printing.
 
-### Measurement and Testing Plan
+## Final Prints and Comparison
 
-After printing and post-curing, I will measure the guide pin and spiral slot using digital calipers and compare the results with the original CAD dimensions.
+### Initial PETG Prototype
 
-**Actual Clearance = Measured Slot Width - Measured Pin Width**
+Before printing with SLA resin, I printed my design using PETG filament to test the fit and functionality of the twist-up mechanism. I wanted to make sure everything worked before using resin and potentially wasting material.
 
-I will then assemble the components and test whether the lipstick holder moves smoothly through the spiral groove.
+The PETG prototype worked as intended. The rotating base turned smoothly, allowing the lipstick holder to move up and down inside the outer body.
+
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/a39daa13-c222-4498-8ecb-472b30dd2813" />
+
+*Figure 22: Initial PETG prototype of the twist-up lipstick container.*
+
+![Figure 23](PASTE_PETG_ASSEMBLY_IMAGE_LINK_HERE)
+
+*Figure 23: Assembled PETG prototype used to test the twist-up mechanism.*
+
+### Final SLA Resin Print
+
+After testing the PETG prototype and making the final design modifications, I printed the three components using gray SLA resin with a layer height of 0.050 mm. The model was scaled to 80% of its original size to meet the resin volume requirements, including supports.
+
+After printing, I cleaned, washed, and UV cured the components before testing the final assembly.
+
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/9489679b-d38a-4e16-b565-19c7a688ef2c" />
+
+*Figure 24: Final SLA printed components after post-processing.*
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/0e70e1b0-0cb5-4007-9bdc-68032e2da423" />
+
+*Figure 25: Final assembled lipstick container printed using gray SLA resin.*
+
+### PETG vs. SLA Print Comparison
+
+I compared the PETG prototype with the final SLA print to evaluate the differences in size, appearance, and functionality.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/6b44da9f-3d97-4503-8a02-abb9e87274f2" />
+
+*Figure 26: Side-by-side comparison of the PETG prototype and final gray SLA resin print.*
+
+The PETG prototype successfully demonstrated the complete twist-up mechanism, while the SLA print had a smoother surface finish but did not function as intended.
+
+Although the guide pin was able to slide through the spiral groove in the SLA print, the rotating base did not fit over the outer body correctly, preventing the mechanism from operating.
+
+This comparison showed how differences in printing methods, scaling, and dimensional accuracy can affect the functionality of moving assemblies.
+
+### Final Fit Measurements
+
+I measured the guide pin and spiral slot on the SLA print using calipers to evaluate the final clearance.
+
+| Feature | Measured Dimension |
+|---|---|
+| Guide Pin Width | 1.68 mm |
+| Spiral Slot Width | 1.71 mm |
+| Actual Clearance | 0.030 mm |
+
+**Clearance = 1.71 - 1.68 = 0.030 mm**
+
+The measured clearance was larger than the RC2 reference range, but the guide pin was still able to slide through the spiral slot.
+
+While the final SLA assembly did not fully function, the successful PETG prototype demonstrated that the mechanism could work. The differences between the two prints highlighted the importance of dimensional accuracy and testing when designing functional 3D printed parts.
 
 ## Research Sources
 
 1. *Machinery's Handbook*, page 654, Table 8a, ANSI/ASME B4.1.
 2. [Formlabs - Introduction to Post-Curing Prints](https://formlabs.com/support/Introduction-to-Post-Curing-Prints/)
 3. [Formlabs - Understanding Accuracy, Precision, and Tolerance in 3D Printing](https://formlabs.com/blog/understanding-accuracy-precision-tolerance-in-3d-printing/)
+4. https://haokan.baidu.com/v?vid=4821194170485125459&pd=pcshare&hkRelaunch=p1%3Dpc%26p2%3Dvideoland%26p3%3Dshare_input
