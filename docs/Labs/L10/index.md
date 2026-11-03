@@ -278,8 +278,11 @@ The PETG prototype worked as intended. The rotating base turned smoothly, allowi
 
 *Figure 22: Initial PETG prototype of the twist-up lipstick container.*
 
-![Figure 23](PASTE_PETG_ASSEMBLY_IMAGE_LINK_HERE)
-
+<p align="center">
+  <video autoplay muted loop playsinline width="500">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L10/IMG_2340.mp4" type="video/mp4">
+  </video>
+</p>
 *Figure 23: Assembled PETG prototype used to test the twist-up mechanism.*
 
 ### Final SLA Resin Print
