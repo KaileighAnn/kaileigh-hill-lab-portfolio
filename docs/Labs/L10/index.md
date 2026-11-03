@@ -345,7 +345,7 @@ After printing, I cleaned, washed, and UV cured the components before testing th
 
 I compared the PETG prototype with the final SLA print to evaluate the differences in size, appearance, and functionality.
 
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/6b44da9f-3d97-4503-8a02-abb9e87274f2" />
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/fc643e46-ceeb-44dd-b3e9-4e8fee736123" />
 
 *Figure 26: Side-by-side comparison of the PETG prototype and final gray SLA resin print.*
 
