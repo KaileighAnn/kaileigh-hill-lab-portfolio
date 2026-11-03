@@ -270,6 +270,9 @@ These modifications helped improve the design and prepare the assembly for SLA p
 
 After completing the CAD design and testing the PETG prototype, I moved on to printing the final components using gray SLA resin. I used a layer height of 0.050 mm and scaled the assembly to 80% of its original size to meet the 20 mL resin volume requirement, including supports.
 
+<img width="880" height="435" alt="image" src="https://github.com/user-attachments/assets/3f23686f-3066-49dc-8293-63168ccb0f23" />
+
+
 ### Completed SLA Print
 
 Once the printing process was finished, I checked the completed parts while they were still attached to the build platform inside the SLA printer.
@@ -298,7 +301,7 @@ Next, I placed the printed components in the wash tank to remove any remaining u
 
 After washing, I placed the components in the UV curing station to complete the curing process. This step helps the resin reach its final material properties before assembly and testing.
 
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/8b2a9f7b-7fc7-4fa2-8569-f6a08da8ccc6" />
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/ba8b2172-2a35-458f-b4fa-7aaf4eae8cd3" />
 
 *Figure 30: SLA printed components inside the UV curing station.*
 
