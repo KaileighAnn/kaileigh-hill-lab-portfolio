@@ -374,13 +374,32 @@ The measured clearance was larger than the RC2 reference range, but the guide pi
 
 While the final SLA assembly did not fully function, the successful PETG prototype demonstrated that the mechanism could work. The differences between the two prints highlighted the importance of dimensional accuracy and testing when designing functional 3D printed parts.
 
-## Conclusion
+## Lessons Learned
 
-Overall, this lab helped me better understand SLA printing, dimensional accuracy, and the importance of designing parts with proper clearances. I successfully designed and printed a three-part twist-up lipstick container and tested the mechanism using both PETG and SLA printing.
+Throughout this project, I learned a lot about SLA printing, dimensional accuracy, and designing parts that need to move together. One of my biggest challenges was achieving the RC2 sliding fit because even small differences in clearance can affect how the parts function. My final measured clearance was 0.030 mm, which was larger than the RC2 reference range I researched in the *Machinery's Handbook*. I also learned that surface roughness, printer accuracy, and changes during washing and curing can affect the final dimensions of SLA printed parts, although I could not determine exactly how much each factor contributed to my results.
 
-The PETG prototype worked as intended, allowing the lipstick to move up and down when the base was rotated. Although the SLA components fit together and the guide pin could slide through the spiral slot, the base did not rotate properly, preventing the complete mechanism from functioning.
+Another important lesson was the value of prototyping and testing. My PETG prototype worked as intended, but even though all three SLA components fit together, the rotating base did not turn properly. This showed me that parts fitting together does not necessarily mean they will function correctly. If I were to repeat this project, I would adjust the clearances between the moving components, print smaller test pieces to check dimensional accuracy, and take measurements before and after curing to better understand how the process affects the fit.
 
-My final measured clearance was 0.030 mm, which was larger than the RC2 reference range. This showed me how even small dimensional differences can affect the performance of moving parts. If I were to redesign this project, I would focus on improving the clearance between the rotating components and testing the fit before printing the entire assembly.
+Overall, I am happy with how this project turned out. Even though the final SLA mechanism did not work exactly how I intended, I still met the requirements of the assignment. I realized that I was trying to go above and beyond by creating a fully functional twist-up lipstick mechanism rather than just demonstrating a sliding fit. Although that part of my design did not work out, I am confident that with more time and additional adjustments, I could get it functioning properly. For the purpose of this assignment, I accomplished what I needed to while also challenging myself to try something more complex. I gained hands-on experience with SolidWorks, PETG prototyping, SLA printing, washing, UV curing, and dimensional measurements. I also used the *Machinery's Handbook* to research sliding fit specifications and compare them to my printed results.
+
+## Time Spent
+
+| Task | Time Spent |
+|---|---|
+| Research and Planning | 1.5 hours |
+| SolidWorks CAD Design and Modifications | 3 hours |
+| PETG Prototyping and Testing | 2 hours |
+| SLA Print Preparation and Supports | 1 hour |
+| SLA Printing | 57 minutes (estimated) |
+| Washing | 15 minutes |
+| UV Curing | 30 minutes |
+| Scraping and Support Removal | 15 minutes |
+| Measurements and Functionality Testing | 30 minutes |
+| Documentation and Portfolio | 2 hours |
+| **Total Time** | **11 hours, 57 minutes** |
+
+*Note: Times are approximate, except for the recorded washing and curing times. The SLA printing time is based on the slicer's estimate.*
+
 
 ## Research Sources
 
