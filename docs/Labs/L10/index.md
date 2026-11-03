@@ -279,7 +279,7 @@ Once the printing process was finished, I checked the completed parts while they
 
 <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/f1e1a96b-66d5-420b-b52c-45305faaae22" />
 
-*Figure 27: Completed SLA print inside the printer before removing the parts from the build platform.*
+*Figure 22: Completed SLA print inside the printer before removing the parts from the build platform.*
 
 ### Scrape Station
 
@@ -287,7 +287,7 @@ After removing the build platform from the printer, I moved it to the scrape sta
 
 <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/8606303c-3467-45ae-a09c-90fc8cc189d7" />
 
-*Figure 28: Removing the SLA printed components from the build platform at the scrape station.*
+*Figure 23: Removing the SLA printed components from the build platform at the scrape station.*
 
 ### Washing
 
@@ -295,7 +295,7 @@ Next, I placed the printed components in the wash tank to remove any remaining u
 
 ![Figure 29](PASTE_WASH_TANK_IMAGE_LINK_HERE)
 
-*Figure 29: SLA printed components inside the wash tank to remove uncured resin.*
+*Figure 24: SLA printed components inside the wash tank to remove uncured resin.*
 
 ### UV Curing
 
@@ -303,7 +303,7 @@ After washing, I placed the components in the UV curing station to complete the 
 
 <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/ba8b2172-2a35-458f-b4fa-7aaf4eae8cd3" />
 
-*Figure 30: SLA printed components inside the UV curing station.*
+*Figure 25: SLA printed components inside the UV curing station.*
 
 ### Post-Processing Observations
 
@@ -321,14 +321,14 @@ The PETG prototype worked as intended. The rotating base turned smoothly, allowi
 
 <img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/a39daa13-c222-4498-8ecb-472b30dd2813" />
 
-*Figure 22: Initial PETG prototype of the twist-up lipstick container.*
+*Figure 26: Initial PETG prototype of the twist-up lipstick container.*
 
 <p align="center">
   <video autoplay muted loop playsinline width="500">
     <source src="/kaileigh-hill-lab-portfolio/Labs/L10/IMG_2340.mp4" type="video/mp4">
   </video>
 </p>
-*Figure 23: Assembled PETG prototype used to test the twist-up mechanism.*
+*Figure 27: Assembled PETG prototype used to test the twist-up mechanism.*
 
 ### Final SLA Resin Print
 
@@ -338,11 +338,11 @@ After printing, I cleaned, washed, and UV cured the components before testing th
 
 <img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/9489679b-d38a-4e16-b565-19c7a688ef2c" />
 
-*Figure 24: Final SLA printed components after post-processing.*
+*Figure 28: Final SLA printed components after post-processing.*
 
 <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/0e70e1b0-0cb5-4007-9bdc-68032e2da423" />
 
-*Figure 25: Final assembled lipstick container printed using gray SLA resin.*
+*Figure 29: Final assembled lipstick container printed using gray SLA resin.*
 
 ### PETG vs. SLA Print Comparison
 
@@ -350,11 +350,11 @@ I compared the PETG prototype with the final SLA print to evaluate the differenc
 
 <img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/fc643e46-ceeb-44dd-b3e9-4e8fee736123" />
 
-*Figure 26: Side-by-side comparison of the PETG prototype and final gray SLA resin print.*
+*Figure 30: Side-by-side comparison of the PETG prototype and final gray SLA resin print.*
 
 The PETG prototype successfully demonstrated the complete twist-up mechanism, while the SLA print had a smoother surface finish but did not function as intended.
 
-Although the guide pin was able to slide through the spiral groove in the SLA print, the rotating base did not fit over the outer body correctly, preventing the mechanism from operating.
+Although all three SLA printed components fit together properly and the guide pin could slide through the spiral groove, the rotating base did not rotate as intended, preventing the lipstick holder from moving up and down.
 
 This comparison showed how differences in printing methods, scaling, and dimensional accuracy can affect the functionality of moving assemblies.
 
@@ -373,6 +373,14 @@ I measured the guide pin and spiral slot on the SLA print using calipers to eval
 The measured clearance was larger than the RC2 reference range, but the guide pin was still able to slide through the spiral slot.
 
 While the final SLA assembly did not fully function, the successful PETG prototype demonstrated that the mechanism could work. The differences between the two prints highlighted the importance of dimensional accuracy and testing when designing functional 3D printed parts.
+
+## Conclusion
+
+Overall, this lab helped me better understand SLA printing, dimensional accuracy, and the importance of designing parts with proper clearances. I successfully designed and printed a three-part twist-up lipstick container and tested the mechanism using both PETG and SLA printing.
+
+The PETG prototype worked as intended, allowing the lipstick to move up and down when the base was rotated. Although the SLA components fit together and the guide pin could slide through the spiral slot, the base did not rotate properly, preventing the complete mechanism from functioning.
+
+My final measured clearance was 0.030 mm, which was larger than the RC2 reference range. This showed me how even small dimensional differences can affect the performance of moving parts. If I were to redesign this project, I would focus on improving the clearance between the rotating components and testing the fit before printing the entire assembly.
 
 ## Research Sources
 
