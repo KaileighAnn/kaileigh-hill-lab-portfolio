@@ -1,13 +1,3 @@
-# A1 – [Topic]
+# L1 – Intro 
 
-## Objective
-
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
-
+Lab 1 was an introductory lab where I became familiar with the course expectations and lab portfolio requirements. During this lab, I completed my **About Me** section to introduce myself, my background, and my interests in mechanical engineering.
