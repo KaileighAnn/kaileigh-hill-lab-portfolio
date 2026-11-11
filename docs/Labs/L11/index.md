@@ -297,7 +297,7 @@ These changes are particularly important for snap-fit designs because the retain
 
 **Curing Time:** 5 minutes
 
-<img width="3024" height="4032" alt="IMG_2518" src="https://github.com/user-attachments/assets/1ab62741-d84b-4c21-9ec2-2b423923e66a" />
+<img width="302.4" height="403.2" alt="IMG_2518" src="https://github.com/user-attachments/assets/1ab62741-d84b-4c21-9ec2-2b423923e66a" />
 
 *Figure 8: SLA printed components undergoing post-curing.*
 
@@ -352,17 +352,14 @@ The following factors were evaluated:
 
 ### Final Printed Components
 
-<p align="center">
-  <video autoplay muted loop playsinline width="500">
-    <source src="/kaileigh-hill-lab-portfolio/Labs/L11/IMG_2535.mp4" type="video/mp4">
-  </video>
-</p>
+<img width="115.2" height="153.6" alt="2d86b0a9-bf1a-4585-ac9f-eb75a2d9010b" src="https://github.com/user-attachments/assets/17559742-d3bb-4446-9365-8914c2eba089" />
+
 
 *Figure 9: Completed SLA printed box and lid after post-processing.*
 
 ### Completed Assembly
 
-<img width="1536" height="2048" alt="download" src="https://github.com/user-attachments/assets/520cf10f-8020-45dc-b06f-432ab3f629bb" />
+<img width="153.6" height="204.8" alt="download" src="https://github.com/user-attachments/assets/520cf10f-8020-45dc-b06f-432ab3f629bb" />
 
 *Figure 10: Completed storage box showing the lid attached to the box body.*
 
