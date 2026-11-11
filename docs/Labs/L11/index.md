@@ -362,7 +362,11 @@ The printed components were inspected to evaluate their dimensional accuracy and
 
 ### Final Printed Components
 
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/6e085959-70c2-4729-afe3-eb0d01d84f5c" />
+<p align="center">
+  <video autoplay muted loop playsinline width="500">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L11/IMG_2535.mp4" type="video/mp4">
+  </video>
+</p>
 
 *Figure 9: Completed SLA printed box and lid after post-processing.*
 
