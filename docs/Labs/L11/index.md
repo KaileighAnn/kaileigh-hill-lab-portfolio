@@ -336,29 +336,19 @@ The following factors were evaluated:
 - Ability to remove the lid
 - Visible cracking or deformation
 
+
 ### Testing Results
 
 | Test | Result |
 |---|---|
-| Lid Alignment | [INSERT] |
-| Snap Engagement | [INSERT] |
-| Fit Tightness | [INSERT] |
-| Lid Retention | [INSERT] |
-| Lid Removal | [INSERT] |
-| Visible Cracking | [INSERT] |
-| Repeated Assembly | [INSERT] |
-| Overall Functionality | [INSERT] |
-
-### Dimensional Inspection
-
-The printed components were inspected to evaluate their dimensional accuracy and fit.
-
-| Feature | CAD Dimension | Measured Dimension |
-|---|---|---|
-| Box Width | [INSERT] mm | [INSERT] mm |
-| Lid Width | [INSERT] mm | [INSERT] mm |
-| Retaining Feature | [INSERT] mm | [INSERT] mm |
-| Engagement Clearance | [INSERT] mm | [INSERT] mm |
+| Lid Alignment | Lid aligned properly with the box. |
+| Snap Engagement | Snap-fit features engaged successfully. |
+| Fit Tightness | Snug and secure fit. |
+| Lid Retention | Lid remained securely attached. |
+| Lid Removal | Lid could be removed without difficulty. |
+| Visible Cracking | No visible cracks or damage observed. |
+| Repeated Assembly | Successfully assembled and removed multiple times. |
+| Overall Functionality | All components functioned as intended. |
 
 ### Final Printed Components
 
@@ -372,21 +362,23 @@ The printed components were inspected to evaluate their dimensional accuracy and
 
 ### Completed Assembly
 
-**Figure 10: Final Snap-Fit Assembly**
-
-![Figure 10: Final assembly](INSERT-IMAGE-LINK)
+<img width="1536" height="2048" alt="download" src="https://github.com/user-attachments/assets/520cf10f-8020-45dc-b06f-432ab3f629bb" />
 
 *Figure 10: Completed storage box showing the lid attached to the box body.*
 
 ### Snap-Fit Demonstration
 
-[Watch the Snap-Fit Demonstration](INSERT-VIDEO-LINK)
+<p align="center">
+  <video autoplay muted loop playsinline width="500">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L11/IMG_2535.mp4" type="video/mp4">
+  </video>
+</p>
 
 *Figure 11: Video demonstrating the attachment and removal of the snap-fit lid.*
 
 ### Validation Summary
 
-[INSERT ACTUAL TEST RESULTS, INCLUDING WHETHER THE LID SNAPPED SECURELY INTO PLACE, WHETHER IT WAS REMOVABLE, AND WHETHER ANY ADJUSTMENTS WERE NECESSARY.]
+The snap-fit box was successfully printed and assembled. The lid aligned properly with the base and snapped securely into place, providing a snug fit while still allowing easy removal. The snap-fit features functioned as intended, with no visible cracking or damage during testing. The lid could be repeatedly attached and removed without issues. No major adjustments were necessary, and the overall design functioned as expected.
 
 ---
 
@@ -422,26 +414,25 @@ However, the material properties of SLA resin require careful consideration when
 
 Post-curing also introduces an additional manufacturing step that can affect the final mechanical behavior of the parts.
 
+
 ### Project Time and Resources
 
 | Task | Time |
 |---|---|
-| Snap-Fit Research | [INSERT] |
-| SolidWorks CAD Design | [INSERT] |
-| PreForm Preprocessing | [INSERT] |
-| Estimated Printing | Approximately 1 hour |
-| Washing | [INSERT] |
-| Curing | [INSERT] |
-| Support Removal | [INSERT] |
-| Validation | [INSERT] |
-| Documentation | [INSERT] |
-| **Total Project Time** | **[INSERT]** |
+| Snap-Fit Research | 20 minutes |
+| SolidWorks CAD Design | 1 hour |
+| PreForm Preprocessing | 15 minutes |
+| Estimated Printing | 1 hour |
+| Washing | 15 minutes |
+| Curing | 30 minutes |
+| Support Removal | 15 minutes |
+| Validation | 15 minutes |
+| Documentation | 40 minutes |
+| **Total Project Time** | **4 hours 30 minutes** |
 
 **Material:** Alpha Clear V1 Resin
 
 **Estimated Resin Usage:** 13.38 mL
-
-**Material Cost:** [INSERT IF KNOWN]
 
 ### Conclusion
 
@@ -451,7 +442,7 @@ The project demonstrated how mechanical engagement, material selection, clearanc
 
 Through the design and preprocessing stages, I gained a better understanding of how snap-fit mechanisms can be incorporated into useful 3D-printed assemblies.
 
-[INSERT FINAL SENTENCE DESCRIBING ACTUAL PRINT PERFORMANCE AND WHAT WAS LEARNED FROM TESTING.]
+The final print functioned as intended, with the lid snapping securely into place while remaining easy to remove. Testing demonstrated the importance of proper clearances, material flexibility, and dimensional accuracy when designing functional snap-fit components for SLA printing.
 
 ---
 
