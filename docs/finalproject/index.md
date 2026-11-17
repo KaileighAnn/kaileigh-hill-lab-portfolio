@@ -157,13 +157,10 @@ Another consideration is controlling the amount of food dispensed. The initial d
 
 ## 7. Video Presentation
 
-
-## 7. Video Presentation
-
 For my final project, I introduced my dog, Dixie, and explained the problem I am trying to solve. With my heavy class schedule next semester, I want to make sure she is fed consistently, even when I am not home.
 
 <video width="100%" controls>
-  <source src="../videos/Dixie_Mae_Feeder_Introduction.mp4" type="video/mp4">
+ <source src="/kaileigh-hill-lab-portfolio/finalproject/Dixie_Mae_Feeder_Introduction.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
