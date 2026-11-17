@@ -103,7 +103,6 @@ The dog bowl has a diameter of approximately 8 inches, which was used to help de
 
 **SLA Printing (Optional):** SLA may be used for a small precision component like the gear for the motor.
 
-
 ## 4. SolidWorks CAD Design and Manufacturing
 
 I began designing my automatic dog feeder in SolidWorks by modeling each component separately before combining them into an assembly. The design uses both laser cutting and FDM printing to manufacture the different parts.
@@ -168,6 +167,24 @@ I also added rectangular slots along the edges so the panel can connect to the t
 
 *Figure 6: SolidWorks model of the laser-cut top support panel showing the food opening and assembly slots.*
 
+### Sliding Gate Mechanism – FDM Printing (PLA) and SLA
+
+For the food dispensing mechanism, I found an existing rack-and-pinion gate design that I could modify for my automatic dog feeder.
+
+The mechanism consists of a sliding gate, pinion gear, and motor support. The motor will rotate the gear, moving the gate horizontally to open and close the food holder's outlet.
+
+I imported the original parts into SolidWorks and modified the sliding gate to fit over the opening of my food holder. The remaining components will be tested and adjusted as needed.
+
+**Original Design:** https://makerworld.com/en/models/1742712-automatic-sliding-gate-sg90-servo?utm_source=chatgpt.com#profileId-1852158
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/29e505f2-33c5-41b0-9eaa-87e49117abe7" />
+
+*Figure X: Original sliding gate, motor support, and pinion gear imported into SolidWorks.*
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/580c611f-eccb-4ec7-bba5-c112f04826c1" />
+
+*Figure X: Modified sliding gate designed to cover the food holder opening.*
+
 ### Manufacturing Summary
 
 | Component | Manufacturing Method | Quantity |
@@ -178,7 +195,10 @@ I also added rectangular slots along the edges so the panel can connect to the t
 | Food Holder | FDM – PLA | 1 |
 | Food Holder Lid | FDM – PLA | 1 |
 | Food Holder Support | Laser Cutting | 1 |
-| **Total** | | **7** |
+| Sliding Gate | FDM – PLA | 1 |
+| Motor Mount/Support | FDM – PLA | 1 |
+| Pinion Gear | SLA – Resin | 1 |
+| **Total** | | **10** |
 
 ### Design Progress
 
