@@ -116,7 +116,7 @@ I modeled the base in SolidWorks to support the feeder structure. I added a curv
 
 The base also includes rectangular slots for connecting the side panels and mounting holes for additional components.
 
-**[INSERT FIGURE 1: BASE SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a598f658-869d-4c19-b28f-fe8e500b43d8" />
 
 *Figure 1: SolidWorks model of the laser-cut base showing the bowl opening, mounting holes, and assembly slots.*
 
@@ -124,7 +124,7 @@ The base also includes rectangular slots for connecting the side panels and moun
 
 I modeled two identical side panels that will be manufactured using the laser cutter. These panels support the upper structure of the feeder and connect to the base using interlocking tabs and slots.
 
-**[INSERT FIGURE 2: SIDE PANEL SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/17ca313e-3e3e-4ea6-8861-db00e044ad5b" />
 
 *Figure 2: SolidWorks model of one of the two laser-cut side panels showing the interlocking features.*
 
@@ -134,7 +134,7 @@ I modeled a sloped food slide in SolidWorks that will be 3D printed using PLA. T
 
 I added raised edges to prevent food from spilling off the sides and a support underneath to help keep the slide in position.
 
-**[INSERT FIGURE 3: FOOD SLIDE SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1107ca60-6f76-4162-b96c-a4e250d821ba" />
 
 *Figure 3: SolidWorks model of the PLA food slide with raised edges and support.*
 
@@ -144,7 +144,7 @@ I modeled the food holder using loft and shell features in SolidWorks. The conta
 
 This part will be 3D printed using PLA and positioned above the food slide. A servo-controlled sliding gate will eventually be added underneath to control when food is released.
 
-**[INSERT FIGURE 4: FOOD HOLDER SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/27fd67b1-451b-4754-9224-f0a4f0ff0912" />
 
 *Figure 4: SolidWorks model of the PLA food holder showing the tapered design and bottom outlet.*
 
@@ -154,7 +154,7 @@ I modeled a removable lid in SolidWorks that will be 3D printed using PLA. The l
 
 I used the Shell feature to create a recessed underside that fits over the container. I also plan to mount the Arduino on top of the lid to keep the electronics separate from the food.
 
-**[INSERT FIGURE 5: FOOD HOLDER LID SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7192d240-fa44-4f0b-b46b-7c163a5fabad" />
 
 *Figure 5: SolidWorks model of the PLA food holder lid with a recessed underside.*
 
@@ -164,7 +164,7 @@ I modeled the top support panel in SolidWorks, which will be manufactured using 
 
 I also added rectangular slots along the edges so the panel can connect to the two side supports.
 
-**[INSERT FIGURE 6: FOOD HOLDER SUPPORT SOLIDWORKS MODEL]**
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/287e9d92-3237-458a-b571-fc3f84d13ee4" />
 
 *Figure 6: SolidWorks model of the laser-cut top support panel showing the food opening and assembly slots.*
 
