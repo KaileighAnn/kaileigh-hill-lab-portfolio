@@ -46,25 +46,26 @@ Kerf affects the dimensions of cut parts and the fit of interlocking joints.
 
 For the feeder stand, I plan to measure the material thickness and test the fit of laser-cut joints before manufacturing the final frame. I can adjust the slot dimensions to compensate for kerf.
 
+
 ## 2. Problem Definition
 
 ### Problem 1: Inconsistent Dog Feeding Times
 
-Feeding a dog at consistent times can be difficult when school, work, and other responsibilities interfere with a normal schedule. Delayed feeding can disrupt a dog's routine.
+Next semester, I have a heavy class schedule, which will make it difficult to always be home to feed my dog, Dixie Mae, on time. I want to find a way to make sure she is fed consistently, even when I am away.
 
-An automatic feeder could help maintain a more consistent feeding schedule.
+One possible solution is an automatic dog feeder that uses an Arduino-controlled mechanism to release food into her bowl at scheduled times.
 
-### Problem 2: Dog Food Spilling Around the Bowl
+### Problem 2: Grocery Bags Moving Around While Driving
 
-When pouring food into a dog bowl, kibble can spill onto the floor. This creates a mess and wastes food.
+Whenever I go grocery shopping, my bags tend to slide around or tip over in my car while I am driving. This causes groceries to spill out and makes unloading everything more difficult.
 
-A controlled dispensing system with a chute could help direct the food into the bowl.
+One possible solution is a removable grocery bag holder that keeps the bags upright and secured while driving. I could design adjustable supports or hooks to hold the bags in place.
 
-### Problem 3: Inconsistent Food Portions
+### Problem 3: Folding Shelf That Will Not Stay Up
 
-It can be difficult to dispense the same amount of food every time, especially when feeding quickly.
+I have a folding shelf that is supposed to stay in an upright position when not in use. However, it does not stay up on its own and keeps falling back down.
 
-A controlled dispensing mechanism could help regulate the amount of food released.
+One possible solution is a locking bracket or latch that holds the shelf securely in its folded position but can easily be released when I need to use it.
 
 ## 3. Problem Selection
 
@@ -88,7 +89,7 @@ The design includes:
 - Raised support frame
 - Sloped food chute
 - Sliding gate mechanism
-- Servo motor and mounting bracket
+- Servo motor 
 - Arduino controller
 - Removable dog bowl
 
@@ -96,11 +97,11 @@ The dog bowl has a diameter of approximately 8 inches, which was used to help de
 
 ### Manufacturing Methods
 
-**FDM Printing:** I plan to use FDM printing for the sliding gate, guide rails, servo mount, and other mechanical components.
+**FDM Printing:** I plan to use FDM printing for the sliding gate, guide rails, and other mechanical components.
 
 **Laser Cutting:** I plan to use laser cutting for the main support frame and structural panels.
 
-**SLA Printing (Optional):** SLA may be used for a small precision component if additional dimensional accuracy is needed.
+**SLA Printing (Optional):** SLA may be used for a small precision component like the gear for the motor.
 
 ### Initial SolidWorks Model
 
