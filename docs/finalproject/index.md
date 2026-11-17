@@ -103,47 +103,156 @@ The dog bowl has a diameter of approximately 8 inches, which was used to help de
 
 **SLA Printing (Optional):** SLA may be used for a small precision component like the gear for the motor.
 
-### Initial SolidWorks Model
 
-I began developing the feeder in SolidWorks by modeling the main structure, food container, and sloped chute.
+## 4. SolidWorks CAD Design and Manufacturing
 
-The current design positions the food storage container above the chute so gravity can move the food toward the bowl.
+I began designing my automatic dog feeder in SolidWorks by modeling each component separately before combining them into an assembly. The design uses both laser cutting and FDM printing to manufacture the different parts.
 
-**[INSERT FIGURE 1: Initial SolidWorks assembly]**
+The feeder consists of a raised frame, food storage container, removable lid, sloped food slide, and a bowl positioned at the front. The goal is to allow food to travel from the container down the slide and into the bowl using gravity.
 
-*Figure 1: Initial SolidWorks model of the automatic dog feeder.*
+### Base – Laser Cutting
 
-### Sliding Gate Concept
+I modeled the base in SolidWorks to support the feeder structure. I added a curved opening to accommodate the 8-inch dog bowl, allowing it to be easily accessed and removed.
 
-After developing the initial assembly, I selected a servo-operated sliding gate to control food release.
+The base also includes rectangular slots for connecting the side panels and mounting holes for additional components.
 
-The gate will move horizontally underneath the hopper opening. When closed, it prevents food from leaving the container. When opened, food can fall onto the chute.
+**[INSERT FIGURE 1: BASE SOLIDWORKS MODEL]**
 
-A servo motor will operate the gate using a mechanical linkage.
+*Figure 1: SolidWorks model of the laser-cut base showing the bowl opening, mounting holes, and assembly slots.*
 
-**[INSERT FIGURE 2: Sliding gate concept or CAD model]**
+### Side Panels – Laser Cutting
 
-*Figure 2: Proposed servo-operated sliding gate mechanism.*
+I modeled two identical side panels that will be manufactured using the laser cutter. These panels support the upper structure of the feeder and connect to the base using interlocking tabs and slots.
+
+**[INSERT FIGURE 2: SIDE PANEL SOLIDWORKS MODEL]**
+
+*Figure 2: SolidWorks model of one of the two laser-cut side panels showing the interlocking features.*
+
+### Food Slide – FDM Printing (PLA)
+
+I modeled a sloped food slide in SolidWorks that will be 3D printed using PLA. The slide directs the dog food from the storage container down into the bowl using gravity.
+
+I added raised edges to prevent food from spilling off the sides and a support underneath to help keep the slide in position.
+
+**[INSERT FIGURE 3: FOOD SLIDE SOLIDWORKS MODEL]**
+
+*Figure 3: SolidWorks model of the PLA food slide with raised edges and support.*
+
+### Food Holder – FDM Printing (PLA)
+
+I modeled the food holder using loft and shell features in SolidWorks. The container has a wide rectangular opening at the top that gradually narrows toward the bottom to direct the dog food toward the dispensing mechanism.
+
+This part will be 3D printed using PLA and positioned above the food slide. A servo-controlled sliding gate will eventually be added underneath to control when food is released.
+
+**[INSERT FIGURE 4: FOOD HOLDER SOLIDWORKS MODEL]**
+
+*Figure 4: SolidWorks model of the PLA food holder showing the tapered design and bottom outlet.*
+
+### Food Holder Lid – FDM Printing (PLA)
+
+I modeled a removable lid in SolidWorks that will be 3D printed using PLA. The lid fits over the top of the food holder to keep the dog food contained while allowing easy access for refilling.
+
+I used the Shell feature to create a recessed underside that fits over the container. I also plan to mount the Arduino on top of the lid to keep the electronics separate from the food.
+
+**[INSERT FIGURE 5: FOOD HOLDER LID SOLIDWORKS MODEL]**
+
+*Figure 5: SolidWorks model of the PLA food holder lid with a recessed underside.*
+
+### Food Holder Support – Laser Cutting
+
+I modeled the top support panel in SolidWorks, which will be manufactured using the laser cutter. This piece supports the food holder and has a circular opening that allows food to pass from the container into the slide below.
+
+I also added rectangular slots along the edges so the panel can connect to the two side supports.
+
+**[INSERT FIGURE 6: FOOD HOLDER SUPPORT SOLIDWORKS MODEL]**
+
+*Figure 6: SolidWorks model of the laser-cut top support panel showing the food opening and assembly slots.*
+
+### Manufacturing Summary
+
+| Component | Manufacturing Method | Quantity |
+|---|---|---|
+| Base | Laser Cutting | 1 |
+| Side Panels | Laser Cutting | 2 |
+| Food Slide | FDM – PLA | 1 |
+| Food Holder | FDM – PLA | 1 |
+| Food Holder Lid | FDM – PLA | 1 |
+| Food Holder Support | Laser Cutting | 1 |
+| **Total** | | **7** |
+
+### Design Progress
+
+So far, I have modeled six different components in SolidWorks that will make up the main structure of the automatic dog feeder.
+
+The next step is to finish designing the Arduino-controlled sliding gate mechanism, including the gate, guide rails, servo mount, and linkage. Once these parts are completed, I will test their fit and movement before manufacturing the final prototype.
 
 ## 5. Testing Critical Features
 
-The main feature that needs testing is the sliding gate mechanism.
+### Laser Cutting Kerf and Fit Testing
 
-I plan to test:
+For this project, I used my Lab 9 kerf and fit testing results to help design the interlocking connections for my automatic dog feeder.
 
-- Clearance between the sliding gate and guide rails
-- Ability of the servo to open and close the gate
-- Whether kibble jams inside the mechanism
-- Whether food travels down the chute into the bowl
-- Whether the gate closes completely
+### Material Thickness
 
-I will first manufacture a small test section of the sliding mechanism before producing the final components.
+I measured the plywood thickness at three locations using digital calipers.
 
-**[INSERT TEST RESULTS AFTER MANUFACTURING]**
+| Measurement | Thickness (mm) |
+|---|---|
+| Location 1 | 2.69 |
+| Location 2 | 2.68 |
+| Location 3 | 2.70 |
+| **Average** | **2.690** |
 
-**[INSERT FIGURE 3: Sliding gate test piece]**
+The average thickness of **2.690 mm** was used as a reference when designing the laser-cut connections.
 
-*Figure 3: Initial sliding gate prototype used to evaluate fit and movement.*
+<img src="https://github.com/user-attachments/assets/889aa9d3-1eac-49ef-98d2-7afe2ed465c3" alt="Material thickness measurement" width="350" />
+
+*Figure X: Measuring plywood thickness using digital calipers.*
+
+### Kerf Testing
+
+We cut a 20 × 20 mm square and measured the finished dimensions to determine the material removed during laser cutting.
+
+| Measurement | Value (mm) |
+|---|---|
+| Designed Square | 20.00 |
+| Measured X | 18.94 |
+| Measured Y | 18.95 |
+| **Average Dimensional Reduction** | **1.055** |
+
+Average reduction = [(20 - 18.94) + (20 - 18.95)] / 2 = **1.055 mm**
+
+These measurements helped me understand how laser cutting affects dimensional accuracy.
+
+<img width="242" height="263" alt="image" src="https://github.com/user-attachments/assets/87213f0e-26d6-4598-8a2a-721210c0b275" />
+
+*Figure X: Laser-cut kerf test coupon from Lab 9.*
+
+### Fit Testing
+
+We tested five different slot widths to determine which provided the best connection.
+
+| Slot Width (mm) | Result |
+|---|---|
+| 2.45 | Too tight |
+| 2.60 | Too tight |
+| 2.75 | Too loose |
+| 2.90 | Too loose |
+| 3.05 | Too loose |
+
+We selected **2.60 mm** for our Lab 9 project because it provided a tighter connection.
+
+<img width="350" alt="Fit Test Coupon" src="https://github.com/user-attachments/assets/082d86ae-ffd5-49b5-9a84-cf8f0a93f904" />
+
+*Figure X: Laser-cut fit coupon used to test different slot widths.*
+
+### Application to My Final Project
+
+I used the **2.690 mm material thickness** and **2.60 mm slot width** as references when designing the feeder's base, side panels, and top support.
+
+Since the 2.60 mm slot produced a tight fit, I will test the final connections before assembly and adjust them if needed.
+
+I also plan to test the servo-controlled sliding gate to ensure it opens, closes, and releases food without jamming.
 
 ## 6. Initial Design Evaluation
 
