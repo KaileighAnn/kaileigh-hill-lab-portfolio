@@ -156,9 +156,17 @@ Another consideration is controlling the amount of food dispensed. The initial d
 
 ## 7. Video Presentation
 
-**[INSERT 30-SECOND VIDEO EXPLAINING THE PROBLEM]**
 
-The video will explain the difficulty of maintaining consistent feeding times, introduce the automatic feeder concept, and demonstrate how the food will travel from the storage container into the bowl.
+## 7. Video Presentation
+
+For my final project, I introduced my dog, Dixie, and explained the problem I am trying to solve. With my heavy class schedule next semester, I want to make sure she is fed consistently, even when I am not home.
+
+<video width="100%" controls>
+  <source src="../videos/Dixie_Mae_Feeder_Introduction.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+*Video 1: Introducing Dixie and explaining the problem my automatic dog feeder will solve.*
 
 ## 8. Next Steps
 
