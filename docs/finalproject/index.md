@@ -206,6 +206,16 @@ So far, I have modeled six different components in SolidWorks that will make up 
 
 The next step is to finish designing the Arduino-controlled sliding gate mechanism, including the gate, guide rails, servo mount, and linkage. Once these parts are completed, I will test their fit and movement before manufacturing the final prototype.
 
+### SolidWorks Assembly
+
+After modeling the individual components, I combined them into a SolidWorks assembly to check how everything fits together.
+
+The assembly includes the base, side panels, food slide, food holder, lid, top support, and 8-inch dog bowl. This helped me visualize the final design and check the positioning of each component before manufacturing.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a58dd45a-fa1f-44bb-8b22-0f8809490ac5" />
+
+*Figure X: SolidWorks assembly of the automatic dog feeder showing the overall design and component placement.*
+
 ## 5. Testing Critical Features
 
 ### Laser Cutting Kerf and Fit Testing
