@@ -310,3 +310,6 @@ For my final project, I introduced my dog, Dixie, and explained the problem I am
 During the next stage of the project, I plan to finish the SolidWorks assembly, manufacture the sliding gate, and test the mechanism.
 
 I will use the results to improve the design before manufacturing and assembling the final prototype.
+
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/bec27201-0f91-4379-afa5-ee2903f97ef9" />
+
