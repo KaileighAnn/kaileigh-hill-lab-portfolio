@@ -329,9 +329,65 @@ refining my initial design, incorporating peer feedback,
 manufacturing the final components, and testing the
 functionality of my automatic dog feeder.
 
-## 1. Peer Feedback & Individual Reflections
+## Peer Feedback & Individual Reflections
 
-After presenting my initial design, I received feedback
-from three of my peers regarding the functionality,
-manufacturing, safety, and overall design of my automatic
-dog feeder.
+After presenting my initial design for Dixie's Automatic Dog Feeder, I received feedback from three of my peers. Their feedback helped me identify potential improvements regarding functionality, manufacturing tolerances, safety, and durability.
+
+---
+
+### Peer Feedback #1 – Candy
+
+<p align="center">
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/9f830393-98eb-4897-84da-3855c9f762a9" />
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/41bd6539-81d3-4539-b3c2-eccb38275d39" />
+</p>
+
+<p align="center">
+  <em>Figure 1: Front and back of Candy's peer feedback worksheet.</em>
+</p>
+
+#### Individual Reflection
+
+Candy's feedback made me think more about manufacturing tolerances, specifically the kerf of the laser-cut components and how everything would fit together. She also brought up the importance of making sure the opening mechanism would not hurt Dixie. This encouraged me to pay closer attention to the overall dimensions and safety of my design.
+
+---
+
+### Peer Feedback #2 – Ameer
+
+<p align="center">
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/403aa212-3cbd-411b-ab53-395962a20085" />
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/4c8621e7-4468-4eb1-b4f7-2e3ac067b887" />
+</p>
+
+<p align="center">
+  <em>Figure 2: Front and back of Ameer's peer feedback worksheet.</em>
+</p>
+
+#### Individual Reflection
+
+Ameer's feedback focused on making sure all the components worked together properly and that the correct amount of food could fit into the bowl. During testing, I realized that my original gate opening was larger than necessary and that my pinion gear was sitting at an angle. I redesigned the sliding gate to reduce the opening size and identified the gear alignment as another area that needed improvement.
+
+---
+
+### Peer Feedback #3 – Austin
+
+<p align="center">
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/40e97381-a6a1-44dc-b93b-b731de1938f0" />
+  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/13fd149f-f1e7-4882-b4ed-0e97958534d9" />
+</p>
+
+<p align="center">
+  <em>Figure 3: Front and back of Austin's peer feedback worksheet.</em>
+</p>
+
+#### Individual Reflection
+
+Austin brought up a concern that I had not really considered, which was Dixie potentially destroying the feeder to get to the food. This made me think more about the durability of my design and how I could prevent unwanted access to the food. A locking mechanism would be a good improvement to consider in a future iteration.
+
+---
+
+### Overall Feedback Reflection
+
+Overall, receiving feedback from my peers helped me look at my design from different perspectives. It allowed me to identify potential issues with functionality, safety, and manufacturing that I may not have considered on my own. I used this feedback, along with my own testing, to guide the refinement of my prototype.
+
+---
