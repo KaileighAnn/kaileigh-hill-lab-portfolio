@@ -403,8 +403,8 @@ During initial testing, I realized that the original sliding gate was larger tha
 This reduced the size of the portion of the gate covering the food opening. The goal was to allow the gate to uncover the opening with less movement and reduce unnecessary material.
 
 <p align="center">
-  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e0e799f3-5587-4767-bff7-b7e66a958eb0" />
-  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e2eef759-7fa2-4126-a6c9-21192dfb305a" />
+  <img width="48%" alt="Original sliding gate" src="https://github.com/user-attachments/assets/e0e799f3-5587-4767-bff7-b7e66a958eb0" />
+  <img width="48%" alt="Redesigned sliding gate" src="https://github.com/user-attachments/assets/e2eef759-7fa2-4126-a6c9-21192dfb305a" />
 </p>
 
 <p align="center">
