@@ -391,3 +391,143 @@ Austin brought up a concern that I had not really considered, which was Dixie po
 Overall, receiving feedback from my peers helped me look at my design from different perspectives. It allowed me to identify potential issues with functionality, safety, and manufacturing that I may not have considered on my own. I used this feedback, along with my own testing, to guide the refinement of my prototype.
 
 ---
+
+## Design Refinement
+
+After receiving feedback from my peers and testing my initial prototype, I identified several areas of my design that needed improvement.
+
+### Sliding Gate Redesign
+
+During initial testing, I realized that the original sliding gate was larger than necessary. I went back into SolidWorks and removed material from both sides of the gate while maintaining the original rack-and-pinion mechanism.
+
+This reduced the size of the portion of the gate covering the food opening. The goal was to allow the gate to uncover the opening with less movement and reduce unnecessary material.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e0e799f3-5587-4767-bff7-b7e66a958eb0" />
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e2eef759-7fa2-4126-a6c9-21192dfb305a" />
+</p>
+
+<p align="center">
+  <em>Original sliding gate (left) and redesigned sliding gate (right).</em>
+</p>
+
+### Pinion Gear Alignment
+
+During assembly and testing, I noticed that the pinion gear was sitting at an angle. This affected the alignment between the gear and rack and was another area that needed improvement to allow the gate to move smoothly.
+
+### Mechanism Testing
+
+I connected the servo motor to my Arduino and programmed it so that pressing a button would open the gate and pressing the same button again would close it.
+
+This allowed me to test the functionality of the mechanical components before implementing scheduled feeding.
+
+---
+
+## 3. Manufacturing Process
+
+After completing the initial CAD models, I exported the components as STL files and imported them into PrusaSlicer to prepare them for manufacturing.
+
+### FDM Printing
+
+I used a Prusa CORE One with a 0.4 mm nozzle and a 0.20 mm layer height. I used both PLA and PETG throughout the manufacturing process.
+
+### Food Holder
+
+The food holder was prepared for printing using PETG. I oriented the part with the larger opening facing the build plate, allowing it to be printed without additional support material.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3c21484a-2104-487b-9203-1fa75ec177d5" />
+</p>
+
+*PrusaSlicer preview of the food holder.*
+
+| Print Setting | Value |
+|---|---|
+| Material | PETG |
+| Layer Height | 0.20 mm |
+| Infill | 5% |
+| Estimated Print Time | 4 hr 31 min |
+| Estimated Filament Usage | 164.85 g |
+
+### Food Holder Lid
+
+The lid was prepared using PLA and positioned flat on the build plate. Since the lid does not experience significant loading, I used a low infill percentage to reduce material usage and printing time.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/581fa3b3-bbae-4dd7-9596-f3ddb3c21058" />
+</p>
+
+*PrusaSlicer preview of the food holder lid.*
+
+| Print Setting | Value |
+|---|---|
+| Material | PLA |
+| Layer Height | 0.20 mm |
+| Infill | 5% |
+| Estimated Print Time | 1 hr 56 min |
+
+### Food Slide
+
+The food slide was prepared using PLA. I added supports in selected areas to help manufacture the more complex geometry.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/50bd03fe-6f15-4481-96b8-b405af9c2b79" />
+</p>
+
+*PrusaSlicer preview of the food slide and its supports.*
+
+| Print Setting | Value |
+|---|---|
+| Material | PLA |
+| Layer Height | 0.20 mm |
+| Infill | 5% |
+| Estimated Print Time | 2 hr 19 min |
+
+### Food Holder Support
+
+The food holder support was a new addition from last week.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b3bd2c28-0546-4852-80cf-0f552d8d76ec" />
+</p>
+
+*PrusaSlicer preview of the food holder support.*
+
+| Print Setting | Value |
+|---|---|
+| Material | PETG |
+| Layer Height | 0.20 mm |
+| Infill | 15% |
+| Estimated Print Time | 4 hr 31 min |
+
+### Initial Sliding Gate Mechanism
+
+The initial sliding gate, motor support, and pinion gear were prepared together in PrusaSlicer. This allowed me to evaluate the initial design before making additional modifications.
+
+<p align="center">
+  <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9df645fa-1275-41b2-93b9-5241e279d14d" />
+</p>
+
+*PrusaSlicer preview of the initial rack-and-pinion sliding gate mechanism.*
+
+| Print Setting | Value |
+|---|---|
+| Material | PLA |
+| Layer Height | 0.20 mm |
+| Infill | 15% |
+| Estimated Print Time | 2 hr 7 min |
+
+### FDM Manufacturing Summary
+
+| Component | Material | Infill | Estimated Print Time |
+|---|---|---|---|
+| Food Holder | PETG | 5% | 4 hr 31 min |
+| Food Holder Lid | PLA | 5% | 1 hr 56 min |
+| Food Slide | PLA | 5% | 2 hr 19 min |
+| Food Holder Support | PETG | 15% | 4 hr 31 min |
+| Initial Sliding Gate Assembly | PLA | 15% | 2 hr 7 min |
+| **Total** | | | **15 hr 24 min** |
+
+The total estimated printing time for these five print jobs was approximately 15.4 hours, not including additional reprints, SLA printing, laser cutting, or assembly.
+
+---
