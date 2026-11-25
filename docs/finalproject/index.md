@@ -547,9 +547,10 @@ When designing these components, I referenced my previous kerf and fit testing f
 
 Laser cutting allowed me to manufacture the structural components without having to 3D print the entire frame, reducing printing time and material usage.
 
-<video width="75%" controls>
-  <source src="/kaileigh-hill-lab-portfolio/finalproject/Laser_Cutting.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline width="500">
+    <source src="/kaileigh-hill-lab-portfolio/Labs/L11/IMG_2535.mp4" type="video/mp4">
+  </video>
+</p>
 
 *Video: Laser cutting the structural components of my automatic dog feeder.*
