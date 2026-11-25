@@ -1,7 +1,9 @@
+# Final Project – Automatic Dog Feeder
 
-# Final Project – Week 1
-
-## Automatic Dog Feeder
+<div style="background-color:#005035; color:white; padding:20px; border-radius:8px; margin-top:25px;">
+  <h2 style="color:white; margin:0;">Week 1: Initial Design & Development</h2>
+  <p style="margin-bottom:0;">Final Project 1/2</p>
+</div>
 
 ## Objective
 
@@ -313,3 +315,23 @@ I will use the results to improve the design before manufacturing and assembling
 
 <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/bec27201-0f91-4379-afa5-ee2903f97ef9" />
 
+---
+
+<div style="background-color:#005035; color:white; padding:20px; border-radius:8px; margin-top:25px;">
+  <h2 style="color:white; margin:0;">Week 2: Prototype Refinement & Final Presentation</h2>
+  <p style="margin-bottom:0;">Final Project 2/2</p>
+</div>
+
+## Objective
+
+During the second week of my final project, I focused on
+refining my initial design, incorporating peer feedback,
+manufacturing the final components, and testing the
+functionality of my automatic dog feeder.
+
+## 1. Peer Feedback & Individual Reflections
+
+After presenting my initial design, I received feedback
+from three of my peers regarding the functionality,
+manufacturing, safety, and overall design of my automatic
+dog feeder.
