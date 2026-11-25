@@ -1,6 +1,6 @@
 # Final Project – Automatic Dog Feeder
 
-<div style="background-color:#005035; color:white; padding:20px; border-radius:8px; margin-top:25px;">
+<div style="background-color:#E92063; color:white; padding:20px; border-radius:8px; margin-top:25px;">
   <h2 style="color:white; margin:0;">Week 1: Initial Design & Development</h2>
   <p style="margin-bottom:0;">Final Project 1/2</p>
 </div>
@@ -317,7 +317,7 @@ I will use the results to improve the design before manufacturing and assembling
 
 ---
 
-<div style="background-color:#005035; color:white; padding:20px; border-radius:8px; margin-top:25px;">
+<div style="background-color:#E92063; color:white; padding:20px; border-radius:8px; margin-top:25px;">
   <h2 style="color:white; margin:0;">Week 2: Prototype Refinement & Final Presentation</h2>
   <p style="margin-bottom:0;">Final Project 2/2</p>
 </div>
@@ -338,8 +338,8 @@ After presenting my initial design for Dixie's Automatic Dog Feeder, I received 
 ### Peer Feedback #1 – Candy
 
 <p align="center">
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/9f830393-98eb-4897-84da-3855c9f762a9" />
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/41bd6539-81d3-4539-b3c2-eccb38275d39" />
+  <img width="40%" alt="Candy's feedback - Front" src="https://github.com/user-attachments/assets/9f830393-98eb-4897-84da-3855c9f762a9" />
+  <img width="40%" alt="Candy's feedback - Back" src="https://github.com/user-attachments/assets/41bd6539-81d3-4539-b3c2-eccb38275d39" />
 </p>
 
 <p align="center">
@@ -355,8 +355,8 @@ Candy's feedback made me think more about manufacturing tolerances, specifically
 ### Peer Feedback #2 – Ameer
 
 <p align="center">
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/403aa212-3cbd-411b-ab53-395962a20085" />
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/4c8621e7-4468-4eb1-b4f7-2e3ac067b887" />
+  <img width="40%" alt="Ameer's feedback - Front" src="https://github.com/user-attachments/assets/403aa212-3cbd-411b-ab53-395962a20085" />
+  <img width="40%" alt="Ameer's feedback - Back" src="https://github.com/user-attachments/assets/4c8621e7-4468-4eb1-b4f7-2e3ac067b887" />
 </p>
 
 <p align="center">
@@ -372,8 +372,8 @@ Ameer's feedback focused on making sure all the components worked together prope
 ### Peer Feedback #3 – Austin
 
 <p align="center">
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/40e97381-a6a1-44dc-b93b-b731de1938f0" />
-  <img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/13fd149f-f1e7-4882-b4ed-0e97958534d9" />
+  <img width="40%" alt="Austin's feedback - Front" src="https://github.com/user-attachments/assets/40e97381-a6a1-44dc-b93b-b731de1938f0" />
+  <img width="40%" alt="Austin's feedback - Back" src="https://github.com/user-attachments/assets/13fd149f-f1e7-4882-b4ed-0e97958534d9" />
 </p>
 
 <p align="center">
