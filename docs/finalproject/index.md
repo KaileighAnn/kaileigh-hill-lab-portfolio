@@ -531,3 +531,25 @@ The initial sliding gate, motor support, and pinion gear were prepared together 
 The total estimated printing time for these five print jobs was approximately 15.4 hours, not including additional reprints, SLA printing, laser cutting, or assembly.
 
 ---
+### SLA Printing
+
+During the initial planning stage, I intended to use SLA printing to manufacture the pinion gear because of its small size and detailed geometry. However, as I progressed through the redesign and testing process, I decided to continue using FDM printing for the sliding gate mechanism, including the pinion gear.
+
+Although SLA printing was not ultimately utilized in my final prototype, I researched SLA shrinkage and considered how it could affect the dimensional accuracy and tolerances of the mechanical components.
+
+This was one of the changes I made to my original manufacturing plan throughout the iterative design process.
+
+### Laser Cutting
+
+I used the laser cutter to manufacture the base, two side panels, and food holder support. These components make up the main support structure of my automatic dog feeder.
+
+When designing these components, I referenced my previous kerf and fit testing from Lab 9. I used the measured plywood thickness of 2.690 mm and the selected slot width of 2.60 mm as references when designing the interlocking connections.
+
+Laser cutting allowed me to manufacture the structural components without having to 3D print the entire frame, reducing printing time and material usage.
+
+<video width="75%" controls>
+  <source src="/kaileigh-hill-lab-portfolio/finalproject/Laser_Cutting.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+*Video: Laser cutting the structural components of my automatic dog feeder.*
