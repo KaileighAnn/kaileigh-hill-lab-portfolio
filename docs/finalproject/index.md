@@ -313,8 +313,6 @@ During the next stage of the project, I plan to finish the SolidWorks assembly, 
 
 I will use the results to improve the design before manufacturing and assembling the final prototype.
 
-<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/bec27201-0f91-4379-afa5-ee2903f97ef9" />
-
 ---
 
 <div style="background-color:#E92063; color:white; padding:20px; border-radius:8px; margin-top:25px;">
@@ -573,3 +571,42 @@ The goal of this additional component was to improve the stability and alignment
 </p>
 
 This component was not included in my original design but became necessary as I progressed through assembly and testing. This is another example of how I used the Spiral Design Process to identify problems and improve my prototype throughout development.
+
+---
+
+## Final Build & Assembly
+
+After manufacturing all of the necessary components and making
+adjustments to my original design, I assembled the final
+prototype of Dixie's Automatic Dog Feeder.
+
+The final assembly combines FDM-printed components with a
+laser-cut plywood structure. The laser-cut components provide
+the main structural support, while the 3D-printed components
+make up the food storage container, lid, food slide, and
+sliding gate mechanism.
+
+The custom support bracket holds the servo motor and sliding
+gate mechanism underneath the food holder. The servo motor
+is controlled by an Arduino, allowing the gate to open and
+close with the press of a button.
+
+<p align="center">
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/bec27201-0f91-4379-afa5-ee2903f97ef9" />
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/0d1df8a9-ddbc-4a4c-9c68-3e6a812c6248" />
+</p>
+
+<p align="center">
+  <em>Different views of the fully assembled prototype of Dixie's Automatic Dog Feeder.</em>
+</p>
+
+The final build incorporates several changes from my original
+design. Throughout the manufacturing and assembly process,
+I was able to identify areas that needed improvement and
+make adjustments to better integrate the individual components.
+
+By combining FDM printing and laser cutting, I was able to
+take advantage of the benefits of both manufacturing methods
+while creating a complete physical prototype.
+
+---
