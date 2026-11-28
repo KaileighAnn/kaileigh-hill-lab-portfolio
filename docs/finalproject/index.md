@@ -554,3 +554,22 @@ Laser cutting allowed me to manufacture the structural components without having
 </p>
 
 *Video: Laser cutting the structural components of my automatic dog feeder.*
+
+### Servo Motor and Sliding Gate Support
+
+During assembly, I realized that I needed an additional component to secure the servo motor and sliding gate mechanism underneath the laser-cut food holder support.
+
+I designed a custom support bracket in SolidWorks that attaches to the laser-cut structure and provides mounting locations for the sliding gate mechanism and servo motor. The bracket includes a circular opening to allow food to pass through without interfering with the mechanism.
+
+The goal of this additional component was to improve the stability and alignment of the sliding gate assembly while keeping the mechanism securely attached to the frame.
+
+<p align="center">
+  <img width="48%" alt="image" src="https://github.com/user-attachments/assets/83c8d2ec-9e5a-44be-b605-8194f14d8ad5" />
+  <img width="48%" alt="image" src="https://github.com/user-attachments/assets/3b227fde-052a-44e5-98da-1d15b0f58ffd" />
+</p>
+
+<p align="center">
+  <em>Isometric and underside views of the custom servo motor and sliding gate support bracket.</em>
+</p>
+
+This component was not included in my original design but became necessary as I progressed through assembly and testing. This is another example of how I used the Spiral Design Process to identify problems and improve my prototype throughout development.
