@@ -547,7 +547,7 @@ Laser cutting allowed me to manufacture the structural components without having
 
 <p align="center">
   <video autoplay muted loop playsinline controls width="500">
-    <source src="/kaileigh-hill-lab-portfolio/finalproject/IMG_2535.mp4" type="video/mp4">
+    <source src="/kaileigh-hill-lab-portfolio/finalproject/IMG_2758.mp4" type="video/mp4">
   </video>
 </p>
 
