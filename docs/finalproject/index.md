@@ -610,3 +610,38 @@ take advantage of the benefits of both manufacturing methods
 while creating a complete physical prototype.
 
 ---
+
+## Testing and Results
+
+I tested the assembled feeder by pressing the button once to open the sliding gate and again to close it. When the gate opened, kibble fell from the hopper onto the chute. The chute guided the kibble toward the bowl, and closing the gate stopped the flow. The test showed that the servo, sliding gate, and chute worked together in the assembled prototype.
+
+### Test Video
+
+**TODO: Add the video showing the gate opening, kibble dispensing, and the gate closing.**
+
+<!--
+Upload the MP4 to the same folder as this Markdown file.
+Then delete the TODO above, remove the comment markers around this block,
+and replace TEST_VIDEO.mp4 with the actual filename.
+
+<p align="center">
+  <video controls autoplay muted loop playsinline width="500">
+    <source src="./TEST_VIDEO.mp4" type="video/mp4" />
+  </video>
+  <br />
+  <em>Button-controlled dispensing test of Dixie's dog feeder.</em>
+</p>
+-->
+
+## Lessons Learned
+
+Adding a separate bracket gave me a way to mount the servo and sliding gate underneath the laser-cut hopper support. This project showed me how important it is to check how the parts fit together in the full assembly, especially where a moving part has to line up with the hopper outlet and chute.
+
+## Future Improvements
+
+Next time, I would move the servo motor to the opposite side of the sliding gate so falling kibble can reach the chute without hitting the motor. I would also add a real-time clock module so the feeder can dispense food on a schedule. To improve portion consistency, I would measure how much kibble comes out at different gate-open times.
+
+## Project Slideshow
+
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/115e2fd6-1866-4ec0-be06-7273e4da634c" />
+
